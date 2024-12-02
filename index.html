@@ -3,48 +3,181 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Peter J. Marshall</title>
+    <title>Peter J. Marshall - Development, Embodiment, and Neuroscience</title>
     <style>
+        :root {
+            --primary-color: #2d333b;
+            --text-color: #adbac7;
+            --accent-color: #3da5a5;
+            --hover-color: #4cbfbf;
+            --bg-color: #22272e;
+        }
+
         body {
-            font-family: Arial, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
             line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 2rem;
+        }
+
+        .container {
             max-width: 800px;
             margin: 0 auto;
-            padding: 20px;
         }
+
         .header {
             text-align: center;
-            margin-bottom: 40px;
+            padding: 2rem 0;
+            border-bottom: 2px solid var(--primary-color);
+            margin-bottom: 2rem;
         }
-        .content {
-            margin-bottom: 30px;
+
+        h1 {
+            color: var(--accent-color);
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
         }
+
+        .subtitle {
+            font-size: 1.2rem;
+            color: var(--text-color);
+            opacity: 0.9;
+        }
+
+        .section {
+            background: var(--primary-color);
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            transition: transform 0.2s;
+        }
+
+        .section:hover {
+            transform: translateY(-2px);
+        }
+
+        h2, h3 {
+            color: var(--accent-color);
+            margin-top: 0;
+        }
+
         .links {
-            background: #f5f5f5;
-            padding: 20px;
-            border-radius: 5px;
+            list-style: none;
+            padding: 0;
         }
-        a {
-            color: #0366d6;
+
+        .links li {
+            margin-bottom: 2rem;
+        }
+
+        .links a {
+            color: var(--accent-color);
             text-decoration: none;
+            font-size: 1.1rem;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            transition: color 0.2s;
+            margin-bottom: 0.5rem;
         }
-        a:hover {
-            text-decoration: underline;
+
+        .links a:hover {
+            color: var(--hover-color);
+        }
+
+        .links .description {
+            margin-left: 1.5rem;
+            font-size: 0.95rem;
+            opacity: 0.9;
+        }
+
+        .publications {
+            list-style: none;
+            padding: 0;
+        }
+
+        .publications li {
+            margin-bottom: 1.5rem;
+            padding-left: 1rem;
+            border-left: 3px solid var(--accent-color);
+        }
+
+        .publications .year {
+            color: var(--accent-color);
+            font-weight: bold;
+            margin-right: 0.5rem;
+        }
+
+        .publications a {
+            color: var(--accent-color);
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .publications a:hover {
+            color: var(--hover-color);
         }
     </style>
 </head>
 <body>
-    <div class="header">
-        <h1>Peter J. Marshall</h1>
-        <p>Development, Embodiment, and Neuroscience</p>
-    </div>
-    <div class="links">
-        <h3>Open Educational Resources</h3>
-        <ul>
-            <li><a href="https://www.aboutdevelopment.org/">About Development</a></li>
-            <li><a href="https://enacting.life/">Enacting Life</a></li>
-            <li><a href="https://humanbrains.org/">Human Brains</a></li>
-        </ul>
+    <div class="container">
+        <header class="header">
+            <h1>Peter J. Marshall</h1>
+            <div class="subtitle">Professor and Chair, Department of Psychology & Neuroscience</div>
+            <div class="subtitle">Temple University</div>
+        </header>
+
+        <section class="section">
+            <h2>About My Research</h2>
+            <p>My research investigates how the brain represents and understands the body, particularly during early development. I explore how infants and young children develop "body maps" in the brain - neural representations that help us understand our own bodies and those of others. This work connects to broader questions about embodied cognition: how our physical experiences shape the way we think and learn.</p>
+            <p>Recently, my research has expanded to include human-robot interaction, examining how children perceive and interact with social robots. This work explores fascinating questions about embodiment in artificial agents and has important implications for designing robots that can effectively support child development and learning.</p>
+        </section>
+
+        <section class="section">
+            <h3>Open Educational Resources</h3>
+            <ul class="links">
+                <li>
+                    <a href="https://www.aboutdevelopment.org/">About Development</a>
+                    <div class="description">An educational platform exploring human development across the lifespan, featuring research-backed content on cognitive growth, neural development, and embodied learning.</div>
+                </li>
+                <li>
+                    <a href="https://enacting.life/">Enacting Life</a>
+                    <div class="description">A resource dedicated to embodied cognition research, examining how physical interactions shape our understanding of the world and contribute to cognitive development.</div>
+                </li>
+                <li>
+                    <a href="https://humanbrains.org/">Human Brains</a>
+                    <div class="description">A comprehensive guide to neuroscience and brain development, offering insights into neural plasticity, brain mapping, and developmental neuroscience research.</div>
+                </li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h3>Representative Publications</h3>
+            <ul class="publications">
+                <li>
+                    <span class="year">2024</span>
+                    Marshall, P. J. Towards a biologically coherent approach to the brain and how it develops. <em>Human Development</em>. <a href="https://doi.org/10.1159/000540024">https://doi.org/10.1159/000540024</a>
+                </li>
+                <li>
+                    <span class="year">2023</span>
+                    Langer, A., Marshall, P. J., Levy-Tzedek, S. Ethical considerations in child-robot interactions. <em>Neuroscience and Biobehavioral Reviews, 151</em>, 105230.
+                </li>
+                <li>
+                    <span class="year">2021</span>
+                    Marshall, P. J., Houser, T. M., & Weiss, S. M. The shared origins of embodiment and development. <em>Frontiers in Systems Neuroscience, 15</em>, 726403.
+                </li>
+                <li>
+                    <span class="year">2020</span>
+                    Meltzoff, A. N., & Marshall, P. J. Importance of body representations in social-cognitive development: New insights from infant brain science. <em>Progress in Brain Research, 254</em>, 25-48.
+                </li>
+                <li>
+                    <span class="year">2015</span>
+                    Marshall, P. J., & Meltzoff, A. N. Body maps in the infant brain. <em>Trends in Cognitive Sciences, 19</em>, 499-505.
+                </li>
+            </ul>
+        </section>
     </div>
 </body>
 </html>
