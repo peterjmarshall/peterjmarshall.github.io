@@ -3,16 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Peter J. Marshall's research on embodiment, development, and neuroscience, focusing on how the brain represents and understands the body during early development.">
-    
-    <!-- Social Media Meta Tags -->
-    <meta property="og:title" content="Peter J. Marshall - Development, Embodiment, and Neuroscience">
-    <meta property="og:description" content="Research on embodiment, development, and neuroscience">
-    <meta property="og:type" content="website">
-    
-    <title>Peter J. Marshall - Development, Embodiment, and Neuroscience</title>
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    
+    <meta name="description" content="Peter J. Marshall - Development, Embodiment, and Neuroscience">
+    <title>Research and Teaching</title>
     <style>
         :root {
             --primary-color: #2d333b;
@@ -36,22 +28,25 @@
             margin: 0 auto;
         }
 
-        .header {
-            text-align: center;
-            padding: 2rem 0;
-            border-bottom: 2px solid var(--primary-color);
-            margin-bottom: 2rem;
-        }
-
         h1 {
             color: var(--accent-color);
             font-size: clamp(1.8rem, 5vw, 2.5rem);
             margin-bottom: 1rem;
         }
 
-        .subtitle {
-            font-size: clamp(1rem, 3vw, 1.2rem);
+        p, a {
+            font-size: 1.1rem;
             color: var(--text-color);
+        }
+
+        a {
+            color: var(--accent-color);
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: var(--hover-color);
+            text-decoration: underline;
         }
 
         .section {
@@ -59,16 +54,6 @@
             border-radius: 8px;
             padding: 1.5rem;
             margin-bottom: 2rem;
-            transition: transform 0.2s;
-        }
-
-        .section:hover {
-            transform: translateY(-2px);
-        }
-
-        h2, h3 {
-            color: var(--accent-color);
-            margin-top: 0;
         }
 
         .links {
@@ -81,8 +66,6 @@
         }
 
         .links a {
-            color: var(--accent-color);
-            text-decoration: none;
             font-size: 1.1rem;
             font-weight: 600;
             display: flex;
@@ -91,158 +74,64 @@
             margin-bottom: 0.5rem;
         }
 
-        .links a:hover {
-            color: var(--hover-color);
-            text-decoration: underline;
-        }
-
         .links .description {
             margin-left: 1.5rem;
             font-size: 0.95rem;
-        }
-
-        .publications {
-            list-style: none;
-            padding: 0;
-        }
-
-        .publications li {
-            margin-bottom: 1.5rem;
-            padding-left: 1rem;
-            border-left: 3px solid var(--accent-color);
-        }
-
-        .publications .year {
-            color: var(--accent-color);
-            font-weight: bold;
-            margin-right: 0.5rem;
-        }
-
-        .publications a {
-            color: var(--accent-color);
-            text-decoration: none;
-            transition: color 0.2s;
-        }
-
-        .publications a:hover {
-            color: var(--hover-color);
-        }
-
-        @media (max-width: 768px) {
-            body {
-                padding: 1rem;
-            }
-
-            .section {
-                padding: 1rem;
-            }
-
-            .links .description {
-                margin-left: 0;
-                margin-top: 0.5rem;
-            }
-        }
-
-        @font-face {
-            font-family: 'Roboto';
-            font-display: swap;
-            src: local('Roboto');
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <header class="header" role="banner">
-            <h1>Peter J. Marshall</h1>
-            <div class="subtitle">Embodiment, Development, and Neuroscience</div>
+        <header class="section">
+            <h1>About Me</h1>
+            <p>
+                I am a researcher and teacher with interests in questions at the interface of development, 
+                embodiment, and neuroscience.
+            </p>
+            <p>
+                I am Professor of Psychology and Neuroscience at Temple University in Philadelphia (USA). 
+                For my official university page <a href="https://liberalarts.temple.edu/academics/faculty/marshall-peter-j">click here</a>, 
+                and for a university-hosted site that I maintain, <a href="https://sites.temple.edu/peterjmarshall/">click here</a>.
+            </p>
+            <p>
+                This personal page houses links to a set of Open Educational Resources (OER) that I developed.
+            </p>
         </header>
 
-        <main role="main">
-        
-<section class="section" aria-labelledby="research-heading">
-    <h2 id="research-heading">About My Research</h2>
-    <p>
-        I have a few lines of research and theorizing:
-    </p>
-    <ul>
-        <li>The development of body maps in the infant brain.</li>
-        <li>Human-robot interaction, including how children perceive and engage with social robots.</li>
-        <li>A framework for moving towards a biologically coherent understanding of brain development.</li>
-    </ul>
-    <p>
-        My work has been funded by grants from the National Science Foundation, National Institutes of Health, and the James S. McDonnell Foundation.
-    </p>
-</section>
-
-<section class="section" aria-labelledby="resources-heading">
-    <h2 id="resources-heading">Open Educational Resources</h2>
-    <nav aria-label="Educational Resources">
-        <ul class="links">
-            <li>
-                <a href="https://www.aboutdevelopment.org/" aria-label="Visit About Development website">
-                    About Development
-                </a>
-                <div class="description">
-                    This collection of interconnected essays explores questions about development and change across biological and psychological domains.
-                </div>
-            </li>
-            <li>
-                <a href="https://enacting.life/" aria-label="Visit Enacting Life website">
-                    Enacting Life
-                </a>
-                <div class="description">
-                    The materials on this site explore how living things create meaning through their active engagement with the world.
-                </div>
-            </li>
-            <li>
-                <a href="https://humanbrains.org/" aria-label="Visit Human Brains website">
-                    Human Brains
-                </a>
-                <div class="description">
-                    These writings examine questions about human development through an integrative lens that connects evolutionary, developmental, and cultural perspectives.
-                </div>
-            </li>
-        </ul>
-    </nav>
-</section>
-            <section class="section" aria-labelledby="activities-heading">
-                <h2 id="activities-heading">Professional Activities</h2>
-                <ul class="publications">
+        <section class="section" aria-labelledby="resources-heading">
+            <h2 id="resources-heading">Open Educational Resources</h2>
+            <nav aria-label="Educational Resources">
+                <ul class="links">
                     <li>
-                        <span class="year">2023 - Present</span>
-                        President, Society for the Study of Human Development
+                        <a href="https://www.aboutdevelopment.org/" aria-label="Visit About Development website">
+                            About Development
+                        </a>
+                        <div class="description">
+                            This collection of interconnected essays explores questions about development 
+                            and change across biological and psychological domains.
+                        </div>
                     </li>
                     <li>
-                        <span class="year">2016 - Present</span>
-                        Chair, Department of Psychology & Neuroscience, Temple University
+                        <a href="https://enacting.life/" aria-label="Visit Enacting Life website">
+                            Enacting Life
+                        </a>
+                        <div class="description">
+                            The materials on this site explore how living things create meaning through their 
+                            active engagement with the world.
+                        </div>
                     </li>
                     <li>
-                        <span class="year">2015 - Present</span>
-                        Professor, Department of Psychology & Neuroscience, Temple University
-                    </li>
-                    <li>
-                        <span class="year">2018 - 2021</span>
-                        Board of Directors, Council of Graduate Departments of Psychology
-                    </li>
-                    <li>
-                        <span class="year">2014 - 2020</span>
-                        Associate Editor, Developmental Science
-                    </li>
-                    <li>
-                        <span class="year">2014 - 2019</span>
-                        Associate Editor, International Journal of Behavioral Development
-                    </li>
-                    <li>
-                        <span class="year">2010 - 2015</span>
-                        Associate Professor, Department of Psychology, Temple University
-                    </li>
-                    <li>
-                        <span class="year">2004 - 2010</span>
-                        Assistant Professor, Department of Psychology, Temple University
+                        <a href="https://humanbrains.org/" aria-label="Visit Human Brains website">
+                            Human Brains
+                        </a>
+                        <div class="description">
+                            These writings examine questions about human development through an integrative lens 
+                            that connects evolutionary, developmental, and cultural perspectives.
+                        </div>
                     </li>
                 </ul>
-            </section>
-        </main>
+            </nav>
+        </section>
     </div>
 </body>
 </html>
