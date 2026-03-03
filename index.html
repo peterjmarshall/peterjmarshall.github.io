@@ -21,7 +21,7 @@
       *, *::before, *::after { transition: none !important; animation: none !important; }
       html { scroll-behavior: auto; }
     }
-    body { font-family: var(--sans); background: var(--bg); color: var(--text); font-size: 1rem; line-height: 1.7; }
+    body { font-family: var(--sans); background: var(--bg); color: var(--text); font-size: 1.125rem; line-height: 1.75; }
     :focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; border-radius: 2px; }
     .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
     .skip-link { position: absolute; top: -100%; left: 1rem; background: var(--focus); color: #fff; padding: .5rem 1rem; font-size: .9rem; font-weight: 500; border-radius: 0 0 4px 4px; text-decoration: none; z-index: 999; transition: top .2s; }
@@ -40,20 +40,20 @@
     .hamburger[aria-expanded="true"] span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
     main { max-width: 740px; margin: 0 auto; padding: 4rem 2rem 6rem; }
     .hero { padding-bottom: 3.5rem; border-bottom: 1px solid var(--border); margin-bottom: 4rem; }
-    .hero h1 { font-family: var(--serif); font-size: clamp(2rem, 5vw, 2.9rem); font-weight: 400; line-height: 1.15; margin-bottom: .75rem; }
-    .hero .tagline { font-family: var(--serif); font-size: 1.2rem; color: var(--accent); margin-bottom: 1.4rem; line-height: 1.5; max-width: 58ch; }
-    .hero p { color: var(--muted); font-size: .97rem; margin-bottom: .75rem; max-width: 62ch; }
+    .hero h1 { font-family: var(--serif); font-size: clamp(2.2rem, 5vw, 3.2rem); font-weight: 400; line-height: 1.15; margin-bottom: .75rem; }
+    .hero .tagline { font-family: var(--serif); font-size: 1.35rem; color: var(--accent); margin-bottom: 1.4rem; line-height: 1.5; max-width: 58ch; }
+    .hero p { color: var(--muted); font-size: 1.05rem; margin-bottom: .75rem; max-width: 62ch; }
     .hero-links { display: flex; flex-wrap: wrap; gap: .6rem; margin-top: 1.6rem; }
     .hero-links a { display: inline-block; font-size: .82rem; font-weight: 500; letter-spacing: .04em; text-transform: uppercase; text-decoration: none; color: var(--accent); border: 2px solid var(--accent); padding: .35rem .85rem; border-radius: 2px; transition: background .2s, color .2s; }
     .hero-links a:hover { background: var(--accent); color: #fff; }
     .page-section { margin-bottom: 4rem; }
-    .section-label { font-size: .72rem; font-weight: 500; letter-spacing: .12em; text-transform: uppercase; color: var(--accent); margin-bottom: 1.2rem; padding-bottom: .5rem; border-bottom: 1px solid var(--border); }
-    .prose p { font-family: var(--serif); font-size: 1.1rem; color: var(--text); margin-bottom: 1rem; max-width: 66ch; line-height: 1.75; }
+    .section-label { font-size: .8rem; font-weight: 500; letter-spacing: .12em; text-transform: uppercase; color: var(--accent); margin-bottom: 1.2rem; padding-bottom: .5rem; border-bottom: 1px solid var(--border); }
+    .prose p { font-family: var(--serif); font-size: 1.2rem; color: var(--text); margin-bottom: 1rem; max-width: 66ch; line-height: 1.75; }
     .project-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); gap: 1.4rem; list-style: none; }
     .project-card { background: var(--surface); border: 1px solid var(--border); border-radius: 4px; padding: 1.5rem; text-decoration: none; color: inherit; display: flex; flex-direction: column; gap: .6rem; transition: border-color .2s, box-shadow .2s; }
     .project-card:hover { border-color: var(--accent); box-shadow: 0 2px 12px rgba(28,79,110,.1); }
     .project-card h3 { font-family: var(--serif); font-size: 1.2rem; font-weight: 400; color: var(--accent); }
-    .project-card p { font-size: .9rem; color: var(--muted); line-height: 1.6; }
+    .project-card p { font-size: 1rem; color: var(--muted); line-height: 1.6; }
     .card-cta { margin-top: auto; font-size: .8rem; font-weight: 500; color: var(--accent); letter-spacing: .04em; }
     footer { border-top: 1px solid var(--border); max-width: 740px; margin: 0 auto; padding: 2rem; text-align: center; font-size: .82rem; color: var(--muted); }
     @media (max-width: 600px) {
