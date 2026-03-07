@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Peter J. Marshall, Professor of Psychology and Neuroscience at Temple University. Toward a biologically coherent account of living, thinking, and developing.">
+  <meta name="description" content="Peter J. Marshall — an ongoing project connecting developmental biology, psychology, and neuroscience into a more coherent account of living, thinking, and developing.">
   <title>Peter J. Marshall</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
   <style>
     :root {
       --bg: #ffffff; --surface: #f7f7f7; --text: #1a1a1a; --muted: #4a4a4a;
@@ -26,40 +26,41 @@
     .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
     .skip-link { position: absolute; top: -100%; left: 1rem; background: var(--focus); color: #fff; padding: .5rem 1rem; font-size: .9rem; font-weight: 500; border-radius: 0 0 4px 4px; text-decoration: none; z-index: 999; transition: top .2s; }
     .skip-link:focus { top: 0; }
+
     header[role="banner"] { position: sticky; top: 0; background: var(--bg); border-bottom: 1px solid var(--border); z-index: 100; padding: 0 2rem; }
     .nav-inner { max-width: 740px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; height: 56px; }
     .nav-name { font-family: var(--serif); font-size: 1.15rem; color: var(--accent); text-decoration: none; }
     .nav-name:hover { color: var(--accent-h); text-decoration: underline; }
-    nav[aria-label="Primary"] ul { display: flex; gap: 2rem; list-style: none; }
-    nav[aria-label="Primary"] a { font-size: .85rem; font-weight: 500; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); text-decoration: none; padding: .25rem 0; border-bottom: 2px solid transparent; transition: color .2s, border-color .2s; }
-    nav[aria-label="Primary"] a:hover { color: var(--accent); border-bottom-color: var(--accent); }
-    .hamburger { display: none; background: none; border: 2px solid transparent; cursor: pointer; flex-direction: column; justify-content: center; gap: 5px; padding: 6px; border-radius: 4px; }
-    .hamburger span { display: block; width: 22px; height: 2px; background: var(--text); transition: transform .25s, opacity .25s; }
-    .hamburger[aria-expanded="true"] span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
-    .hamburger[aria-expanded="true"] span:nth-child(2) { opacity: 0; }
-    .hamburger[aria-expanded="true"] span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+    .nav-links { display: flex; gap: 1.2rem; align-items: center; }
+    .nav-links a { font-size: .82rem; font-weight: 500; letter-spacing: .04em; text-transform: uppercase; color: var(--muted); text-decoration: none; padding: .25rem 0; border-bottom: 2px solid transparent; transition: color .2s, border-color .2s; }
+    .nav-links a:hover { color: var(--accent); border-bottom-color: var(--accent); }
+
     main { max-width: 740px; margin: 0 auto; padding: 4rem 2rem 6rem; }
-    .hero { padding-bottom: 3.5rem; border-bottom: 1px solid var(--border); margin-bottom: 4rem; }
-    .hero h1 { font-family: var(--serif); font-size: clamp(2.2rem, 5vw, 3.2rem); font-weight: 400; line-height: 1.15; margin-bottom: .75rem; }
-    .hero .tagline { font-family: var(--serif); font-size: 1.35rem; color: var(--accent); margin-bottom: 1.4rem; line-height: 1.5; max-width: 58ch; }
-    .hero p { color: var(--muted); font-size: 1.05rem; margin-bottom: .75rem; max-width: 62ch; }
-    .hero-links { display: flex; flex-wrap: wrap; gap: .6rem; margin-top: 1.6rem; }
-    .hero-links a { display: inline-block; font-size: .82rem; font-weight: 500; letter-spacing: .04em; text-transform: uppercase; text-decoration: none; color: var(--accent); border: 2px solid var(--accent); padding: .35rem .85rem; border-radius: 2px; transition: background .2s, color .2s; }
-    .hero-links a:hover { background: var(--accent); color: #fff; }
-    .page-section { margin-bottom: 4rem; }
-    .section-label { font-size: .8rem; font-weight: 500; letter-spacing: .12em; text-transform: uppercase; color: var(--accent); margin-bottom: 1.2rem; padding-bottom: .5rem; border-bottom: 1px solid var(--border); }
-    .prose p { font-family: var(--serif); font-size: 1.2rem; color: var(--text); margin-bottom: 1rem; max-width: 66ch; line-height: 1.75; }
-    .project-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); gap: 1.4rem; list-style: none; }
-    .project-card { background: var(--surface); border: 1px solid var(--border); border-radius: 4px; padding: 1.5rem; text-decoration: none; color: inherit; display: flex; flex-direction: column; gap: .6rem; transition: border-color .2s, box-shadow .2s; }
-    .project-card:hover { border-color: var(--accent); box-shadow: 0 2px 12px rgba(28,79,110,.1); }
-    .project-card h3 { font-family: var(--serif); font-size: 1.2rem; font-weight: 400; color: var(--accent); }
-    .project-card p { font-size: 1rem; color: var(--muted); line-height: 1.6; }
-    .card-cta { margin-top: auto; font-size: .8rem; font-weight: 500; color: var(--accent); letter-spacing: .04em; }
+
+    .hero { padding-bottom: 3.5rem; border-bottom: 1px solid var(--border); margin-bottom: 3.5rem; }
+    .hero h1 { font-family: var(--serif); font-size: clamp(2.2rem, 5vw, 3.2rem); font-weight: 400; line-height: 1.15; margin-bottom: 1.4rem; }
+    .hero .intro { font-family: var(--serif); font-size: 1.25rem; color: var(--text); line-height: 1.7; max-width: 62ch; }
+    .hero .intro p { margin-bottom: 1rem; }
+    .hero .intro p:last-child { margin-bottom: 0; }
+
+    .page-section { margin-bottom: 3.5rem; }
+    .section-label { font-size: .8rem; font-weight: 500; letter-spacing: .12em; text-transform: uppercase; color: var(--accent); margin-bottom: 1.4rem; padding-bottom: .5rem; border-bottom: 1px solid var(--border); }
+
+    .project-list { display: flex; flex-direction: column; gap: 1.6rem; }
+    .project-item { display: block; background: var(--surface); border: 1px solid var(--border); border-radius: 4px; padding: 1.6rem 1.8rem; text-decoration: none; color: inherit; transition: border-color .2s, box-shadow .2s; }
+    .project-item:hover { border-color: var(--accent); box-shadow: 0 2px 12px rgba(28,79,110,.1); }
+    .project-item h3 { font-family: var(--serif); font-size: 1.3rem; font-weight: 500; color: var(--accent); margin-bottom: .5rem; }
+    .project-item p { font-size: 1rem; color: var(--muted); line-height: 1.65; max-width: 60ch; }
+    .project-item .card-cta { display: inline-block; margin-top: .7rem; font-size: .8rem; font-weight: 500; color: var(--accent); letter-spacing: .04em; }
+
     footer { border-top: 1px solid var(--border); max-width: 740px; margin: 0 auto; padding: 2rem; text-align: center; font-size: .82rem; color: var(--muted); }
+    footer a { color: var(--accent); text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
+
     @media (max-width: 600px) {
-      nav[aria-label="Primary"] ul { display: none; flex-direction: column; position: absolute; top: 56px; left: 0; right: 0; background: var(--bg); border-bottom: 1px solid var(--border); padding: 1rem 2rem 1.5rem; gap: .75rem; }
-      nav[aria-label="Primary"] ul.open { display: flex; }
-      .hamburger { display: flex; }
+      main { padding: 2.5rem 1.25rem 4rem; }
+      .hero { padding-bottom: 2.5rem; margin-bottom: 2.5rem; }
+      .project-item { padding: 1.3rem 1.4rem; }
     }
   </style>
 </head>
@@ -70,17 +71,10 @@
 <header role="banner">
   <div class="nav-inner">
     <a class="nav-name" href="#" aria-label="Peter J. Marshall, home">Peter J. Marshall</a>
-    <button class="hamburger" aria-controls="primary-nav" aria-expanded="false" aria-label="Open navigation menu"
-      onclick="const e=this.getAttribute('aria-expanded')==='true';this.setAttribute('aria-expanded',String(!e));this.setAttribute('aria-label',e?'Open navigation menu':'Close navigation menu');document.getElementById('primary-nav').classList.toggle('open');">
-      <span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span>
-    </button>
-    <nav aria-label="Primary">
-      <ul id="primary-nav" role="list">
-        <li><a href="#the-problem">The Problem</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#this-project">This Project</a></li>
-      </ul>
-    </nav>
+    <div class="nav-links">
+      <a href="https://liberalarts.temple.edu/academics/faculty/marshall-peter-j" target="_blank" rel="noopener noreferrer">University Page<span class="sr-only"> (opens in new tab)</span></a>
+      <a href="https://sites.temple.edu/peterjmarshall/" target="_blank" rel="noopener noreferrer">Lab<span class="sr-only"> (opens in new tab)</span></a>
+    </div>
   </div>
 </header>
 
@@ -88,74 +82,40 @@
 
   <div class="hero">
     <h1>Peter J. Marshall</h1>
-    <p class="tagline">Toward a biologically coherent account of living, thinking, and developing.</p>
-    <p>Professor of Psychology and Neuroscience at Temple University in Philadelphia. I am a developmental psychologist with a background in biology, working on bringing psychology and neuroscience into closer contact with what biology is actually about. The biology that tends to inform both fields is a simplified picture, one in which genes cause traits, selection optimizes them, and development executes the plan. What biology is actually about is considerably more interesting, and the gap has real consequences for how we understand mind, brain, and behavior.</p>
-    <nav class="hero-links" aria-label="Profile links">
-      <a href="https://liberalarts.temple.edu/academics/faculty/marshall-peter-j" target="_blank" rel="noopener noreferrer">University Page <span class="sr-only">(opens in new tab)</span></a>
-      <a href="https://sites.temple.edu/peterjmarshall/" target="_blank" rel="noopener noreferrer">Lab Site <span class="sr-only">(opens in new tab)</span></a>
-      <a href="#" aria-label="Download CV as PDF">CV</a>
-    </nav>
+    <div class="intro">
+      <p>I am a developmental psychologist at Temple University with a background in biology. This site is home to an ongoing project: building materials that connect developmental biology, psychology, and neuroscience into a more coherent account of what it means to be a living, thinking, developing being.</p>
+      <p>Standard accounts in psychology and neuroscience tend to rely on a simplified picture of biology &mdash; one in which genes cause traits, selection optimizes them, and development executes the plan. The actual biology is considerably more interesting. These sites are an attempt to take it seriously.</p>
+    </div>
   </div>
-
-  <section id="the-problem" class="page-section" aria-labelledby="problem-heading">
-    <h2 id="problem-heading" class="section-label">The Problem</h2>
-    <div class="prose">
-      <p>There are converging currents in biology that psychology has largely not engaged with. The mainstream of evolutionary biology remains committed to a gene-centric picture, and most psychologists who invoke biology are drawing on that picture: genes cause traits, selection optimizes them, development executes the plan. But at the edges of developmental biology, evolutionary theory, and the study of living systems, a different account has been taking shape. Developmental systems theory, work on self-organization and physical morphogenesis, and enactive approaches to cognition converge on something the standard picture cannot accommodate: the question of how reliable, species-typical features of development come about at all. The usual answer is that they were built in by evolution, inherited, there from the start. But this gets things backwards. The stability we see in development is not simply received. It is produced, through the active participation of the organism in constructing the very conditions that shape its own development.</p>
-      <p>What a more current biology shows is that the complexity of a developing brain cannot be read off from a genome. Reliable development requires the faithful reconstruction, across generations, of a system of constraints involving cells, physical forces, molecular gradients, self-generated activity, and organism-environment coupling. That system has no master molecule doing the directing. Form arises through the process, not before it. Getting that right changes what questions are worth asking about mind, brain, and behavior.</p>
-    </div>
-  </section>
-
-  <section id="the-work" class="page-section" aria-labelledby="work-heading">
-    <h2 id="work-heading" class="sr-only">The Work</h2>
-    <div class="prose">
-      <p>Development is not just something that happens to infants and children. It is a feature of life itself, operating across timescales from the evolution of life cycles to the moment-to-moment activity of an organism in its world. Putting development at the center changes what biology is about and what psychology needs to explain.</p>
-      <p>Understanding development requires a clearer account of what an individual organism actually is. Living things are not passive vehicles for genetic programs. They are self-organizing, self-maintaining beings that actively participate in their own becoming, enacting worlds through their engagement with their surroundings. What makes living things different from non-living things is not a special ingredient but a particular kind of organization, one that arises through development and is sustained through activity.</p>
-      <p>In humans, that picture becomes more complex. Brain development, evolutionary history, and cultural transmission are caught in feedback loops that cannot be pulled apart. Extended childhood, social learning, the intergenerational reconstruction of practices and environments: these are not additions to a biological story. They are part of it.</p>
-    </div>
-  </section>
 
   <section id="projects" class="page-section" aria-labelledby="projects-heading">
     <h2 id="projects-heading" class="section-label">Projects</h2>
-    <ul class="project-grid" role="list">
-      <li>
-        <a class="project-card" href="https://www.aboutdevelopment.org/" target="_blank" rel="noopener noreferrer">
-          <h3>About Development</h3>
-          <p>The bigger picture of development: from the evolution of life cycles to the activity of organisms in their worlds.</p>
-          <span class="card-cta" aria-hidden="true">Visit &rarr;</span>
-          <span class="sr-only">About Development, opens in new tab</span>
-        </a>
-      </li>
-      <li>
-        <a class="project-card" href="https://enacting.life/" target="_blank" rel="noopener noreferrer">
-          <h3>Enacting Life</h3>
-          <p>What makes living things different, and what that means for understanding mind and behavior.</p>
-          <span class="card-cta" aria-hidden="true">Visit &rarr;</span>
-          <span class="sr-only">Enacting Life, opens in new tab</span>
-        </a>
-      </li>
-      <li>
-        <a class="project-card" href="https://sites.google.com/peterjmarshall.com/human-brains" target="_blank" rel="noopener noreferrer">
-          <h3>Human Brains</h3>
-          <p>How brain development, extended childhood, and cultural transmission shaped what humans are.</p>
-          <span class="card-cta" aria-hidden="true">Visit &rarr;</span>
-          <span class="sr-only">Human Brains, opens in new tab</span>
-        </a>
-      </li>
-    </ul>
-  </section>
-
-  <section id="this-project" class="page-section" aria-labelledby="this-project-heading">
-    <h2 id="this-project-heading" class="section-label">This Project</h2>
-    <div class="prose">
-      <p>This project grew out of a conviction that students of psychology and neuroscience deserve a richer picture of what living things are and how they develop. Standard courses tend to frame development as the unfolding of a genetic blueprint, or the mind as a passive processor of environmental inputs. Neither picture holds up, and neither prepares students to think seriously about life, mind, or behavior.</p>
-      <p>The three sites are open educational resources, free to use and still evolving. Together they are an attempt to build materials that connect developmental biology, psychology, and neuroscience into a more coherent account of what it means to be a living, thinking, developing being.</p>
+    <div class="project-list">
+      <a class="project-item" href="https://www.aboutdevelopment.org/" target="_blank" rel="noopener noreferrer">
+        <h3>About Development</h3>
+        <p>The bigger picture of development, from Aristotle&rsquo;s four causes to developmental systems theory, life cycles, the deep history of multicellularity, and the evolution of brains in bodies. What development looks like when you stop treating it as the unfolding of a genetic blueprint.</p>
+        <span class="card-cta" aria-hidden="true">Visit &rarr;</span>
+        <span class="sr-only">About Development, opens in new tab</span>
+      </a>
+      <a class="project-item" href="https://enacting.life/" target="_blank" rel="noopener noreferrer">
+        <h3>Enacting Life</h3>
+        <p>What makes living things different from nonliving things, and what follows from that for psychology and neuroscience. Autopoiesis, structural coupling, the enactive view of cognition, and why the brain is not an input&ndash;output device.</p>
+        <span class="card-cta" aria-hidden="true">Visit &rarr;</span>
+        <span class="sr-only">Enacting Life, opens in new tab</span>
+      </a>
+      <a class="project-item" href="https://sites.google.com/peterjmarshall.com/human-brains" target="_blank" rel="noopener noreferrer">
+        <h3>Human Brains</h3>
+        <p>What makes the human brain unique, and how it got that way. Brain evolution, extended childhood, embodied cognition, social complexity, and the role of language and narrative in transforming human life.</p>
+        <span class="card-cta" aria-hidden="true">Visit &rarr;</span>
+        <span class="sr-only">Human Brains, opens in new tab</span>
+      </a>
     </div>
   </section>
 
 </main>
 
 <footer role="contentinfo">
-  <p>Peter J. Marshall &middot; Temple University &middot; Department of Psychology and Neuroscience</p>
+  <p>Peter J. Marshall &middot; <a href="https://liberalarts.temple.edu/academics/faculty/marshall-peter-j" target="_blank" rel="noopener noreferrer">Temple University</a> &middot; Department of Psychology and Neuroscience</p>
 </footer>
 
 </body>
