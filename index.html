@@ -148,17 +148,17 @@
     }
 
     .page-section {
-      margin-bottom: 3.7rem;
+      margin-bottom: 3.8rem;
     }
 
     .section-label {
-      font-size: 1rem;
-      font-weight: 500;
-      letter-spacing: .09em;
+      font-size: 1.05rem;
+      font-weight: 600;
+      letter-spacing: .07em;
       text-transform: uppercase;
       color: var(--accent);
-      margin-bottom: 1.4rem;
-      padding-bottom: .55rem;
+      margin-bottom: 1.5rem;
+      padding-bottom: .6rem;
       border-bottom: 1px solid var(--border);
     }
 
@@ -192,10 +192,10 @@
 
     .project-item h3 {
       font-family: var(--serif);
-      font-size: 1.3rem;
+      font-size: 1.42rem;
       font-weight: 500;
       color: var(--accent);
-      margin: 0 0 .5rem;
+      margin: 0 0 .55rem;
     }
 
     .project-item p {
@@ -208,8 +208,8 @@
 
     .project-item .card-cta {
       display: inline-block;
-      margin-top: .7rem;
-      font-size: .8rem;
+      margin-top: .75rem;
+      font-size: .82rem;
       font-weight: 500;
       color: var(--accent);
       letter-spacing: .04em;
@@ -222,7 +222,7 @@
     }
 
     .writing-list li {
-      padding: 1.1rem 0;
+      padding: 1.15rem 0;
       border-bottom: 1px solid var(--border);
     }
 
@@ -232,7 +232,8 @@
 
     .writing-list a {
       font-family: var(--serif);
-      font-size: 1.08rem;
+      font-size: 1.13rem;
+      line-height: 1.45;
       text-decoration: none;
     }
 
@@ -242,17 +243,31 @@
 
     .pub-note {
       display: block;
-      margin-top: .25rem;
+      margin-top: .3rem;
       color: var(--muted);
       font-size: .9rem;
     }
 
+    .research-text,
     .about-text {
       max-width: 64ch;
     }
 
+    .research-text p,
     .about-text p {
       margin: 0 0 1rem;
+    }
+
+    .text-link {
+      display: inline-block;
+      margin-top: .25rem;
+      font-size: .92rem;
+      font-weight: 500;
+      text-decoration: none;
+    }
+
+    .text-link:hover {
+      text-decoration: underline;
     }
 
     .small-links {
@@ -296,11 +311,11 @@
       }
 
       .nav-links {
-        gap: .75rem;
+        gap: .7rem;
       }
 
       .nav-links a {
-        font-size: .73rem;
+        font-size: .71rem;
       }
 
       main {
@@ -331,6 +346,7 @@
       <nav class="nav-links" aria-label="Main navigation">
         <a href="#oer">OERs</a>
         <a href="#writing">Writing</a>
+        <a href="#research">Research</a>
         <a href="#about">About</a>
       </nav>
 
@@ -348,21 +364,20 @@
 
         <p>
           I am a developmental psychologist with a background in biology and neuroscience.
-          Much of my research has involved the developing brain, particularly how brain
-          development unfolds in relation to bodily activity, experience, and social
-          interaction.
+          Most of my empirical work has examined developing brains and bodies, using EEG
+          and, more recently, naturalistic video and computer vision.
         </p>
 
         <p>
-          Alongside that empirical work, I have kept returning to a broader problem: what
-          exactly are we trying to explain when we explain development? I am interested in
-          how organized forms and capacities take shape over time, how brains develop as
-          parts of living bodies, and what changes when we take development itself seriously
+          Alongside that work, I have kept returning to a broader problem: what exactly
+          are we trying to explain when we explain development? I am interested in how
+          organized forms and capacities take shape over time, how brains develop as parts
+          of living bodies, and what changes when we take development itself seriously
           rather than treating it mainly as the route to an already specified outcome.
         </p>
 
         <p>
-          The projects collected here are different ways of working on those questions.
+          The materials here are different ways of working on those questions.
         </p>
 
       </div>
@@ -381,12 +396,7 @@
 
       <div class="project-list">
 
-        <a
-          class="project-item"
-          href="https://www.aboutdevelopment.org/"
-          target="_blank"
-          rel="noopener"
-        >
+        <a class="project-item" href="https://www.aboutdevelopment.org/">
 
           <h3>About Development</h3>
 
@@ -403,20 +413,14 @@
         </a>
 
 
-        <a
-          class="project-item"
-          href="https://enacting.life/"
-          target="_blank"
-          rel="noopener"
-        >
+        <a class="project-item" href="https://enacting.life/">
 
           <h3>Enacting Life</h3>
 
           <p>
-            What is different about a living system? Enacting Life explores an approach
-            that begins with organisms as active, self-maintaining systems rather than
-            passive receivers of information, and follows that idea into questions about
-            cognition, perception, the brain, meaning, and artificial intelligence.
+            Enacting Life begins with a simple but difficult question: what is different
+            about a living thing? It follows one biological strand of enactivism into
+            questions about cognition, the brain, meaning, and artificial intelligence.
           </p>
 
           <span class="card-cta">Visit Enacting Life →</span>
@@ -434,17 +438,14 @@
 
       <p class="section-intro">
         Some of my writing has taken up the conceptual questions behind the empirical
-        work more directly. These papers give a sense of that line of thought.
+        work more directly. These are a few of the pieces that connect most closely to
+        the projects above.
       </p>
 
       <ul class="writing-list">
 
         <li>
-          <a
-            href="https://doi.org/10.31234/osf.io/d7y3n_v1"
-            target="_blank"
-            rel="noopener"
-          >
+          <a href="https://doi.org/10.31234/osf.io/d7y3n_v1">
             Psychology in 2125: A Developmental Science of Living Sense-Making
           </a>
 
@@ -455,11 +456,7 @@
 
 
         <li>
-          <a
-            href="https://doi.org/10.1159/000540024"
-            target="_blank"
-            rel="noopener"
-          >
+          <a href="https://doi.org/10.1159/000540024">
             Towards a Biologically Coherent Account of the Brain and How It Develops
           </a>
 
@@ -470,11 +467,18 @@
 
 
         <li>
-          <a
-            href="https://doi.org/10.3389/fnsys.2021.726403"
-            target="_blank"
-            rel="noopener"
-          >
+          <a href="https://doi.org/10.1017/S0140525X22002199">
+            Genes, Genomes, and Developmental Process
+          </a>
+
+          <span class="pub-note">
+            with Jordan Taylor and Staci M. Weiss · Behavioral and Brain Sciences, 2023
+          </span>
+        </li>
+
+
+        <li>
+          <a href="https://doi.org/10.3389/fnsys.2021.726403">
             The Shared Origins of Embodiment and Development
           </a>
 
@@ -485,11 +489,7 @@
 
 
         <li>
-          <a
-            href="https://doi.org/10.1111/cdep.12190"
-            target="_blank"
-            rel="noopener"
-          >
+          <a href="https://doi.org/10.1111/cdep.12190">
             Embodiment and Human Development
           </a>
 
@@ -500,11 +500,7 @@
 
 
         <li>
-          <a
-            href="https://doi.org/10.3389/fpsyg.2014.00929"
-            target="_blank"
-            rel="noopener"
-          >
+          <a href="https://doi.org/10.3389/fpsyg.2014.00929">
             Beyond Different Levels: Embodiment and the Developmental System
           </a>
 
@@ -518,6 +514,36 @@
     </section>
 
 
+    <section class="page-section" id="research">
+
+      <div class="section-label">Research</div>
+
+      <div class="research-text">
+
+        <p>
+          My current empirical work continues through the Developmental Science Lab at
+          Temple. Recent projects include infant body representations and anticipation,
+          the development of reaching and grasping, and ways of combining naturalistic
+          video with computational methods for studying development.
+        </p>
+
+        <p>
+          The lab site has information about current research, people, participation,
+          and our work with infants and families.
+        </p>
+
+        <a
+          class="text-link"
+          href="https://sites.temple.edu/devscilab/"
+        >
+          Developmental Science Lab →
+        </a>
+
+      </div>
+
+    </section>
+
+
     <section class="page-section" id="about">
 
       <div class="section-label">About</div>
@@ -525,36 +551,31 @@
       <div class="about-text">
 
         <p>
-          I am Professor of Psychology and Neuroscience at Temple University. My research
-          has moved through several areas of developmental science, including temperament,
-          early experience, developmental psychophysiology, action and imitation, infant
-          body representations, anticipation, and the development of reaching and grasping.
+          I trained in zoology and developmental psychology at the University of Cambridge,
+          then spent several years at the University of Maryland before coming to Temple
+          in 2004. I spent 2014–15 as a visiting scholar at the Institute for Learning
+          &amp; Brain Sciences at the University of Washington.
         </p>
 
         <p>
-          Those projects have often involved EEG and other ways of studying the developing
-          brain, but I have also been increasingly interested in the assumptions that sit
-          behind developmental neuroscience itself. In particular, I am interested in what
-          becomes visible when we treat brains as developing parts of living bodies, and
-          development as a historical process through which new forms of organization take
-          shape.
+          My research has moved through temperament and early experience, developmental
+          psychophysiology, action and imitation, infant body representations, anticipation,
+          and the development of reaching and grasping. The topics have changed over the
+          years, but questions about how biological and psychological organization develops
+          have kept resurfacing.
+        </p>
+
+        <p>
+          I am Professor of Psychology and Neuroscience at Temple University.
         </p>
 
         <div class="small-links">
 
-          <a
-            href="https://liberalarts.temple.edu/directory/peter-j-marshall"
-            target="_blank"
-            rel="noopener"
-          >
+          <a href="https://liberalarts.temple.edu/directory/peter-j-marshall">
             Temple University profile
           </a>
 
-          <a
-            href="https://sites.temple.edu/peterjmarshall/"
-            target="_blank"
-            rel="noopener"
-          >
+          <a href="https://sites.temple.edu/devscilab/">
             Developmental Science Lab
           </a>
 
