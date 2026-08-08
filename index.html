@@ -3,117 +3,572 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Peter J. Marshall — an ongoing project connecting developmental biology, psychology, and neuroscience into a more coherent account of living, thinking, and developing.">
+
   <title>Peter J. Marshall</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <meta
+    name="description"
+    content="Peter J. Marshall is a developmental psychologist at Temple University whose work concerns development, brains and bodies, and the organization of living systems."
+  >
+
   <style>
     :root {
-      --bg: #ffffff; --surface: #f7f7f7; --text: #1a1a1a; --muted: #4a4a4a;
-      --accent: #1c4f6e; --accent-h: #163d56; --border: #e0e0e0; --focus: #c75000;
-      --serif: "EB Garamond", Georgia, "Times New Roman", serif;
-      --sans: "DM Sans", system-ui, -apple-system, sans-serif;
+      --bg: #fbfaf7;
+      --surface: #ffffff;
+      --text: #252525;
+      --muted: #626262;
+      --accent: #1c4f6e;
+      --accent-h: #133c55;
+      --border: #dedbd4;
+      --serif: Georgia, "Times New Roman", serif;
+      --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
     }
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    html { scroll-behavior: smooth; }
-    @media (prefers-reduced-motion: reduce) {
-      *, *::before, *::after { transition: none !important; animation: none !important; }
-      html { scroll-behavior: auto; }
+
+    * {
+      box-sizing: border-box;
     }
-    body { font-family: var(--sans); background: var(--bg); color: var(--text); font-size: 1.125rem; line-height: 1.75; }
-    :focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; border-radius: 2px; }
-    .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
-    .skip-link { position: absolute; top: -100%; left: 1rem; background: var(--focus); color: #fff; padding: .5rem 1rem; font-size: .9rem; font-weight: 500; border-radius: 0 0 4px 4px; text-decoration: none; z-index: 999; transition: top .2s; }
-    .skip-link:focus { top: 0; }
 
-    header[role="banner"] { position: sticky; top: 0; background: var(--bg); border-bottom: 1px solid var(--border); z-index: 100; padding: 0 2rem; }
-    .nav-inner { max-width: 740px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; height: 56px; }
-    .nav-name { font-family: var(--serif); font-size: 1.15rem; color: var(--accent); text-decoration: none; }
-    .nav-name:hover { color: var(--accent-h); text-decoration: underline; }
-    .nav-links { display: flex; gap: 1.2rem; align-items: center; }
-    .nav-links a { font-size: .82rem; font-weight: 500; letter-spacing: .04em; text-transform: uppercase; color: var(--muted); text-decoration: none; padding: .25rem 0; border-bottom: 2px solid transparent; transition: color .2s, border-color .2s; }
-    .nav-links a:hover { color: var(--accent); border-bottom-color: var(--accent); }
+    html {
+      scroll-behavior: smooth;
+    }
 
-    main { max-width: 740px; margin: 0 auto; padding: 4rem 2rem 6rem; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: var(--sans);
+      line-height: 1.65;
+    }
 
-    .hero { padding-bottom: 2rem; margin-bottom: 2rem; }
-    .hero h1 { font-family: var(--serif); font-size: clamp(2.2rem, 5vw, 3.2rem); font-weight: 400; line-height: 1.15; margin-bottom: 1.4rem; }
-    .hero .intro { font-family: var(--serif); font-size: 1.25rem; color: var(--text); line-height: 1.7; max-width: 62ch; }
-    .hero .intro p { margin-bottom: 1rem; }
-    .hero .intro p:last-child { margin-bottom: 0; }
+    a {
+      color: var(--accent);
+    }
 
-    .page-section { margin-bottom: 3.5rem; }
-    .section-label { font-size: .8rem; font-weight: 500; letter-spacing: .12em; text-transform: uppercase; color: var(--accent); margin-bottom: 1.4rem; padding-bottom: .5rem; border-bottom: 1px solid var(--border); }
+    .skip-link {
+      position: absolute;
+      left: -9999px;
+      top: auto;
+    }
 
-    .project-list { display: flex; flex-direction: column; gap: 1.6rem; }
-    .project-item { display: block; background: var(--surface); border: 1px solid var(--border); border-radius: 4px; padding: 1.6rem 1.8rem; text-decoration: none; color: inherit; transition: border-color .2s, box-shadow .2s; }
-    .project-item:hover { border-color: var(--accent); box-shadow: 0 2px 12px rgba(28,79,110,.1); }
-    .project-item h3 { font-family: var(--serif); font-size: 1.3rem; font-weight: 500; color: var(--accent); margin-bottom: .5rem; }
-    .project-item p { font-size: 1rem; color: var(--muted); line-height: 1.65; max-width: 60ch; }
-    .project-item .card-cta { display: inline-block; margin-top: .7rem; font-size: .8rem; font-weight: 500; color: var(--accent); letter-spacing: .04em; }
+    .skip-link:focus {
+      left: 1rem;
+      top: 1rem;
+      z-index: 1000;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      padding: .6rem .8rem;
+    }
 
-    footer { border-top: 1px solid var(--border); max-width: 740px; margin: 0 auto; padding: 2rem; text-align: center; font-size: .82rem; color: var(--muted); }
-    footer a { color: var(--accent); text-decoration: none; }
-    footer a:hover { text-decoration: underline; }
+    header[role="banner"] {
+      position: sticky;
+      top: 0;
+      background: var(--bg);
+      border-bottom: 1px solid var(--border);
+      z-index: 100;
+      padding: 0 2rem;
+    }
+
+    .nav-inner {
+      max-width: 740px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 56px;
+    }
+
+    .nav-name {
+      font-family: var(--serif);
+      font-size: 1.15rem;
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    .nav-name:hover {
+      color: var(--accent-h);
+      text-decoration: underline;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 1.2rem;
+      align-items: center;
+    }
+
+    .nav-links a {
+      font-size: .82rem;
+      font-weight: 500;
+      letter-spacing: .04em;
+      text-transform: uppercase;
+      color: var(--muted);
+      text-decoration: none;
+      padding: .25rem 0;
+      border-bottom: 2px solid transparent;
+      transition: color .2s, border-color .2s;
+    }
+
+    .nav-links a:hover {
+      color: var(--accent);
+      border-bottom-color: var(--accent);
+    }
+
+    main {
+      max-width: 740px;
+      margin: 0 auto;
+      padding: 4rem 2rem 6rem;
+    }
+
+    .hero {
+      padding-bottom: 2rem;
+      margin-bottom: 2rem;
+    }
+
+    .hero h1 {
+      font-family: var(--serif);
+      font-size: clamp(2.2rem, 5vw, 3.2rem);
+      font-weight: 400;
+      line-height: 1.15;
+      margin: 0 0 1.4rem;
+    }
+
+    .hero .intro {
+      font-family: var(--serif);
+      font-size: 1.22rem;
+      color: var(--text);
+      line-height: 1.7;
+      max-width: 62ch;
+    }
+
+    .hero .intro p {
+      margin: 0 0 1rem;
+    }
+
+    .hero .intro p:last-child {
+      margin-bottom: 0;
+    }
+
+    .page-section {
+      margin-bottom: 3.7rem;
+    }
+
+    .section-label {
+      font-size: .8rem;
+      font-weight: 500;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 1.4rem;
+      padding-bottom: .5rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .section-intro {
+      margin: -.2rem 0 1.6rem;
+      color: var(--muted);
+      max-width: 64ch;
+    }
+
+    .project-list {
+      display: flex;
+      flex-direction: column;
+      gap: 1.6rem;
+    }
+
+    .project-item {
+      display: block;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      padding: 1.6rem 1.8rem;
+      text-decoration: none;
+      color: inherit;
+      transition: border-color .2s, box-shadow .2s;
+    }
+
+    .project-item:hover {
+      border-color: var(--accent);
+      box-shadow: 0 2px 12px rgba(28, 79, 110, .1);
+    }
+
+    .project-item h3 {
+      font-family: var(--serif);
+      font-size: 1.3rem;
+      font-weight: 500;
+      color: var(--accent);
+      margin: 0 0 .5rem;
+    }
+
+    .project-item p {
+      font-size: 1rem;
+      color: var(--muted);
+      line-height: 1.65;
+      max-width: 60ch;
+      margin: 0;
+    }
+
+    .project-item .card-cta {
+      display: inline-block;
+      margin-top: .7rem;
+      font-size: .8rem;
+      font-weight: 500;
+      color: var(--accent);
+      letter-spacing: .04em;
+    }
+
+    .writing-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .writing-list li {
+      padding: 1.1rem 0;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .writing-list li:first-child {
+      padding-top: 0;
+    }
+
+    .writing-list a {
+      font-family: var(--serif);
+      font-size: 1.08rem;
+      text-decoration: none;
+    }
+
+    .writing-list a:hover {
+      text-decoration: underline;
+    }
+
+    .pub-note {
+      display: block;
+      margin-top: .25rem;
+      color: var(--muted);
+      font-size: .9rem;
+    }
+
+    .about-text {
+      max-width: 64ch;
+    }
+
+    .about-text p {
+      margin: 0 0 1rem;
+    }
+
+    .small-links {
+      margin-top: 1.4rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: .5rem 1.2rem;
+      font-size: .9rem;
+    }
+
+    .small-links a {
+      text-decoration: none;
+    }
+
+    .small-links a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      border-top: 1px solid var(--border);
+      max-width: 740px;
+      margin: 0 auto;
+      padding: 2rem;
+      text-align: center;
+      font-size: .82rem;
+      color: var(--muted);
+    }
+
+    footer a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
 
     @media (max-width: 600px) {
-      main { padding: 2.5rem 1.25rem 4rem; }
-      .hero { padding-bottom: 2.5rem; margin-bottom: 2.5rem; }
-      .project-item { padding: 1.3rem 1.4rem; }
+      header[role="banner"] {
+        padding: 0 1.25rem;
+      }
+
+      .nav-links {
+        gap: .75rem;
+      }
+
+      .nav-links a {
+        font-size: .73rem;
+      }
+
+      main {
+        padding: 2.5rem 1.25rem 4rem;
+      }
+
+      .hero {
+        padding-bottom: 2.5rem;
+        margin-bottom: 2.5rem;
+      }
+
+      .project-item {
+        padding: 1.3rem 1.4rem;
+      }
     }
   </style>
 </head>
+
 <body>
 
-<a class="skip-link" href="#main-content">Skip to main content</a>
+  <a class="skip-link" href="#main">Skip to main content</a>
 
-<header role="banner">
-  <div class="nav-inner">
-    <a class="nav-name" href="#" aria-label="Peter J. Marshall, home">Peter J. Marshall</a>
-    <div class="nav-links">
-      <a href="https://liberalarts.temple.edu/academics/faculty/marshall-peter-j" target="_blank" rel="noopener noreferrer">University Page<span class="sr-only"> (opens in new tab)</span></a>
-      <a href="https://sites.temple.edu/peterjmarshall/" target="_blank" rel="noopener noreferrer">Lab<span class="sr-only"> (opens in new tab)</span></a>
+  <header role="banner">
+    <div class="nav-inner">
+
+      <a class="nav-name" href="#">Peter J. Marshall</a>
+
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="#oer">OERs</a>
+        <a href="#writing">Writing</a>
+        <a href="#about">About</a>
+      </nav>
+
     </div>
-  </div>
-</header>
-
-<main id="main-content" tabindex="-1">
-
-  <div class="hero">
-    <h1>Peter J. Marshall</h1>
-    <div class="intro">
-      <p>I am a developmental psychologist with a background in biology. This site is home to an ongoing project: building materials that connect developmental biology, psychology, and neuroscience into a more coherent account of what it means to be a living, thinking, developing being.</p>
-    </div>
-  </div>
-
-  <section id="projects" class="page-section" aria-labelledby="projects-heading">
-    <h2 id="projects-heading" class="section-label">Projects</h2>
-    <div class="project-list">
-      <a class="project-item" href="https://www.aboutdevelopment.org/" target="_blank" rel="noopener noreferrer">
-        <h3>About Development</h3>
-        <p>The bigger picture of development, from constraints rather than causes, to developmental systems theory, life cycles and inherited resources, the deep history of multicellularity, and the evolution of brains in bodies. This picture sidesteps the nature&ndash;nurture framing to sketch out a more coherent, more interesting, and more relevant view of development.</p>
-        <span class="card-cta" aria-hidden="true">Visit &rarr;</span>
-        <span class="sr-only">About Development, opens in new tab</span>
-      </a>
-      <a class="project-item" href="https://enacting.life/" target="_blank" rel="noopener noreferrer">
-        <h3>Enacting Life</h3>
-        <p>What makes living things different from nonliving things, and what follows from that for psychology and neuroscience. This is not &ldquo;embodied cognition&rdquo;&mdash;it is something more. Not an add-on to the study of mind and brain, but the foundation.</p>
-        <span class="card-cta" aria-hidden="true">Visit &rarr;</span>
-        <span class="sr-only">Enacting Life, opens in new tab</span>
-      </a>
-      <a class="project-item" href="https://sites.google.com/peterjmarshall.com/human-brains" target="_blank" rel="noopener noreferrer">
-        <h3>Human Brains</h3>
-        <p>What makes the human brain unique, and how it got that way. Brain development and evolution, our extended childhood, embodiment, social complexity, and the role of language and narrative in transforming human life.</p>
-        <span class="card-cta" aria-hidden="true">Visit &rarr;</span>
-        <span class="sr-only">Human Brains, opens in new tab</span>
-      </a>
-    </div>
-  </section>
-
-</main>
+  </header>
 
 
+  <main id="main">
+
+    <section class="hero">
+
+      <h1>Peter J. Marshall</h1>
+
+      <div class="intro">
+
+        <p>
+          I am a developmental psychologist with a background in biology and neuroscience.
+          Much of my research has involved the developing brain, particularly the ways that
+          bodily activity, experience, and social interaction become part of development.
+        </p>
+
+        <p>
+          Alongside that empirical work, I have kept returning to a broader problem: what
+          exactly are we trying to explain when we explain development? I am interested in
+          how organized forms and capacities take shape over time, how brains develop as
+          parts of living bodies, and what changes when we take development itself seriously
+          rather than treating it mainly as the route to an already specified outcome.
+        </p>
+
+        <p>
+          The projects collected here are different ways of working on those questions.
+        </p>
+
+      </div>
+
+    </section>
+
+
+    <section class="page-section" id="oer">
+
+      <div class="section-label">Open Educational Resources</div>
+
+      <p class="section-intro">
+        I have been developing two open educational resources for students and other
+        interested readers. They overlap, but they begin from different questions.
+      </p>
+
+      <div class="project-list">
+
+        <a
+          class="project-item"
+          href="https://www.aboutdevelopment.org/"
+          target="_blank"
+          rel="noopener"
+        >
+
+          <h3>About Development</h3>
+
+          <p>
+            Development is often explained by listing the things that influence it:
+            genes, environments, experience, culture. About Development starts with a
+            different question: how do organized forms actually arise, recur, and change?
+            It draws on developmental science, biology, neuroscience, and the history of
+            ideas about development.
+          </p>
+
+          <span class="card-cta">Visit About Development →</span>
+
+        </a>
+
+
+        <a
+          class="project-item"
+          href="https://enacting.life/"
+          target="_blank"
+          rel="noopener"
+        >
+
+          <h3>Enacting Life</h3>
+
+          <p>
+            What is different about a living system? Enacting Life explores an approach
+            that begins with organisms as active, self-maintaining systems rather than
+            passive receivers of information, and follows that idea into questions about
+            cognition, perception, the brain, meaning, and artificial intelligence.
+          </p>
+
+          <span class="card-cta">Visit Enacting Life →</span>
+
+        </a>
+
+      </div>
+
+    </section>
+
+
+    <section class="page-section" id="writing">
+
+      <div class="section-label">Selected Writing</div>
+
+      <p class="section-intro">
+        Some of my writing has taken up the conceptual questions behind the empirical
+        work more directly. These papers give a sense of that line of thought.
+      </p>
+
+      <ul class="writing-list">
+
+        <li>
+          <a
+            href="https://doi.org/10.31234/osf.io/d7y3n_v1"
+            target="_blank"
+            rel="noopener"
+          >
+            Psychology in 2125: A Developmental Science of Living Sense-Making
+          </a>
+
+          <span class="pub-note">
+            Perspectives on Psychological Science, forthcoming · preprint
+          </span>
+        </li>
+
+
+        <li>
+          <a
+            href="https://doi.org/10.1159/000540024"
+            target="_blank"
+            rel="noopener"
+          >
+            Towards a Biologically Coherent Account of the Brain and How It Develops
+          </a>
+
+          <span class="pub-note">
+            Human Development, 2024
+          </span>
+        </li>
+
+
+        <li>
+          <a
+            href="https://doi.org/10.3389/fnsys.2021.726403"
+            target="_blank"
+            rel="noopener"
+          >
+            The Shared Origins of Embodiment and Development
+          </a>
+
+          <span class="pub-note">
+            with Thomas M. Houser and Staci M. Weiss · Frontiers in Systems Neuroscience, 2021
+          </span>
+        </li>
+
+
+        <li>
+          <a
+            href="https://doi.org/10.1111/cdep.12190"
+            target="_blank"
+            rel="noopener"
+          >
+            Embodiment and Human Development
+          </a>
+
+          <span class="pub-note">
+            Child Development Perspectives, 2016
+          </span>
+        </li>
+
+
+        <li>
+          <a
+            href="https://doi.org/10.3389/fpsyg.2014.00929"
+            target="_blank"
+            rel="noopener"
+          >
+            Beyond Different Levels: Embodiment and the Developmental System
+          </a>
+
+          <span class="pub-note">
+            Frontiers in Psychology, 2014
+          </span>
+        </li>
+
+      </ul>
+
+    </section>
+
+
+    <section class="page-section" id="about">
+
+      <div class="section-label">About</div>
+
+      <div class="about-text">
+
+        <p>
+          I am Professor of Psychology and Neuroscience at Temple University. My research
+          has moved through several areas of developmental science, including temperament,
+          early experience, developmental psychophysiology, action and imitation, infant
+          body representations, anticipation, and the development of reaching and grasping.
+        </p>
+
+        <p>
+          Those projects have often involved EEG and other ways of studying the developing
+          brain, but I have also been increasingly interested in the assumptions that sit
+          behind developmental neuroscience itself. In particular, I am interested in what
+          becomes visible when we treat brains as developing parts of living bodies, and
+          development as a historical process through which new forms of organization take
+          shape.
+        </p>
+
+        <div class="small-links">
+
+          <a
+            href="https://liberalarts.temple.edu/directory/peter-j-marshall"
+            target="_blank"
+            rel="noopener"
+          >
+            Temple University profile
+          </a>
+
+          <a
+            href="https://sites.temple.edu/peterjmarshall/"
+            target="_blank"
+            rel="noopener"
+          >
+            Developmental Science Lab
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <footer>
+    Peter J. Marshall · Temple University
+  </footer>
 
 </body>
 </html>
