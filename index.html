@@ -57,23 +57,14 @@
       font-size: clamp(2.2rem, 5vw, 3.2rem);
       font-weight: 400;
       line-height: 1.15;
-      margin: 0 0 1.4rem;
+      margin: 0 0 .55rem;
     }
 
-    .hero .intro {
+    .hero .role {
       font-family: var(--serif);
-      font-size: 1.25rem;
-      color: var(--text);
-      line-height: 1.7;
-      max-width: 62ch;
-    }
-
-    .hero .intro p {
-      margin: 0 0 1rem;
-    }
-
-    .hero .intro p:last-child {
-      margin-bottom: 0;
+      font-size: 1.15rem;
+      color: var(--muted);
+      margin: 0;
     }
 
     .page-section {
@@ -95,6 +86,32 @@
       margin: -.2rem 0 1.6rem;
       color: var(--muted);
       max-width: 64ch;
+    }
+
+    .about-text,
+    .research-text {
+      max-width: 64ch;
+    }
+
+    .about-text p,
+    .research-text p {
+      margin: 0 0 1rem;
+    }
+
+    .small-links {
+      margin-top: 1.4rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: .5rem 1.2rem;
+      font-size: .92rem;
+    }
+
+    .small-links a {
+      text-decoration: none;
+    }
+
+    .small-links a:hover {
+      text-decoration: underline;
     }
 
     .project-list {
@@ -144,86 +161,10 @@
       letter-spacing: .04em;
     }
 
-    .writing-list {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-    }
-
-    .writing-list li {
-      padding: 1.15rem 0;
-      border-bottom: 1px solid var(--border);
-    }
-
-    .writing-list li:first-child {
-      padding-top: 0;
-    }
-
-    .writing-list > li > a {
-      font-family: var(--serif);
-      font-size: 1.16rem;
-      line-height: 1.45;
-      text-decoration: none;
-    }
-
-    .writing-list > li > a:hover {
-      text-decoration: underline;
-    }
-
-    .pub-note {
-      display: block;
-      margin-top: .3rem;
+    footer {
+      padding-top: .5rem;
       color: var(--muted);
-      font-size: .92rem;
-    }
-
-    .pub-note a {
-      font-family: var(--sans);
-      font-size: inherit;
-      color: var(--accent);
-      text-decoration: none;
-    }
-
-    .pub-note a:hover {
-      text-decoration: underline;
-    }
-
-    .research-text,
-    .about-text {
-      max-width: 64ch;
-    }
-
-    .research-text p,
-    .about-text p {
-      margin: 0 0 1rem;
-    }
-
-    .text-link {
-      display: inline-block;
-      margin-top: .25rem;
-      font-size: .95rem;
-      font-weight: 500;
-      text-decoration: none;
-    }
-
-    .text-link:hover {
-      text-decoration: underline;
-    }
-
-    .small-links {
-      margin-top: 1.4rem;
-      display: flex;
-      flex-wrap: wrap;
-      gap: .5rem 1.2rem;
-      font-size: .92rem;
-    }
-
-    .small-links a {
-      text-decoration: none;
-    }
-
-    .small-links a:hover {
-      text-decoration: underline;
+      font-size: .9rem;
     }
 
     @media (max-width: 600px) {
@@ -247,30 +188,10 @@
 
   <main>
 
-    <section class="hero">
-
+    <header class="hero">
       <h1>Peter J. Marshall</h1>
-
-      <div class="intro">
-
-        <p>
-          I am a Professor of Psychology and Neuroscience at Temple University
-          in Philadelphia. My research examines the development of new abilities
-          and ways of understanding the world, with a particular focus on infancy
-          and early childhood.
-        </p>
-
-        <p>
-          Alongside this empirical research, I write about development more broadly,
-          asking how new forms and abilities emerge from what came before without having
-          been specified in advance. This has led me to think more closely about what is distinctive
-          about living things, including how they develop and sustain themselves.
-        </p>
-        
-      </div>
-
-    </section>
-
+      <p class="role">Professor of Psychology and Neuroscience · Temple University</p>
+    </header>
 
     <section class="page-section" id="about">
 
@@ -279,253 +200,137 @@
       <div class="about-text">
 
         <p>
-          I trained in zoology and developmental psychology at the University of
-          Cambridge. My doctoral and postdoctoral work focused on temperament,
-          attachment, early experience, and aspects of brain development. I spent
-          several years at the University of Maryland before coming to Temple in
-          2004. From 2016 to 2026, I served as Chair of the Department of Psychology
-          and Neuroscience at Temple.
+          I am a developmental scientist interested in how new forms of action,
+          perception, and understanding emerge over development. Much of my work asks
+          how infants come to act in increasingly organized ways, and how changes in
+          behavior relate to changes in the developing brain and body.
+        </p>
+
+        <p>
+          My research spans developmental psychology, cognitive neuroscience, and
+          developmental theory. Current work focuses on infant reaching and grasping,
+          the development of neural representations of the body, and new ways of
+          characterizing developmental change from naturalistic behavior. A more recent
+          strand of my work examines children's interactions with emerging technologies,
+          including social robots and AI-generated content.
+        </p>
+
+        <p>
+          Across this work, I am interested in what changes when development is treated
+          as part of the explanation rather than simply as something to be measured. My
+          theoretical work has examined what it means to understand the brain as part of
+          an active, developing organism rather than as an isolated system, and how
+          psychological capacities take form through histories of activity and interaction.
+        </p>
+
+        <p>
+          I studied Natural Sciences at the University of Cambridge, specializing in
+          zoology, and went on to complete a Ph.D. there with a research focus in
+          developmental psychology. I then joined the Department of Human Development at
+          the University of Maryland as a postdoctoral researcher and later as a Research
+          Assistant Professor, where my work focused on temperament, attachment, early
+          experience, and brain development.
+        </p>
+
+        <p>
+          I joined Temple University in 2004 and am now Professor of Psychology and
+          Neuroscience. From 2016 to 2026, I served as Chair of the Department of
+          Psychology and Neuroscience.
         </p>
 
         <div class="small-links">
-        
           <a href="https://liberalarts.temple.edu/directory/peter-j-marshall">
             Temple University profile
           </a>
-        
           <a href="https://scholar.google.com/citations?hl=en&amp;user=0ns22DIAAAAJ">
             Google Scholar
           </a>
-        
           <a href="https://orcid.org/0000-0003-1461-1331">
             ORCID
           </a>
-        
           <a href="/Peter-Marshall-CV.pdf">
             Curriculum Vitae
           </a>
-        
         </div>
 
       </div>
 
     </section>
 
-
     <section class="page-section" id="research">
 
-      <div class="section-label">Research</div>
+      <div class="section-label">Current Research</div>
 
       <div class="research-text">
 
         <p>
-          Over the last two decades, my empirical research has examined how infants and
-          young children act in the world and how their developing abilities are related
-          to changes in brain activity. Much of this work began with a question about how
-          infants’ experience of their own bodies and actions is related to their
-          perception of other people’s actions. I pursued this question through studies
-          of action and imitation at different ages. I have also been interested in what
-          measures derived from EEG can tell us about developing brain organization.
-          This has included research on neural body maps in infancy and on the
-          development of anticipation and attention in children and adults.
+          My current research examines the development of infant action and body
+          representation. One major focus is how reaching and grasping change over the
+          first year of life, including how infants come to shape the hand in increasingly
+          anticipatory and organized ways.
         </p>
 
         <p>
-          One current line of research follows the emergence of skilled hand use over
-          developmental time. It combines longitudinal video of infants’ grasping with
-          measures of brain responses to touch, asking how the history of infants’
-          actions may be related to the developing organization of the somatosensory
-          system. We are also using computer vision to obtain more detailed measures of
-          how infants organize the hand as new forms of grasping emerge.
+          This work combines longitudinal observation of naturalistic behavior with EEG
+          measures of developing body representations. We are also using computer vision
+          and other video-based methods to obtain detailed measures of hand movement from
+          infants' everyday activity.
         </p>
 
         <p>
-          Another line of research examines how children interact with and learn from
-          new technologies, including social robots and artificial intelligence.
+          Together, these approaches are aimed at understanding developmental change at a
+          finer grain: not simply when a new ability appears, but how patterns of action
+          and neural organization change over time. I also collaborate on studies of how
+          children interact with and learn from emerging technologies, including social
+          robots and artificial intelligence.
         </p>
 
       </div>
 
     </section>
 
+    <section class="page-section" id="resources">
 
-    <section class="page-section" id="oer">
-
-      <div class="section-label">Open Educational Resources</div>
+      <div class="section-label">Open Resources</div>
 
       <p class="section-intro">
-        I have created two open educational resources for students and
-        other interested readers. They begin from different questions, but
-        increasingly overlap.
+        Alongside my research and writing, I have developed two open resources that bring
+        together ideas I have worked with in teaching, scholarship, and theory. Both are
+        freely available and are intended for students, researchers, and other readers
+        interested in development, mind, and living systems.
       </p>
 
       <div class="project-list">
 
         <a class="project-item" href="https://www.aboutdevelopment.org/">
-
           <h3>About Development</h3>
-
           <p>
-            Development is often explained by listing the things that influence it:
-            genes, environments, experience, culture. About Development steps back to
-            ask what development itself involves, and how organized forms and abilities
-            arise so reliably without assuming that they were specified in advance. It
-            draws on developmental science, biology, neuroscience, philosophy, and the
-            history of ideas about development.
+            About Development is an open resource on the nature of developmental change.
+            It explores how new forms, abilities, and patterns of organization emerge over
+            time, drawing on work from developmental psychology, neuroscience, biology,
+            and related fields.
           </p>
-
           <span class="card-cta">Visit About Development →</span>
-
         </a>
 
-
         <a class="project-item" href="https://enacting.life/">
-
           <h3>Enacting Life</h3>
-
           <p>
-            Enacting Life introduces a biologically oriented perspective on how living
-            things make sense of the world. It begins from the idea that the organism is
-            not a passive receiver of information but an active, self-maintaining system
-            whose ongoing activity shapes how it engages with its environment. The
-            readings explore what this means for how we think about cognition, brains,
-            development, and intelligence, including what comparisons with artificial
-            systems can help clarify.
+            Enacting Life brings together readings and commentary on living organization,
+            embodiment, sense-making, brains, and development. It is organized around the
+            question of what changes when mind and behavior are approached as activities
+            of living organisms rather than as processes considered in isolation.
           </p>
-          
           <span class="card-cta">Visit Enacting Life →</span>
-
         </a>
 
       </div>
 
     </section>
 
-
-    <section class="page-section" id="writing">
-
-      <div class="section-label">Selected Writing</div>
-
-      <p class="section-intro">
-        My theoretical writing began with questions about embodiment and the
-        relation between psychology and neuroscience. It has gradually expanded
-        into a broader examination of how development should be explained. That
-        means starting with the organization of the living system rather than
-        trying to explain development by separating nature from nurture. More
-        recently, I have used these ideas to think about artificial intelligence
-        and what distinguishes the activity of living organisms from the behavior
-        of engineered systems. The selected papers and chapters below trace how
-        that strand of my work has developed.
-      </p>
-
-      <ul class="writing-list">
-
-        <li>
-          <a href="/Marshall-Psychology-in-2125.pdf">
-            Psychology in 2125: A Developmental Science of Living Sense-Making
-          </a>
-
-          <span class="pub-note">
-            Perspectives on Psychological Science, forthcoming ·
-            <a href="https://doi.org/10.31234/osf.io/d7y3n_v2">OSF preprint</a>
-          </span>
-        </li>
-
-
-        <li>
-          <a href="https://doi.org/10.1159/000540024">
-            Towards a Biologically Coherent Account of the Brain and How It Develops
-          </a>
-
-          <span class="pub-note">
-            Human Development, 2024 ·
-            <a href="https://doi.org/10.31234/osf.io/d9f6p">preprint</a>
-          </span>
-        </li>
-
-
-        <li>
-          <a href="https://doi.org/10.3389/fnsys.2021.726403">
-            The Shared Origins of Embodiment and Development
-          </a>
-
-          <span class="pub-note">
-            with Troy Houser and Staci M. Weiss ·
-            Frontiers in Systems Neuroscience, 2021
-          </span>
-        </li>
-
-
-        <li>
-          <a href="https://www.taylorfrancis.com/chapters/edit/10.4324/8791315174686-3/embodiment-peter-marshall">
-            Embodiment
-          </a>
-
-          <span class="pub-note">
-            in Advancing Developmental Science: Philosophy, Theory, and Method, 2017
-          </span>
-        </li>
-
-
-        <li>
-          <a href="https://doi.org/10.1111/cdep.12190">
-            Embodiment and Human Development
-          </a>
-
-          <span class="pub-note">
-            Child Development Perspectives, 2016
-          </span>
-        </li>
-
-
-        <li>
-          <a href="https://doi.org/10.1002/9781118963418.childpsy107">
-            Neuroscience, Embodiment, and Development
-          </a>
-
-          <span class="pub-note">
-            in Handbook of Child Psychology and Developmental Science:
-            Vol. 1. Theory and Method, 2015
-          </span>
-        </li>
-
-
-        <li>
-          <a href="https://doi.org/10.3389/fpsyg.2014.00929">
-            Beyond Different Levels: Embodiment and the Developmental System
-          </a>
-
-          <span class="pub-note">
-            Frontiers in Psychology, 2014
-          </span>
-        </li>
-
-
-        <li>
-          <a href="https://doi.org/10.1017/S0954579413000631">
-            Coping with Complexity: Developmental Systems and Multilevel Analyses
-            in Developmental Psychopathology
-          </a>
-
-          <span class="pub-note">
-            Development and Psychopathology, 2013
-          </span>
-        </li>
-
-
-        <li>
-          <a href="https://doi.org/10.1111/j.1745-6924.2009.01111.x">
-            Relating Psychology and Neuroscience: Taking Up the Challenges
-          </a>
-
-          <span class="pub-note">
-            Perspectives on Psychological Science, 2009
-          </span>
-        </li>
-
-      </ul>
-
-    </section>
+    <footer>
+      Peter J. Marshall · Department of Psychology and Neuroscience · Temple University
+    </footer>
 
   </main>
 
