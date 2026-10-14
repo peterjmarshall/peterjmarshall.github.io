@@ -39,7 +39,7 @@ format:
 
 ## How the Article and This Page Came About {#how-the-article-and-this-page-came-about}
 
-<p>In summer 2025, the APS journal <em>Perspectives on Psychological Science</em> put out a call for a special issue on what psychological science might look like a century from now. The call asked for “bold, methodologically grounded visions” of the discipline. The issue was meant to serve as “a time capsule, a provocation, and a map.”</p>
+<p>In summer 2025, the APS journal <em>Perspectives on Psychological Science</em> put out a <a href="https://www.psychologicalscience.org/publications/perspectives/psychology-2125">call for papers</a> for a special issue on what psychological science might look like a century from now. The call asked for “bold, methodologically grounded visions” of the discipline. The issue was meant to serve as “a time capsule, a provocation, and a map.”</p>
 
 <p>The task was clearly a challenging one – a century is a long time. Just look at what was going on in 1925 compared with now. But I sent in a proposal and a few weeks later was invited to write a full paper. It took a while for me to focus the message, but after helpful feedback from reviewers the manuscript was accepted as <em>Psychology in 2125: A Developmental Science of Living Sense-Making</em>.</p>
 
