@@ -35,6 +35,8 @@ format:
 
 <p>A preprint is available at<a href="https://doi.org/10.31234/osf.io/d7y3n_v2"> </a><a href="https://doi.org/10.31234/osf.io/d7y3n_v2">https://doi.org/10.31234/osf.io/d7y3n_v2</a>.</p>
 
+<p>I welcome questions, comments, and discussion about the article or this commentary. You can reach me at <a href="mailto:peter.marshall@temple.edu">peter.marshall@temple.edu</a>.</p>
+
 ## How the Article and This Page Came About {#how-the-article-and-this-page-came-about}
 
 <p>In summer 2025, the APS journal <em>Perspectives on Psychological Science</em> put out a call for a special issue on what psychological science might look like a century from now. The call asked for “bold, methodologically grounded visions” of the discipline. The issue was meant to serve as “a time capsule, a provocation, and a map.”</p>
@@ -203,7 +205,7 @@ format:
 
 <p>There is also the question of whose work made these tools useful in the first place. As I note in the article, their training data come from human activity. The help I got from Claude and ChatGPT depended on a vast amount of other people’s writing and work. Saying that I used AI, or that I take responsibility for what I wrote, does not answer the questions about how that work was obtained and used. I don’t have a satisfactory answer to what acknowledging that contribution should involve.</p>
 
-<p>I welcome questions, comments, and discussion about the article or this commentary. You can reach me at <a href="mailto:peter.marshall@temple.edu">peter.marshall@temple.edu</a>.</p>
+
 
 ## References {#references}
 
