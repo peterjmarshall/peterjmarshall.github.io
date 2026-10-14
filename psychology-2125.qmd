@@ -203,6 +203,8 @@ format:
 
 <p>There is also the question of whose work made these tools useful in the first place. As I note in the article, their training data come from human activity. The help I got from Claude and ChatGPT depended on a vast amount of other people’s writing and work. Saying that I used AI, or that I take responsibility for what I wrote, does not answer the questions about how that work was obtained and used. I don’t have a satisfactory answer to what acknowledging that contribution should involve.</p>
 
+<p>I welcome questions, comments, and discussion about the article or this commentary. You can reach me at <a href="mailto:peter.marshall@temple.edu">peter.marshall@temple.edu</a>.</p>
+
 ## References {#references}
 
 <p>Association for Psychological Science. (2025). <a href="https://www.psychologicalscience.org/publications/perspectives/psychology-2125"><em>Call for papers: Psychology in 2125 – A century forward</em></a>.</p>
