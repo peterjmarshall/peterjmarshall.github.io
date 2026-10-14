@@ -13,7 +13,7 @@
 
   <style>
     :root {
-      --bg: #fbfaf7;
+      --bg: #ffffff;
       --surface: #ffffff;
       --text: #252525;
       --muted: #626262;
@@ -176,6 +176,24 @@
         padding: 1.3rem 1.4rem;
       }
     }
+html{background:#fff}
+body{font-family:var(--serif);font-size:19px;line-height:1.6}
+a{color:#164b86;text-decoration:underline;text-underline-offset:.15em;overflow-wrap:anywhere}
+a:focus-visible{outline:3px solid #164b86;outline-offset:4px}
+main{padding:2rem 1.5rem 5rem}
+.hero{padding-bottom:0;margin-bottom:2rem}
+.hero h1{font-size:1.85rem;font-weight:700;line-height:1.3}
+.hero .role{font-size:1rem;color:var(--text)}
+.page-section{margin-bottom:2.2rem}
+.section-label{font-size:1.3rem;font-weight:700;letter-spacing:normal;text-transform:none;color:var(--text);margin:0 0 .8rem;padding:0;border:0}
+.small-links{font-size:1rem}
+.small-links a{text-decoration:underline;padding:.3rem 0}
+.project-list{gap:1.4rem}
+.project-item{background:transparent;border:0;border-radius:0;padding:0;transition:none}
+.project-item:hover{box-shadow:none}
+.project-item h3{font-size:1.1rem;font-weight:700;margin:0 0 .5rem}
+.project-item p{font-size:inherit;color:var(--text);line-height:inherit;max-width:none}
+@media(max-width:600px){body{font-size:18px}main{padding:1.2rem 1.2rem 3rem}.hero{padding-bottom:0;margin-bottom:2rem}.hero h1{font-size:1.65rem}.project-item{padding:0}}
   </style>
 </head>
 
@@ -192,7 +210,7 @@
 
     <section class="page-section" id="about">
 
-      <div class="section-label">About</div>
+      <h2 class="section-label">About</h2>
 
       <div class="about-text">
 
@@ -218,6 +236,9 @@
 
         <p>
           Over the years, my interest in the relations among action, perception, and cognition has drawn me towards theories of embodiment. My writing in this area has concerned how psychology and neuroscience relate to each other, the intersection of embodiment and development, and the continuity of mind and life.
+        </p>
+        <p>
+          I have an article forthcoming in special issue of <em>Perspectives on Psychological Science</em> that brings together some of my writing on embodiment to outline how psychology might become a &quot;developmental science of living sense-making&quot; over the next century. For links to the article itself and a deeper dive into the background and context, I wrote this <a href="/psychology-2125.html">precis and author commentary</a>.
         </p>
 
         <p>
@@ -245,7 +266,7 @@
 
     <section class="page-section" id="resources">
 
-      <div class="section-label">Open Resources</div>
+      <h2 class="section-label">Open Resources</h2>
 
       <p class="section-intro">
         I have put together two freely available online resources that grew out of my teaching and writing on development and embodiment.
@@ -253,21 +274,17 @@
 
       <div class="project-list">
 
-        <a class="project-item" href="https://www.aboutdevelopment.org/">
-          <h3>About Development</h3>
+        <div class="project-item"><h3><a href="https://www.aboutdevelopment.org/">About Development</a></h3>
           <p>
             About Development is a set of readings on what development is and how it works. The central question is why development reliably occurs when there is no plan for the finished organism present at earlier stages. It introduces a broad approach to thinking about development that is meant to be of interest to anyone who wants to go beyond the description of "what happens and when" in development.
           </p>
-          <span class="card-cta">Visit About Development →</span>
-        </a>
+          </div>
 
-        <a class="project-item" href="https://enacting.life/">
-          <h3>Enacting Life</h3>
+        <div class="project-item"><h3><a href="https://enacting.life/">Enacting Life</a></h3>
           <p>
             Enacting Life is a companion set of readings on a particular way of thinking that began with the Chilean biologists Humberto Maturana and Francisco Varela in the 1970s and has been carried on by others. The starting point for this thread of "enactivism" is that living things are not simply acted upon by the world; they already actively maintain themselves. The readings get further into the notion of embodiment and shed light on the role of neuroscience in psychological explanation. A key theme is what makes living things different from nonliving things, particularly machines. The resource ends with a coda on AI and living sense-making.
           </p>
-          <span class="card-cta">Visit Enacting Life →</span>
-        </a>
+          </div>
 
       </div>
 
@@ -277,3 +294,4 @@
 
 </body>
 </html>
+

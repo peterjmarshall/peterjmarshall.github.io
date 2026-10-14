@@ -1,0 +1,272 @@
+---
+title: "Psychology in 2125: Background and Commentary"
+lang: en
+from: markdown-smart
+format:
+  html:
+    theme: none
+    css: article.css
+    toc: false
+    embed-resources: true
+    include-before-body: navigation.html
+    include-after-body: footer.html
+---
+
+<nav aria-label="Contents"><details class="contents"><summary>On this page</summary><ul>
+<li><a href="#how-the-article-and-this-page-came-about">How the Article and This Page Came About</a></li>
+<li><a href="#what-is-the-argument">What is the Argument?</a></li>
+<li><a href="#why-i-came-to-this-argument">Why I Came to This Argument</a></li>
+<li><a href="#embodiment-and-sense-making">Embodiment and Sense-Making</a></li>
+<li><a href="#computation-information-and-being-informed">Computation, Information, and Being Informed</a></li>
+<li><a href="#biology-and-development">Biology and Development</a></li>
+<li><a href="#studying-development">Studying Development</a></li>
+<li><a href="#what-would-have-to-happen">What Would Have to Happen?</a></li>
+<li><a href="#what-is-at-stake">What Is at Stake</a></li>
+<li><a href="#forecast-or-epitaph">Forecast or Epitaph?</a></li>
+<li><a href="#a-note-on-how-i-used-ai">A Note on How I Used AI</a></li>
+<li><a href="#references">References</a></li>
+</ul></details></nav>
+
+<p>This document provides a précis and author commentary on:</p>
+
+<p>Marshall, P. J. (2026). Psychology in 2125: A developmental science of living sense-making. <em>Perspectives on Psychological Science</em>.</p>
+
+<p>The published article will be available at<a href="https://doi.org/10.1177/17456916261477319"> </a><a href="https://doi.org/10.1177/17456916261477319">https://doi.org/10.1177/17456916261477319</a>.</p>
+
+<p>A preprint is available at<a href="https://doi.org/10.31234/osf.io/d7y3n_v2"> </a><a href="https://doi.org/10.31234/osf.io/d7y3n_v2">https://doi.org/10.31234/osf.io/d7y3n_v2</a>.</p>
+
+## How the Article and This Page Came About {#how-the-article-and-this-page-came-about}
+
+<p>In summer 2025, the APS journal <em>Perspectives on Psychological Science</em> put out a call for a special issue on what psychological science might look like a century from now. The call asked for “bold, methodologically grounded visions” of the discipline. The issue was meant to serve as “a time capsule, a provocation, and a map.”</p>
+
+<p>The task was clearly a challenging one – a century is a long time. Just look at what was going on in 1925 compared with now. But I sent in a proposal and a few weeks later was invited to write a full paper. It took a while for me to focus the message, but after helpful feedback from reviewers the manuscript was accepted as <em>Psychology in 2125: A Developmental Science of Living Sense-Making</em>.</p>
+
+<p>Hopefully the article is clear enough on its own. But the special issue had a 5,000-word limit, which doesn’t allow space to work through much of the background or the finer points of the argument. I started writing this page to provide more context and further articulate why I think the forecast matters. It has become more than I bargained for, and this page is now longer than the article itself. But I hope the fuller discussion makes it easier to see how I arrived at the forecast and what it would mean for psychology.</p>
+
+<p>After a brief outline of the overall argument, I go through the intellectual history behind it and the view of embodiment I draw on. I then work through the argument in more detail, before turning to its stakes and implications. The page closes with a statement of how I used AI in the work. </p>
+
+## What is the Argument? {#what-is-the-argument}
+
+<p>In the article I argue that psychology in 2125 will have become a “developmental science of living sense-making.” By this I mean a psychology that explains how a person’s ways of engaging with the world develop, and how things come to matter to them through that engagement. My starting concern is that much of psychology treats the significance of a given situation as settled before asking how that situation relates to the person’s activity. </p>
+
+<p>The article identifies pressures that could lead psychology to reconsider this starting point. Longstanding critiques of genetic blueprints have gained further support from work in developmental biology. An organism’s organization comes about through development, and its activity changes what becomes possible next. Much of psychology has yet to catch up with what this work means for explaining development. </p>
+
+<p>A related pressure comes from within-person methods. A pattern found across a group does not necessarily describe what happens within any particular person. Following individuals over time makes it possible to investigate how a person’s activity holds together and how it changes with their circumstances. These methods let us ask how familiar patterns of activity are sustained, although their use alone does not settle what needs explaining. </p>
+
+<p>AI brings the problem of meaning into sharper focus. Language models can produce fluent, appropriate responses without appearing to have anything at stake in what they say. This makes us ask what we can infer from performance alone. If a machine can succeed on psychology’s tasks, what do those tasks tell us about the living person for whom things matter?</p>
+
+<p>These pressures are the basis of the forecast. The psychology I describe would make development central to its explanations. This does not mean making psychology primarily about children. It means asking how a person’s ways of living come about and what sustains or changes them throughout a life. Answering those questions requires attention to the conditions in which that life unfolds. </p>
+
+<p>The resources for this psychology already exist. Developmental systems theory and process-relational developmental science offer accounts of how new forms of organization come about and are sustained. Sociocultural approaches show how participation in a cultural world is part of development, while embodied and enactive approaches connect meaning with living activity. </p>
+
+<p>These are longstanding traditions, and I am not claiming that the ideas in the forecast are new. Willis Overton and David Palermo’s 1994 edited volume <em>The Nature and Ontogenesis of Meaning</em>, for example, explored meaning-making within developmental psychology. What I am suggesting is that ideas of this kind might become more central to psychology as a whole. The context of the special issue allowed me to speculate that pressures faced by the discipline might in fact force such a shift.</p>
+
+<p>But whether what I forecast will actually happen is another matter, as is what would be done with such a psychology if it does. I return to both questions at the end of the page.</p>
+
+## Why I Came to This Argument {#why-i-came-to-this-argument}
+
+<p>My undergraduate degree was in Natural Sciences at the University of Cambridge, where I specialized in Zoology. I stayed on at Cambridge to complete a Ph.D. with Joan Stevenson-Hinde at the Sub-Department of Animal Behaviour, where I worked on a longitudinal study of wariness of the unfamiliar in young children, including how temperamental tendencies relate to children’s attachment to their caregivers.</p>
+
+<p>That line of research led me to postdoctoral work with Nathan Fox at the University of Maryland, where I followed the temperament line further. Both my graduate and postdoctoral work involved the collection of physiological measures alongside detailed behavioral assessments. My work in Maryland included using EEG to study brain activity in infants and young children.</p>
+
+<p>Towards the end of my time in Maryland, my attention was drawn to a particular rhythm in the EEG signal, the sensorimotor mu rhythm, which led me to become interested in the connections between perception and action. I followed this new line of research when I joined Temple in 2004. With students and collaborators, and later with Andrew Meltzoff, I studied how carrying out an action changes the brain’s response to watching someone else act, and how body maps develop in the infant brain. </p>
+
+<p>In part through conversations with Willis Overton at Temple, I also became more interested in theory, including how to understand the role of physiological measures in psychology. Following a lot of reading in a sabbatical semester, I authored a 2009 paper in <em>Perspectives on Psychological Science </em>on “Relating Psychology and Neuroscience: Taking Up the Challenges.” </p>
+
+<p>The basic argument of that article was that psychology and neuroscience needed a better account of their relation. Reducing psychology to neuroscience would not provide that account, but just saying they represent different levels of analysis would not do the job either. I argued that embodiment offered a more integrative starting point: understanding the brain as part of an active organism engaged with its world.</p>
+
+<p>After that paper came out, an eminent neuroscientist who worked in the area of learning and memory wrote to me to say how wrong I was. He said that as we head further into the 21st century, the study of mind would become the study of the brain. I didn't think this was an entirely fair critique, given that part of my argument concerned how mainstream cognitive psychology had neglected neuroscience. He saw my article as anti-neuroscience, but I don't see it that way at all. It was pro-organism.</p>
+
+<p>That 2009 article brought me back to my biological roots, and the current paper grew from it more than 15 years later, in the same journal. But the biology in this 2026 paper is still not the kind my esteemed critic had in mind. In line with my background in zoology, it remains an organismic biology, but it is informed not only by those early 1990s lectures by Patrick Bateson and others, but also by lines of biologically oriented philosophy that fall under the broad umbrella of <em>embodiment</em>.</p>
+
+<p>What I mean by embodiment is outlined in the sections that follow. It has taken some time to work this out, and my thinking is still a work in progress. It has developed through a series of articles listed under my name in the reference list for this page. Writing those papers helped shape the current article, as did two specific meetings of the Jean Piaget Society (JPS). </p>
+
+<p>The 2022 JPS meeting in Philadelphia, organized by Robert Lickliter, David Moore, and David Witherington, had the theme of “Putting Development Back into Evolution.” Hearing those presentations brought home to me how much psychology could learn from contemporary discussions in biology, and how little of that discussion had reached the wider discipline. That meeting also featured a plenary talk by Eva Jablonka that she wrote up into a 2023 paper in <em>Human Development</em> and that informed my account in the <em>Perspectives</em> piece of how the discipline might change.</p>
+
+<p>The 2023 JPS meeting was in Madrid, with the theme &quot;Bringing theory to the forefront of developmental neuroscience,&quot; organized by Caitlin Mahy and Susan Rivera. I gave an<a href="https://youtu.be/e4174Ih2niE"> </a><a href="https://youtu.be/e4174Ih2niE">invited address there</a> that became a 2024 article in <em>Human Development</em> with the unassuming title “Towards a Biologically Coherent Account of the Brain and How It Develops.” In that paper, I attempted to work through what it meant to reframe the study of the brain and brain development around the living organism.</p>
+
+<p>I have also spent time developing some relevant open educational resources that I have posted online for anyone to access and reuse.<a href="https://aboutdevelopment.org"> </a><a href="https://aboutdevelopment.org">About Development</a> grew from an upper-level course that I've taught at Temple, and it works through the background of many of the ideas in the current <em>Perspectives</em> article.<a href="https://enacting.life"> </a><a href="https://enacting.life">Enacting Life</a> goes further into embodiment, particularly the theoretical strand of enactivism. In many ways, the current <em>Perspectives </em>paper brings these developmental and embodied concerns together in one place, albeit in a very compressed form.</p>
+
+## Embodiment and Sense-Making {#embodiment-and-sense-making}
+
+<p>I use the term embodiment sparingly in the article itself, but my argument rests on a particular view of this construct. I would like to set that out here, also because the term means different things to different people.</p>
+
+<p>I take a wider view of embodiment than the versions often found in psychology, which see it as just being about how having a body influences thought. In the view I favor, embodiment is not an add-on. It is constitutive of mind, since the organization and activity of a living body are part of what mind is. Understanding mind therefore involves understanding the kind of living being whose mind it is.</p>
+
+<p>This broad view of embodiment is illustrated by Overton’s (2008) description of embodiment as a bridge construct that connects the body as form, the body as actively engaged with the world, and the body as lived experience. Following Aristotle, I take form to mean the organization of a living thing, rather than simply its shape. That organization involves capacities for a particular way of life. But having a capacity is different from exercising it, and knowing what a living being can do does not yet explain its activity in a particular situation. We need to understand its engagement with the world, including how things matter to it. And what Overton called lived experience I take as a perspective that arises from this engagement. </p>
+
+<p>In a paper with Troy Houser and Staci Weiss, we explored these connections in relation to the organization and evolution of living bodies (Marshall et al., 2021). A central point of that article was that a living body does not exist separately from the activities through which it sustains itself. Living beings continually produce and maintain the conditions of their own existence, drawing on their surroundings to do so. This means that things can go better or worse for them, and situations and encounters can either support or disrupt their capacity to go on. This gives us a basis for understanding why things can matter to a living being itself, beyond whatever significance we assign to those things as observers.</p>
+
+<p>This is the connection that I draw on through the idea of sense-making: how things come to have significance for a living being through its activity in the world. This view comes from the enactivist tradition that is associated with the 1991 book <em>The Embodied Mind </em>by Francisco Varela, Evan Thompson, and Eleanor Rosch. That work was rooted in Varela’s earlier work with Humberto Maturana (1987), and Thompson developed the ideas further in <em>Mind in Life</em> (2007).</p>
+
+<p>The enactivism of Varela and Maturana begins with the organization of living things, reaching down to single cells. But it also provides a starting point for understanding human lives. For example, in <em>Linguistic Bodies</em> (2018), Ezequiel Di Paolo, Elena Cuffari, and Hanne De Jaegher extend this account to social interaction and language. </p>
+
+<p>Enactivism provides a foundation for understanding how things come to have meaning, but it does not by itself explain what a particular person cares about or how those concerns developed. Those are questions for psychology, including how the person’s concerns are sustained or changed through their ongoing life.</p>
+
+## Computation, Information, and Being Informed {#computation-information-and-being-informed}
+
+<p>My main concern in the article is with approaches that treat the significance of something as already settled before asking how it enters a living being’s activity. The article uses “computational” for such approaches, but I am not referring to the use of computational tools for analyzing data. Nor is my target limited to the classical Computational Theory of Mind, in which thinking is understood as symbol manipulation. The wider issue that I am getting at concerns the notion of information processing and the nature of information. </p>
+
+<p>In a recent paper in <em>Adaptive Behavior</em>, Dave Ward (2026) identifies a broader family of approaches that he calls <em>informationalism</em>, in which the meaning of psychological states depends on how a system processes, encodes, or picks up information. He contrasts these with organicist approaches, which ground meaning in the organization of living things. </p>
+
+<p>Ward’s distinction is useful since it highlights a key question underneath my <em>Perspectives</em> article: Does information processing acquire significance through the living activity it is part of, or is living activity explained primarily through information processing? </p>
+
+<p>In my 2024 paper in <em>Human Development</em>, I applied a similar argument to the brain, arguing that the brain cannot be seen as simply taking in information from the outside world. What we call a stimulus perturbs a nervous system that is already active and exists in a body acting in the world. What that stimulus comes to mean depends on the organism’s activity and history, not on a meaning carried into the nervous system by the stimulus itself.</p>
+
+<p>In work on the theoretical foundations of neuroscience, including a 2019 paper and his recent book <em>The Brain, in Theory </em>(2026), Romain Brette raises a related question: information about what, and for whom? Neural activity may track a stimulus closely enough for an experimenter to identify it from that activity. The neural signal is yielding information in a legitimate sense here, but it is information for the experimenter. It does not explain what the activity means for the organism. </p>
+
+<p>Following Brette, one way to think about this is that we can say that a book contains information. Its words have meanings established through shared usage, but this does not settle what the individual reader takes from them or how they matter to that person. That depends on the reader’s knowledge, experience, and reasons for reading. The reader is informed through their encounter with the text; the words’ shared meanings do not by themselves explain their significance within the reader’s life.</p>
+
+<p>It could be argued that we have good experimental grounds for interpreting a neural signal, because a body of work has shown how it changes under particular conditions and how manipulating the activity changes behavior. I agree. My wider concern is with what the explanation takes for granted. If we call something a reward because an individual works to obtain it, we have identified a relation worth studying. But calling it a reward does not explain why the individual keeps working to obtain it, or how it became something they wanted in the first place. The wider argument of my <em>Perspectives </em>article is that psychology should be able to explain how something comes to matter to a person and how it continues to matter in their ongoing life.</p>
+
+## Biology and Development {#biology-and-development}
+
+<p>One pressure I outline in the paper comes from work in developmental and evolutionary biology. The specific issue I take up in the article, and I am certainly not the first to take this up, is the assumption that DNA contains a plan for the organism. I harp on this misconception not because I want to rail about genetic determinism. I bring it up because it makes development look like the delivery of something already specified, which is a broader problem beyond genetics. I also focus on it because it illustrates wider issues with how we think about information, which is key to the entire article. </p>
+
+<p>The genetic code describes a real and precise correspondence between nucleotide triplets and amino acids. So DNA carries information in this limited sense, but this correspondence is not information in the sense of instructions for constructing an organism. What a gene does depends on the cell it is in and the stage of development. As Susan Oyama put it in <em>The Ontogeny of Information (1985; 2000),</em> what a DNA sequence specifies is itself built up in development. Any definition of a plan would need to include the cell, the body and the surroundings that DNA works within, by which point you have to say that the plan is no longer in the DNA. In the paper I cite Fred Nijhout (1990), who has argued for decades that genes are better understood as suppliers of materials than as controllers of development, and Stuart Newman (e.g., 2012) who has long emphasized how the physical properties and interactions of cells contribute to embryonic form.</p>
+
+<p>At the start of my upper-level undergraduate course on development, I ask students whether there are instructions for a frog somewhere in its fertilized egg. Almost all say yes, in the frog’s DNA. Perhaps the question constrained their answers. But I think those answers also suggest that students have not been given an account of how development works that does justice to its complexities. I don’t pretend to have all the answers—how could I—but I see this as a failure of the way we educate our students.</p>
+
+<p>Genetic differences can alter how development proceeds, but their effects depend on the developing system. Rejecting a genetic blueprint still leaves us with the task of explaining how genes contribute to development. That does not mean development is more open to change than we thought. We could understand how genes work much better and still find a particular outcome difficult to alter. Development can become strongly canalized without the outcome having been specified in advance in DNA. But calling something canalized is not the end of the explanation either. We still need to understand how that stability comes about and under what conditions it might change. That question, which is central to the <em>Perspectives</em> article, has long been central to developmental psychobiology, from Lehrman (1953) and Gottlieb (1991) to more recent work by Lickliter and Moore (2023), Michel (2013), and others.</p>
+
+<p>The question of how stability comes about also takes us to evolution. When we ask why development is so reliable, my students often give an answer familiar across psychology: it evolved. But selection sorts among the variants that development produces; it does not make them. It can favor robust developmental systems, but that does not explain how each new organism develops. This is not to say that phylogeny and ontogeny are unconnected. But the developmental systems literature exploring those connections (e.g., Witherington, Lickliter, and Moore, 2023) is little known in mainstream psychology.</p>
+
+<p>In my 2024 paper in <em>Human Development </em>I argued that psychology needs a better grip on developmental biology, evolution, and the biology of whole organisms. But that also involves how biology is taught, which may need something of a reboot from grade school onwards. How about we put life back into the study of biology? A biology centered on living organisms would also give psychology a better place to start. Psychology would no longer need to reach for biology only in the limited guise of neural mechanisms or genetic explanations. Instead, it could build a biologically coherent account of the person.</p>
+
+## Studying Development {#studying-development}
+
+<p>Many students come to psychology wanting to understand how a person becomes who they are. It is not clear that we always deliver on that interest, although that question is already being asked in parts of psychology. Growing interest in within-person methods is one of the pressures behind my forecast: it gives researchers more ways to study how a person’s activity changes over time. My argument is that explaining how those patterns come about and are sustained should become central to how the discipline explains the person.</p>
+
+<p>The view I draw on has a long history that includes Werner and Piaget, who emphasized how new forms of organization emerge through development. From this organicist perspective, the living being’s capacities and ways of engaging are themselves things we need to explain. I also draw on the related strand of process-relational developmental science, particularly the work of Willis Overton and Richard Lerner (2014), as well as David Witherington’s (2011) writing on developmental process. In this view, the person’s activity and their relations with the world develop together. How a person acts depends on those relations, and their activity in turn sustains and changes them.</p>
+
+<p>How do we apply these insights to the way we analyze data? In the article I mention the work of Peter Molenaar (2004) and others on the limits of generalizing from patterns across people to processes within individuals. A relation between two measures across a group does not necessarily describe how those measures change together within any particular person. Methods for investigating processes within individuals are now well developed. They allow us to study how a person’s activity varies over time and how those variations relate to changes in their circumstances.</p>
+
+<p>In the article, I also draw on the work of Nilam Ram and Denis Gerstorf (2009), who explain how variation within a person can be informative rather than simply treated as noise. Fluctuations over minutes or days can help us study how a person adjusts to changing circumstances, and how those adjustments relate to changes over longer periods. The kinds of methods employed by Ram and Gerstorf give us more to investigate than whether a measure has increased or decreased between time points: we can ask how the person’s activity is organized over time. I suggest in the article that this shift in focus could also change how psychology approaches many of its familiar constructs, with less emphasis on relatively stable properties that people possess and more on how characteristic patterns of activity persist and change. </p>
+
+<p>I am not a quantitative methodologist, and I am drawing on the expertise of researchers who have developed these approaches. My interest is in the connection between the methods and what we are trying to explain. Following a person over time gives us opportunities to study how their ways of engaging are sustained or changed. We need to remember, though, that the methods alone do not tell us what those patterns mean within the person’s life.</p>
+
+## What Would Have to Happen? {#what-would-have-to-happen}
+
+<p>The article is a forecast rather than a proposal for a research program. It identifies pressures that could change the background assumptions about what psychology studies and what an explanation should look like. In thinking about how such pressures might reorganize psychology, I draw on Eva Jablonka’s (2023) description of a dominant framework as an attractor, sustained by methods, training, and institutional structures that reinforce each other. So change in the discipline would need to come through what people do, including how they conduct research, what journals publish and funding agencies support, and what is taught. </p>
+
+<p>In my own teaching, I've been trying to change what students regard as needing explanation, particularly in my upper-level course at Temple on development and neuroscience. The course is organized around one question: how does a brain reliably emerge in each new generation? We spend quite a while on development and evolution before getting into the brain in detail. We begin by asking how to explain the reliability of development while also accounting for the variability we see, which leads us to consider constraints and the space of possibilities they shape. Aristotle’s distinction between form and matter helps us ask where the “frog-ness” of a frog is located, and whether it makes sense to look for it in any particular component. From there, we come to see DNA as a developmental resource rather than a set of instructions. We then look at how life cycles are reconstructed in each generation and how nervous systems evolved in moving bodies.</p>
+
+<p>Those questions become more concrete when we focus on cortical development. How does the developing brain become organized in relation to the particular body it is part of? Retinal waves and fetal movement show how activity contributes to neural organization before birth. In people born with six fingers, cortical organization can accommodate the additional digit. I’m not asking students to learn a new kind of neuroscience. We use the neuroscience they already know to answer questions they are not used to asking.</p>
+
+<p>In the most recent iteration of the course, students kept weekly “learning logs” about what they were making of the readings and class discussions. As the semester progressed, they could return to something they had written earlier and ask whether they still saw it the same way. For the final assignment, they selected passages from their logs and commented on them from where they stood at the end of the course. They didn’t have to agree with me on everything or arrive at a tidy conclusion, but they did need to explain what had happened to their thinking.</p>
+
+<p>There are constraints on what can be accomplished in one course, given what students have learned before. They come in having learned plenty of details, and those details are usually not wrong. But the foundational questions, and the connections between those questions and the details, often receive less attention. Interestingly, some students said that encountering these connections earlier would have been difficult because they wouldn’t have been ready. I take that view seriously, but readiness also depends on what opportunities students have had to work through such questions. In a different, and in my view better, educational sequence, students would become ready through the opportunity to engage with these connections along the way, rather than encountering them for the first time in an upper-level course.</p>
+
+## What Is at Stake {#what-is-at-stake}
+
+<p>I believe the argument outlined in the paper has consequences beyond psychology’s internal debates. If psychology drifts further from being able to understand meaning in people’s lives, I think we lose a lot. For one thing, a psychology that treats the person primarily as a processor of information will have trouble saying what distinguishes a person from a machine that performs the same tasks, because performance alone does not show whether anything matters to the system. </p>
+
+<p>The argument matters for applied work too, although I do not do that kind of work myself. In writing this article, I am not suggesting that psychology is not already helping people. Asking how a person’s difficulties developed and what currently sustains them is already part of clinical work. My argument is that these questions should also be central to how psychological research explains the person. That does not mean replacing research with case studies. It means building general accounts of how ways of living develop and are sustained, from processes that operate within people’s lives rather than from patterns that hold only across groups. </p>
+
+<p>Understanding what sustains a way of living, including how the conditions of a life make some possibilities available and others difficult, may help us see which constraints could change and what changing them would involve. It may also give us reasons to reconsider those conditions. But some of them may be beyond a person’s control, and recognizing another possibility is different from having the means to pursue it. Those means may not be equally available to everyone, and psychology cannot establish on its own which alternative arrangements would work or whether we should pursue them. </p>
+
+<p>AI matters here in another way as well. Whatever we conclude about the systems themselves, using them is becoming part of people’s lives. The article’s discussion of AI is quite short, but there is plenty more that psychology could study here. Present language models do not appear to be organized in a similar way to living things, or to have anything at stake: their goals are maintained externally, and power, cooling, and repair come from an infrastructure that people build and maintain. But their responses can still matter to the people who use them. How do those exchanges change the way people understand their situation and what they go on to do? How does using AI tools become part of an ongoing life? These are outside the scope of the article, but they are developmental questions that psychology can study. </p>
+
+## Forecast or Epitaph? {#forecast-or-epitaph}
+
+<p>The call for the special issue asked for “a time capsule, a provocation, and a map.” Which of these the article turns out to be depends on what happens next. I oscillate between reading it as a forecast that will be realized and as an epitaph for views that gestured toward a different future for psychology but ultimately went nowhere. Sympathetic colleagues have expressed similar doubts to me. They hope the field moves in the way I describe, but they see forces pushing in the other direction. One reviewer said they had been arguing for this kind of view for decades, to little avail.</p>
+
+<p>If the forecast does not come to pass, the article may still work as a time capsule. Perhaps a future historian of science will count it, along with other writings in the same vein, among the alternatives that were visible but never became established. That may be too pessimistic, and I retain some hope. When I mentioned this mixture of feelings to a former student, he suggested seeing the article as “a call to action with an epitaph fail-safe.”</p>
+
+<p>I don’t mention this in the article, but implicit in my argument is another possibility that makes the epitaph image more unsettling. Some might read the paper as gesturing toward an enactivist utopia. But psychology could move in the direction I describe without the world becoming a better place. In the article, I suggest that climate disruption, mass migration, demographic aging, and digital technologies are changing the conditions in which people live. The psychology I forecast would be better equipped to study what happens to people’s lives as those conditions change, including how they keep familiar ways of living going and what happens when they can no longer do so.</p>
+
+<p>But a better way of explaining lives is not a guarantee of better lives. Such a psychology could recognize more clearly how things can go worse for people and still find itself documenting how lives come apart. Understanding the conditions that sustain people does not ensure that those conditions will be protected, or that alternatives will be available when they disappear. The epitaph would then be for ways of living that were lost, rather than for a psychology that never came about.</p>
+
+<p>I recently read <em>Lost Worlds</em> (2026), in which Patrick Wyman retells the deep human past as a story of trial and error, including the cities, societies and ways of life that collapsed or were abandoned along the way. He resists treating history as a ladder of progress with modern times as its preordained destination. Instead, he asks how people built the human world we have now, through experiments that sometimes failed and sometimes lasted. His account shows how much depended on the arrangements people made and maintained, and what happened when those arrangements gave way.</p>
+
+<p>Wyman’s work is certainly not the only resource that I could draw on here, but I was reading his book when revising the <em>Perspectives</em> article and I kept returning to the connections. And I found that the most compelling parts were about the individual people he described. For instance, surviving records give us an unusually detailed picture of the everyday lives of the craftspeople and their families at Deir el-Medina, who worked on the royal tombs in ancient Egypt. Wyman placed those lives in the political and economic arrangements that sustained their work for hundreds of years. As royal authority weakened and economic difficulties mounted, royal tomb-building in the Valley of the Kings came to an end.</p>
+
+<p>A reader who has labored to this point on the page might say that I should stay in my lane. History? Psychology is about the person, and those Egyptian craftspeople could take their skills and basic human concerns as persons somewhere else when wider societal changes disrupted their work in elaborate tomb-making. But the psychological question is just that: how they carried on under changed conditions, drawing on what had developed through their lives as they adjusted, or found themselves unable to adjust. The example may seem distant, but the question is familiar: how do people carry on when the conditions sustaining their ways of living change?</p>
+
+<p>This brings me back to the limits of what even a reorganized psychology can do to help. The psychology I describe should help people’s lives go better. But the conditions disrupting those lives could also limit what anyone can do to help. Psychology might explain very well why someone can no longer live as they did, without being able to make another way of living possible for them. Better explanations would still matter, but they would not by themselves make things go better.</p>
+
+<p>Neither Wyman’s approach nor the one I describe settles what should happen next. But both challenge the idea that a way of life is fixed in advance, by nature or by destiny. That is what I hope the article can offer as a map: a way to understand how we got here and what the possibilities ahead depend on. Whether psychology comes to offer that kind of understanding is the question the forecast asks. What we would do with it is another question, but helping lives go better should be the purpose.</p>
+
+## A Note on How I Used AI {#a-note-on-how-i-used-ai}
+
+<p>In an AI acknowledgement that I sent to the journal, I said I used Claude and ChatGPT “in an iterative process of testing and refining the argument, including revision and compression of the text.”</p>
+
+<p>Writing that sentence took several attempts. Some AI acknowledgements say that the author has reviewed and verified AI output, which makes the author sound like a final inspector of something the model produced. A little like saying “I am [insert name] and I approve this message.” That isn’t what happened, but saying that I used AI as an editor probably understates it. Words like wrote, edited, generated, checked, and approved each capture something. Even in combination, they do not fully describe a process that ran over a year of working through an argument, drawing on decades of earlier study, conversations with colleagues, and responses to peer reviewers.</p>
+
+<p>In my view, using AI made the article better, even if the article text ended up overly smoothed and the argument a little too tidy. I also used the tools when writing this page. They often sharpened the text that I had written, and they helped with the flow of the argument. Sometimes they suggested a connection or a way of putting something that I had not considered. I decided whether a suggested connection made sense, whether a formulation said what I meant, and whether I could stand behind the result.</p>
+
+<p>Does all this sit comfortably with an article that locates mind and meaning in living activity? By the article’s own argument, the text alone tells you little about the organization behind it. It could come from someone working through a problem over many years, or from a system reproducing the shape of that work in a vastly shorter time. As I put it in the article, an LLM can capture the shadows cast by living organization without the substance.</p>
+
+<p>The account of my intellectual history above does not settle the question either, since AI also helped me write that section. But I can ask what working on the argument has done to my thinking, and whether I can explain why I hold these views and what would lead me to revise them. That is part of taking responsibility for the work, but it does not settle how contributions made through interactions with AI should be evaluated.</p>
+
+<p>I am also in a position that trainees are not. I can point to decades of work that predates these tools; someone starting out cannot. For them, what matters is having opportunities to work through why they hold a view and what would lead them to revise it. As advisors, we need to talk more about the connections among the theoretical foundations of our work, the questions we are asking, the methods we are using, and the claims we are making. Working through those connections with trainees may also reveal what we have left unexamined ourselves.</p>
+
+<p>There is also the question of whose work made these tools useful in the first place. As I note in the article, their training data come from human activity. The help I got from Claude and ChatGPT depended on a vast amount of other people’s writing and work. Saying that I used AI, or that I take responsibility for what I wrote, does not answer the questions about how that work was obtained and used. I don’t have a satisfactory answer to what acknowledging that contribution should involve.</p>
+
+## References {#references}
+
+<p>Association for Psychological Science. (2025). <a href="https://www.psychologicalscience.org/publications/perspectives/psychology-2125"><em>Call for papers: Psychology in 2125 – A century forward</em></a>.</p>
+
+<p>Brette, R. (2019). <a href="https://doi.org/10.1017/S0140525X19000049">Is coding a relevant metaphor for the brain</a>? <em>Behavioral and Brain Sciences</em>, 42, Article e215.</p>
+
+<p>Brette, R. (2026). <a href="https://doi.org/10.1515/9780691281391"><em>The brain, in theory</em></a>. Princeton University Press.</p>
+
+<p>Di Paolo, E. A., Cuffari, E. C., &amp; De Jaegher, H. (2018). <a href="https://doi.org/10.7551/mitpress/11244.001.0001"><em>Linguistic bodies: The continuity between life and language</em></a>. MIT Press.</p>
+
+<p>Gottlieb, G. (1991). <a href="https://doi.org/10.1037/0012-1649.27.1.4">Experiential canalization of behavioral development: Theory</a>. <em>Developmental Psychology</em>, <em>27</em>(1), 4–13.</p>
+
+<p>Jablonka, E. (2023). <a href="https://doi.org/10.1159/000533164">Interacting networks in social landscapes: A devo-evo approach to socialcultural dynamics</a>. <em>Human Development</em>, 67(5–6), 288–304.</p>
+
+<p>Lehrman, D. S. (1953). <a href="https://doi.org/10.1086/399858">A critique of Konrad Lorenz’s theory of instinctive behavior</a>. <em>The Quarterly Review of Biology</em>, 28(4), 337–363.</p>
+
+<p>Lickliter, R., &amp; Moore, D. S. (2023). <a href="https://doi.org/10.1159/000533192">Molecular and systemic epigenetic inheritance: Integrating development, genetics, and evolution</a>. <em>Human Development</em>, 67(5–6), 305–317.</p>
+
+<p>Marshall, P. J. (2009). <a href="https://doi.org/10.1111/j.1745-6924.2009.01111.x">Relating psychology and neuroscience: Taking up the challenges</a>. <em>Perspectives on Psychological Science</em>, 4(2), 113–125.</p>
+
+<p>Marshall, P. J. (2013). <a href="https://doi.org/10.1017/S0954579413000631">Coping with complexity: Developmental systems and multilevel analyses in developmental psychopathology</a>. <em>Development and Psychopathology</em>, 25(4, Part 2), 1311–1324.</p>
+
+<p>Marshall, P. J. (2014). <a href="https://doi.org/10.3389/fpsyg.2014.00929">Beyond different levels: Embodiment and the developmental system</a>. <em>Frontiers in Psychology</em>, 5, Article 929.</p>
+
+<p>Marshall, P. J. (2015). <a href="https://doi.org/10.1002/9781118963418.childpsy107">Neuroscience, embodiment, and development</a>. In W. F. Overton &amp; P. C. M. Molenaar (Eds.), Handbook of child psychology and developmental science: Vol. 1. Theory and method (7th ed., pp. 244–283). Wiley.</p>
+
+<p>Marshall, P. J. (2016). <a href="https://doi.org/10.1111/cdep.12190">Embodiment and human development</a>. <em>Child Development Perspectives</em>, 10(4), 245–250.</p>
+
+<p>Marshall, P. J. (2024). <a href="https://doi.org/10.1159/000540024">Towards a biologically coherent account of the brain and how it develops</a>. <em>Human Development</em>, 68(5–6), 209–220.</p>
+
+<p>Marshall, P. J. (2026). <a href="https://doi.org/10.1177/17456916261477319">Psychology in 2125: A developmental science of living sense-making</a>. <em>Perspectives on Psychological Science</em>.</p>
+
+<p>Marshall, P. J., Houser, T. M., &amp; Weiss, S. M. (2021). <a href="https://doi.org/10.3389/fnsys.2021.726403">The shared origins of embodiment and development</a>. <em>Frontiers in Systems Neuroscience</em>, 15, Article 726403.</p>
+
+<p>Maturana, H. R., &amp; Varela, F. J. (1987). <em>The tree of knowledge: The biological roots of human understanding</em>. Shambhala.</p>
+
+<p>Michel, G. F. (2013). <a href="https://doi.org/10.1037/a0032936">The role of developmental psychobiology in the unification of psychology</a>. <em>Review of General Psychology</em>, 17(2), 210–215.</p>
+
+<p>Molenaar, P. C. M. (2004). <a href="https://doi.org/10.1207/s15366359mea0204_1">A manifesto on psychology as idiographic science: Bringing the person back into scientific psychology, this time forever</a>. <em>Measurement: Interdisciplinary Research and Perspectives</em>, 2(4), 201–218.</p>
+
+<p>Newman, S. A. (2012). <a href="https://doi.org/10.1126/science.1222003">Physico-genetic determinants in the evolution of development</a>. <em>Science</em>, 338(6104), 217–219.</p>
+
+<p>Nijhout, H. F. (1990). <a href="https://doi.org/10.1002/bies.950120908">Metaphors and the role of genes in development</a>. <em>BioEssays</em>, 12(9), 441–446.</p>
+
+<p>Overton, W. F. (2008). <a href="https://doi.org/10.4324/9780203809778-5">Embodiment from a relational perspective</a>. In W. F. Overton, U. Mueller, &amp; J. L. Newman (Eds.), Developmental perspectives on embodiment and consciousness (pp. 1–18). Lawrence Erlbaum Associates.</p>
+
+<p>Overton, W. F., &amp; Lerner, R. M. (2014). <a href="https://doi.org/10.1080/15427609.2014.881086">Fundamental concepts and methods in developmental science: A relational perspective</a>. <em>Research in Human Development</em>, 11(1), 63–73.</p>
+
+<p>Overton, W. F., &amp; Palermo, D. S. (Eds.). (1994). <em>The nature and ontogenesis of meaning</em>. Lawrence Erlbaum Associates.</p>
+
+<p>Oyama, S. (2000). <a href="https://doi.org/10.1215/9780822380665"><em>The ontogeny of information: Developmental systems and evolution (2nd ed.)</em></a>. Duke University Press. First edition was 1985.</p>
+
+<p>Ram, N., &amp; Gerstorf, D. (2009). <a href="https://doi.org/10.1037/a0017915">Time-structured and net intraindividual variability: Tools for examining the development of dynamic characteristics and processes</a>. <em>Psychology and Aging, 24</em>(4), 778–791.</p>
+
+<p>Thompson, E. (2007). <em>Mind in life: Biology, phenomenology, and the sciences of mind</em>. Harvard University Press.</p>
+
+<p>Varela, F. J., Thompson, E., &amp; Rosch, E. (1991). <a href="https://doi.org/10.7551/mitpress/6730.001.0001"><em>The embodied mind: Cognitive science and human experience</em></a>. MIT Press.</p>
+
+<p>Ward, D. (2026). <a href="https://doi.org/10.1177/10597123261450094">What is enactivism?</a> <em>Adaptive Behavior</em>, 34(4–5), 253–271.</p>
+
+<p>Witherington, D. C. (2011). <a href="https://doi.org/10.1159/000326814">Taking emergence seriously: The centrality of circular causality for dynamic systems approaches to development</a>. <em>Human Development</em>, 54(2), 66–92.</p>
+
+<p>Witherington, D. C., Lickliter, R., &amp; Moore, D. S. (2023). <a href="https://doi.org/10.1159/000535723">What taking development seriously means for evolutionary theory</a>. <em>Human Development</em>, 67(5–6), 318–327.</p>
+
+<p>Wyman, P. (2026). <a href="https://harpercollins.co.uk/products/lost-worlds-how-humans-tried-failed-succeeded-and-built-our-world-patrick-wyman"><em>Lost worlds: How humans tried, failed, succeeded, and built our world</em></a>. HarperCollins.</p>
+
+
