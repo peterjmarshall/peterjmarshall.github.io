@@ -1,0 +1,13 @@
+project:
+  type: default
+  render:
+    - index.qmd
+    - psychology-2125.qmd
+lang: en
+from: markdown-smart
+format:
+  html:
+    theme: none
+    css: article.css
+    toc: false
+    embed-resources: true

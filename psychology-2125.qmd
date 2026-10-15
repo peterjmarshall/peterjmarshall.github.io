@@ -5,7 +5,6 @@ from: markdown-smart
 format:
   html:
     theme: none
-    css: article.css
     toc: false
     embed-resources: true
     include-before-body: navigation.html

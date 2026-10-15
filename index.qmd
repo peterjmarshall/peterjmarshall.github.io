@@ -1,0 +1,80 @@
+---
+description: "Peter J. Marshall is Professor of Psychology and Neuroscience at Temple University."
+pagetitle: "Peter J. Marshall"
+format:
+  html:
+    title-block-style: none
+    include-before-body: home-navigation.html
+    include-after-body: footer.html
+---
+
+<div class="home-page">
+<header class="hero">
+<h1>Peter J. Marshall</h1>
+<p class="role">Professor of Psychology and Neuroscience</p>
+<p class="role">Temple University</p>
+<p class="role">Philadelphia, Pennsylvania, USA</p>
+</header>
+<section class="page-section" id="about">
+<h2 class="section-label">About</h2>
+<div class="about-text">
+<p>
+          I studied Natural Sciences at the University of Cambridge, specializing in Zoology. Drawing on the ethological and behavioral systems tradition, I went on to complete a Ph.D. at Cambridge with a research focus on developmental psychology. Under the supervision of Joan Stevenson-Hinde, my doctoral dissertation examined the continuity of behavioral inhibition from 4 to 7 years of age, along with its relations to psychophysiological measures.
+</p>
+<p>
+          In 1997 I joined the Department of Human Development at the University of Maryland, first as a postdoctoral researcher and later as a Research Assistant Professor. As a member of Nathan Fox’s lab group, my work focused on temperament, attachment, early experience and brain development, including the use of EEG to study brain activity in infants and young children.
+</p>
+<p>
+          Towards the end of my time in Maryland, my attention was drawn to a particular rhythm in the EEG signal, the sensorimotor mu rhythm, which led me to become interested in the connections between perception and action. I put aside my previous focus on temperament and followed this new line of research when I joined Temple in 2004. With students and collaborators, I examined how carrying out an action changes the brain's response to watching someone else carry out a similar action. Working with Andrew Meltzoff, I developed a related line of studies on self–other correspondence in infancy and the development of body maps in the infant brain. A related line of work on anticipation examines how sensorimotor rhythms change as children and adults prepare for expected stimuli in different modalities, and how those changes relate to attention and self-control.
+</p>
+<p>
+          My current research has extended those studies to address connected questions about the relations between behavioral development and brain development. Recent work has examined how infants' emerging abilities to reach for and grasp objects relate to how distinct EEG responses to touch on different fingers are from one another. Through this work, I've become interested in new methods for quantifying hand movements in infants, and in how these data can potentially inform questions about the organization of behavior in infancy and beyond.
+</p>
+<p>
+          Another line of work concerns interactions with technology. My initial work in this area compared adults’ brain responses to somatosensory stimulation that originated from a robot or from a human partner. More recent work, with colleagues from within and outside Temple, has examined how children learn from a social robot compared with a human instructor, children's responses to AI-generated content, and wider issues about child–robot interaction.
+</p>
+<p>
+          Over the years, my interest in the relations among action, perception, and cognition has drawn me towards theories of embodiment. My writing in this area has concerned how psychology and neuroscience relate to each other, the intersection of embodiment and development, and the continuity of mind and life.
+</p>
+<p>
+          I have an article forthcoming in special issue of <em>Perspectives on Psychological Science</em> that brings together some of my writing on embodiment to outline how psychology might become a &quot;developmental science of living sense-making&quot; over the next century. For links to the article itself and a deeper dive into the background and context, I wrote this <a href="/psychology-2125.html">precis and author commentary</a>.
+</p>
+<p>
+          From 2016 to 2026 I served as Chair of the Department of Psychology and Neuroscience at Temple. I have also served as President of the Society for the Study of Human Development.
+</p>
+<div class="small-links">
+<a href="mailto:peter.marshall@temple.edu">Email</a>
+<a href="https://liberalarts.temple.edu/directory/peter-j-marshall">
+            Temple University profile
+</a>
+<a href="https://scholar.google.com/citations?hl=en&amp;user=0ns22DIAAAAJ">
+            Google Scholar
+</a>
+<a href="https://orcid.org/0000-0003-1461-1331">
+            ORCID
+</a>
+<a href="https://peterjmarshall.com/Peter-Marshall-CV.pdf">
+            Curriculum Vitae
+</a>
+</div>
+</div>
+</section>
+<section class="page-section" id="resources">
+<h2 class="section-label">Open Resources</h2>
+<p class="section-intro">
+        I have put together two freely available online resources that grew out of my teaching and writing on development and embodiment.
+</p>
+<div class="project-list">
+<div class="project-item"><h3><a href="https://www.aboutdevelopment.org/">About Development</a></h3>
+<p>
+            About Development is a set of readings on what development is and how it works. The central question is why development reliably occurs when there is no plan for the finished organism present at earlier stages. It introduces a broad approach to thinking about development that is meant to be of interest to anyone who wants to go beyond the description of "what happens and when" in development.
+</p>
+</div>
+<div class="project-item"><h3><a href="https://enacting.life/">Enacting Life</a></h3>
+<p>
+            Enacting Life is a companion set of readings on a particular way of thinking that began with the Chilean biologists Humberto Maturana and Francisco Varela in the 1970s and has been carried on by others. The starting point for this thread of "enactivism" is that living things are not simply acted upon by the world; they already actively maintain themselves. The readings get further into the notion of embodiment and shed light on the role of neuroscience in psychological explanation. A key theme is what makes living things different from nonliving things, particularly machines. The resource ends with a coda on AI and living sense-making.
+</p>
+</div>
+</div>
+</section>
+</div>
