@@ -30,9 +30,9 @@ format:
 
 <p>Marshall, P. J. (2026). Psychology in 2125: A developmental science of living sense-making. <em>Perspectives on Psychological Science</em>.</p>
 
-<p>The published article will be available at<a href="https://doi.org/10.1177/17456916261477319"> </a><a href="https://doi.org/10.1177/17456916261477319">https://doi.org/10.1177/17456916261477319</a>.</p>
+<p>The published article will be available at <a href="https://doi.org/10.1177/17456916261477319">https://doi.org/10.1177/17456916261477319</a>.</p>
 
-<p>A preprint is available at<a href="https://doi.org/10.31234/osf.io/d7y3n_v2"> </a><a href="https://doi.org/10.31234/osf.io/d7y3n_v2">https://doi.org/10.31234/osf.io/d7y3n_v2</a>.</p>
+<p>A preprint is available at <a href="https://doi.org/10.31234/osf.io/d7y3n_v2">https://doi.org/10.31234/osf.io/d7y3n_v2</a>.</p>
 
 <p>I welcome questions, comments, and discussion about the article or this commentary. You can reach me at <a href="mailto:peter.marshall@temple.edu">peter.marshall@temple.edu</a>.</p>
 
@@ -70,7 +70,7 @@ format:
 
 <p>Towards the end of my time in Maryland, my attention was drawn to a particular rhythm in the EEG signal, the sensorimotor mu rhythm, which led me to become interested in the connections between perception and action. I followed this new line of research when I joined Temple in 2004. With students and collaborators, and later with Andrew Meltzoff, I studied how carrying out an action changes the brain’s response to watching someone else act, and how body maps develop in the infant brain. </p>
 
-<p>In part through conversations with Willis Overton at Temple, I also became more interested in theory, including how to understand the role of physiological measures in psychology. Following a lot of reading in a sabbatical semester, I authored a 2009 paper in <em>Perspectives on Psychological Science </em>on “Relating Psychology and Neuroscience: Taking Up the Challenges.” </p>
+<p>In part through conversations with Willis Overton at Temple, I also became more interested in theory, including how to understand the role of physiological measures in psychology. Following a lot of reading in a sabbatical semester, I authored a 2009 paper in <em>Perspectives on Psychological Science</em> on “Relating Psychology and Neuroscience: Taking Up the Challenges.” </p>
 
 <p>The basic argument of that article was that psychology and neuroscience needed a better account of their relation. Reducing psychology to neuroscience would not provide that account, but just saying they represent different levels of analysis would not do the job either. I argued that embodiment offered a more integrative starting point: understanding the brain as part of an active organism engaged with its world.</p>
 
@@ -82,11 +82,11 @@ format:
 
 <p>The 2022 JPS meeting in Philadelphia, organized by Robert Lickliter, David Moore, and David Witherington, had the theme of “Putting Development Back into Evolution.” Hearing those presentations brought home to me how much psychology could learn from contemporary discussions in biology, and how little of that discussion had reached the wider discipline. That meeting also featured a plenary talk by Eva Jablonka that she wrote up into a 2023 paper in <em>Human Development</em> and that informed my account in the <em>Perspectives</em> piece of how the discipline might change.</p>
 
-<p>The 2023 JPS meeting was in Madrid, with the theme &quot;Bringing theory to the forefront of developmental neuroscience,&quot; organized by Caitlin Mahy and Susan Rivera. I gave an<a href="https://youtu.be/e4174Ih2niE"> </a><a href="https://youtu.be/e4174Ih2niE">invited address there</a> that became a 2024 article in <em>Human Development</em> with the unassuming title “Towards a Biologically Coherent Account of the Brain and How It Develops.” In that paper, I attempted to work through what it meant to reframe the study of the brain and brain development around the living organism.</p>
+<p>The 2023 JPS meeting was in Madrid, with the theme "Bringing theory to the forefront of developmental neuroscience," organized by Caitlin Mahy and Susan Rivera. I gave an <a href="https://youtu.be/e4174Ih2niE">invited address there</a> that became a 2024 article in <em>Human Development</em> with the unassuming title “Towards a Biologically Coherent Account of the Brain and How It Develops.” In that paper, I attempted to work through what it meant to reframe the study of the brain and brain development around the living organism.</p>
 
 <p>Another influence has been my involvement with the Society for the Study of Human Development (SSHD), which helped me appreciate the value of methods for studying change within individuals. Preparing the presidential address for the society's 2025 meeting also gave me a chance to work through some of the ideas I was developing in the <em>Perspectives</em> paper.</p>
 
-<p>I have also spent time developing some relevant open educational resources that I have posted online for anyone to access and reuse.<a href="https://aboutdevelopment.org"> </a><a href="https://aboutdevelopment.org">About Development</a> grew from an upper-level course that I've taught at Temple, and it works through the background of many of the ideas in the current <em>Perspectives</em> article.<a href="https://enacting.life"> </a><a href="https://enacting.life">Enacting Life</a> goes further into embodiment, particularly the theoretical strand of enactivism. In many ways, the current paper brings these developmental and embodied concerns together in one place, albeit in a very compressed form.</p>
+<p>I have also spent time developing some relevant open educational resources that I have posted online for anyone to access and reuse. <a href="https://aboutdevelopment.org">About Development</a> grew from an upper-level course that I've taught at Temple, and it works through the background of many of the ideas in the current <em>Perspectives</em> article. <a href="https://enacting.life">Enacting Life</a> goes further into embodiment, particularly the theoretical strand of enactivism. In many ways, the current paper brings these developmental and embodied concerns together in one place, albeit in a very compressed form.</p>
 
 ## Embodiment and Sense-Making {#embodiment-and-sense-making}
 
@@ -198,8 +198,6 @@ format:
 
 <p>Using AI in academic writing raises questions that go well beyond short AI acknowledgements. I plan to discuss some of these wider issues in a separate essay.</p>
 
-
-
 ## References {#references}
 
 <p>Association for Psychological Science. (2025). <a href="https://www.psychologicalscience.org/publications/perspectives/psychology-2125"><em>Call for papers: Psychology in 2125 – A century forward</em></a>.</p>
@@ -275,5 +273,3 @@ format:
 <p>Witherington, D. C., Lickliter, R., &amp; Moore, D. S. (2023). <a href="https://doi.org/10.1159/000535723">What taking development seriously means for evolutionary theory</a>. <em>Human Development</em>, 67(5–6), 318–327.</p>
 
 <p>Wyman, P. (2026). <a href="https://harpercollins.co.uk/products/lost-worlds-how-humans-tried-failed-succeeded-and-built-our-world-patrick-wyman"><em>Lost worlds: How humans tried, failed, succeeded, and built our world</em></a>. HarperCollins.</p>
-
-
