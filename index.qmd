@@ -65,7 +65,7 @@ format:
         I have put together two freely available online resources that grew out of my teaching and writing on development and embodiment.
 </p>
 <div class="project-list">
-<div class="project-item"><h3><a href="https://www.aboutdevelopment.org/">About Development</a></h3>
+<div class="project-item"><h3><a href="https://aboutdevelopment.org/">About Development</a></h3>
 <p>
             About Development is a set of readings on what development is and how it works. The central question is why development reliably occurs when there is no plan for the finished organism present at earlier stages. It introduces a broad approach to thinking about development that is meant to be of interest to anyone who wants to go beyond the description of "what happens and when" in development.
 </p>
