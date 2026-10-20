@@ -116,7 +116,7 @@ format:
 
 <p>In a recent paper on enactivism in <em>Adaptive Behavior</em>, Dave Ward (2026) identifies a broader family of approaches that he calls <em>informationalism</em>, in which the meaning of psychological states depends on how a system processes, encodes, or picks up information. He contrasts these with organicist approaches, which ground meaning in organizational properties distinctive of living things. Ward’s distinction is useful since it highlights a key question underneath my <em>Perspectives</em> article: Does information processing acquire significance through the living activity it is part of (the organicist view), or is living activity explained primarily through information processing (the informationalist view)?</p>
 
-<p>An astute reader may flag that the <em>Perspectives</em> article says nothing about predictive processing or active inference, which are of course very active topics of discussion in the study of cognition. I tend to agree with Ward (2026), who places embodied versions of predictive processing (PP) on the informationalist side. These versions give the body and the world a real role, but on Ward’s reading they matter because they help implement the flow of information on which cognition is taken to depend, not because they are the source of significance. Ward treats active inference the same way. I see it as a harder case and a stronger test of my argument, because it grounds inference in the self-maintenance of living systems. The question is whether it explains how the organization that sets an organism’s preferences comes about over a life, or only describes that organization once it is in place (see Di Paolo, Thompson &amp; Beer, 2022). </p>
+<p>One omission from the <em>Perspectives</em> article is that it doesn’t discuss predictive processing (e.g., Clark, 2016; Hohwy, 2013) or active inference (e.g., Parr et al., 2022). I agree with Ward (2026) that embodied predictive processing belongs on the informationalist side, and he puts active inference there too. I’m less sure about that, since active inference ties inference to how living systems keep themselves going, though Di Paolo, Thompson and Beer (2022) argue that it starts from an organism’s preferences rather than explaining how they come about.</p>
 
 ## Biology and Development {#biology-and-development}
 
@@ -202,6 +202,8 @@ format:
 
 <p>Cicchetti, D., &amp; Rogosch, F. A. (1996). <a href="https://doi.org/10.1017/S0954579400007318">Equifinality and multifinality in developmental psychopathology</a>. <em>Development and Psychopathology</em>, 8(4), 597–600.</p>
 
+<p>Clark, A. (2016). <em>Surfing uncertainty: Prediction, action, and the embodied mind</em>. Oxford University Press.</p>
+
 <p>Di Paolo, E. A., Cuffari, E. C., &amp; De Jaegher, H. (2018). <a href="https://doi.org/10.7551/mitpress/11244.001.0001"><em>Linguistic bodies: The continuity between life and language</em></a>. MIT Press.</p>
 
 <p>Di Paolo, E. A., Thompson, E., &amp; Beer, R. D. (2022). Laying down a forking path: Tensions between enaction and the free energy principle. <em>Philosophy and the Mind Sciences</em>, 3.</p>
@@ -209,6 +211,8 @@ format:
 <p>Gomez-Marin, A., &amp; Ghazanfar, A. A. (2019). <a href="https://doi.org/10.1016/j.neuron.2019.09.017">The life of behavior</a>. <em>Neuron</em>, 104(1), 25–36.</p>
 
 <p>Gottlieb, G. (1991). <a href="https://doi.org/10.1037/0012-1649.27.1.4">Experiential canalization of behavioral development: Theory</a>. <em>Developmental Psychology</em>, 27(1), 4–13.</p>
+
+<p>Hohwy, J. (2013). <em>The predictive mind</em>. Oxford University Press.</p>
 
 <p>Jablonka, E. (2023). <a href="https://doi.org/10.1159/000533164">Interacting networks in social landscapes: A devo-evo approach to sociocultural dynamics</a>. <em>Human Development</em>, 67(5–6), 288–304.</p>
 
@@ -253,6 +257,8 @@ format:
 <p>Overton, W. F., &amp; Palermo, D. S. (Eds.). (1994). <em>The nature and ontogenesis of meaning</em>. Lawrence Erlbaum Associates.</p>
 
 <p>Oyama, S. (2000). <a href="https://doi.org/10.1215/9780822380665"><em>The ontogeny of information: Developmental systems and evolution (2nd ed.)</em></a>. Duke University Press. First edition was 1985.</p>
+
+<p>Parr, T., Pezzulo, G., &amp; Friston, K. J. (2022). <a href="https://directory.doabooks.org/handle/20.500.12854/84566"><em>Active inference: The free energy principle in mind, brain, and behavior</em></a>. MIT Press.</p>
 
 <p>Ram, N., &amp; Gerstorf, D. (2009). <a href="https://doi.org/10.1037/a0017915">Time-structured and net intraindividual variability: Tools for examining the development of dynamic characteristics and processes</a>. <em>Psychology and Aging</em>, 24(4), 778–791.</p>
 
