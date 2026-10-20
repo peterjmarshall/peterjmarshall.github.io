@@ -28,6 +28,7 @@ DOC.json is the documents.get response (optionally wrapped in a
 import html
 import json
 import re
+import unicodedata
 import sys
 
 
@@ -39,6 +40,9 @@ def slug(text):
 
 def run_html(run):
     text = run["content"].replace("\n", "")
+    # Typographic ligatures (e.g. "ﬁ" pasted from a PDF) become plain letters.
+    text = re.sub("[ﬀ-ﬆ]",
+                  lambda m: unicodedata.normalize("NFKC", m.group()), text)
     if not text:
         return ""
     style = run.get("textStyle", {})
@@ -64,6 +68,24 @@ def merge_links(s):
         s = new
     # Keep a link's leading space outside the link, so it isn't underlined.
     return re.sub(r'<a href="([^"]+)">(\s+)', r'\2<a href="\1">', s)
+
+
+SITE = "https://peterjmarshall.com/"
+# A bare email address not already inside a link.
+EMAIL = re.compile(r'(?<![:">\w.])([\w.+-]+@[\w-]+(?:\.[\w-]+)+\w)(?![^<]*</a>)')
+
+
+def is_page_chrome(plain, runs):
+    """True for text pasted from the rendered page's own header and
+    contents menu (skip link, home link, "On this page" and its entries).
+    The page supplies these itself, so they are dropped from the Doc."""
+    if plain == "On this page":
+        return True
+    linked = [r for r in runs if r["content"].strip()]
+    return bool(linked) and all(
+        r.get("textStyle", {}).get("link", {}).get("url", "").startswith(SITE)
+        for r in linked
+    )
 
 
 def main(doc_path, qmd_path):
@@ -101,7 +123,10 @@ def main(doc_path, qmd_path):
             if level == "##":
                 toc.append((ident, plain))
             continue
+        if is_page_chrome(plain, runs):
+            continue
         inner = merge_links("".join(run_html(r) for r in runs))
+        inner = EMAIL.sub(r'<a href="mailto:\1">\1</a>', inner)
         blocks.append(f"<p>{inner}</p>")
 
     nav = ['<nav aria-label="Contents"><details class="contents">'
