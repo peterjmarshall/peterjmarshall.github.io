@@ -13,9 +13,9 @@ format:
 
 This document provides a précis and author commentary on:
 
-Marshall, P. J. (2026). Psychology in 2125: A developmental science of living sense-making. *Perspectives on Psychological Science*.
+Marshall, P. J. (in press). Psychology in 2125: A developmental science of living sense-making. *Perspectives on Psychological Science*.
 
-The published article will be available at <https://doi.org/10.1177/17456916261477319>.
+When published, the article will be available at <https://doi.org/10.1177/17456916261477319>. 
 
 A preprint is available at <https://doi.org/10.31234/osf.io/d7y3n_v2>.
 
@@ -225,7 +225,7 @@ Marshall, P. J. (2016). [Embodiment and human development](https://doi.org/10.11
 
 Marshall, P. J. (2024). [Towards a biologically coherent account of the brain and how it develops](https://doi.org/10.1159/000540024). *Human Development*, 68(5–6), 209–220.
 
-Marshall, P. J. (2026). [Psychology in 2125: A developmental science of living sense-making](https://doi.org/10.1177/17456916261477319). *Perspectives on Psychological Science*.
+Marshall, P. J. (in press). [Psychology in 2125: A developmental science of living sense-making](https://doi.org/10.1177/17456916261477319). *Perspectives on Psychological Science*.
 
 Marshall, P. J., Houser, T. M., & Weiss, S. M. (2021). [The shared origins of embodiment and development](https://doi.org/10.3389/fnsys.2021.726403). *Frontiers in Systems Neuroscience*, 15, Article 726403.
 
