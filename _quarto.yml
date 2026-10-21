@@ -15,3 +15,7 @@ format:
     css: article.css
     toc: false
     embed-resources: true
+
+editor:
+  markdown:
+    canonical: true
