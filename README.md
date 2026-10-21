@@ -1,33 +1,31 @@
 # peterjmarshall.github.io
 
-Source for peterjmarshall.com, built with Quarto and served by GitHub Pages
-from the rendered `.html` files in this repository.
+Source for peterjmarshall.com, built with Quarto and published to GitHub Pages
+the same way as *About Development* and *Enacting Life*.
 
-## Psychology in 2125 page
+## Editing
 
-The text of `psychology-2125.qmd` comes from a Google Doc, which is the only
-place the page's text is edited. Do not edit the `.qmd` by hand: the next
-publish regenerates it from the Doc and would overwrite the change.
+1. Pull, then edit the `.qmd` files on `main` (`index.qmd` for the home page,
+   `psychology-2125.qmd` for the Psychology in 2125 page).
+2. Commit and push to `main`.
+3. The `Quarto Publish` GitHub Action renders the site and writes it to the
+   `gh-pages` branch, which GitHub Pages serves. **Do not edit `gh-pages` by hand.**
 
-Google Doc: https://docs.google.com/document/d/1GFr1TucI4dnqg7XwTrutn47T3XDhD95U2Mb-KlqGwZE/edit
+The `.qmd` files are the only source. The Psychology in 2125 page is no longer
+generated from a Google Doc.
 
-To publish a revision:
+Site design lives in `article.css`, `navigation.html`, `footer.html`,
+`home-navigation.html`, and each page's front matter. `CNAME` and
+`Peter-Marshall-CV.pdf` are copied into the published site through
+`resources` in `_quarto.yml`.
 
-1. Fetch the Doc's structure with the Google Docs API (`documents.get`)
-   and save it as JSON.
-2. Regenerate the page source:
-   `python3 tools/doc2qmd.py DOC.json psychology-2125.qmd`
-3. Render: `quarto render psychology-2125.qmd`
-4. Check the diff, then commit both `psychology-2125.qmd` and
-   `psychology-2125.html` and push.
+## Preview locally
 
-The script keeps the page's front matter (title, format, includes), skips
-the Doc's Heading 1, turns Heading 2s into sections with anchors, and builds
-the "On this page" menu from them. Anchors come from heading text, so
-retitling a heading changes its link.
+```bash
+quarto preview
+```
 
-Site design lives here, not in the Doc: `article.css`, `navigation.html`,
-`footer.html`, and each page's front matter.
+## GitHub Pages setting
 
-The committed HTML uses Windows (CRLF) line endings; convert after rendering
-so diffs show only real changes.
+Settings → Pages → Build and deployment: Source **Deploy from a branch**,
+Branch **gh-pages**, Folder **/ (root)**.

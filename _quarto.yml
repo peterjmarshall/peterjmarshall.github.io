@@ -1,8 +1,12 @@
 project:
   type: default
+  output-dir: _site
   render:
     - index.qmd
     - psychology-2125.qmd
+  resources:
+    - CNAME
+    - Peter-Marshall-CV.pdf
 lang: en
 from: markdown-smart
 format:
