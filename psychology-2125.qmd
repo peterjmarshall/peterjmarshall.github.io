@@ -177,9 +177,9 @@ Neither Wyman’s approach nor the one I describe settles what should happen nex
 
 ## A Note on How I Used AI {#a-note-on-how-i-used-ai}
 
-In an AI acknowledgement that I sent to the journal, I said I used Claude and ChatGPT “in an iterative process of testing and refining the argument, including revision and compression of the text.” I also used these tools in revising this page. The tools helped me express what I was trying to say, and sometimes they suggested a connection I had not considered. I decided whether those suggestions belonged in the argument and whether I could stand behind the result. A language model has nothing at stake in an argument, so whatever significance its suggestions have comes from what I do with them. I have tried to keep that in view, and to keep only what I could defend. In my view, using AI made the article easier for the reader to follow, even if the text of the paper ended up overly smoothed in places.
+In an AI acknowledgement that I sent to the journal, I said I used Claude and ChatGPT “in an iterative process of testing and refining the argument, including revision and compression of the text.” In my view, using AI made the article easier for the reader to follow, even if the text of the paper ended up overly smoothed in places. I also used these tools in revising this page.
 
-I remain conflicted about these tools, even as I find them useful. The attitude toward informationalist approaches that Ward (2026) describes, quoted above, is helpful here: remaining “sensitive to the idealisations they involve and interests they serve.” For me, this means considering how the AI models were trained, and whose purposes their use advances, alongside what they help me do.
+I remain conflicted about these tools, even as I find them useful. Questions include how the AI models were trained, and whose purposes their use advances, alongside what they help me do. I am taking up these questions in a separate essay.
 
 ## References {#references}
 
