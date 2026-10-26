@@ -58,9 +58,9 @@ In psychology, embodiment often refers to how having a body influences cognition
 
 So I subscribe to the view that embodiment is constitutive of cognition and experience. The body is not simply a source of information for a separate cognitive system. Its organization both makes particular activities possible and shapes what those activities can be. In this sense, bodily constraints do more than limit cognition: they help make it what it is. Although my concern here is with human cognition and experience, I take this view of embodiment to apply across living things: each has an organization that makes particular ways of engaging with the world possible.
 
-This view of embodiment challenges accounts of cognition that treat the significance of information as settled before the person engages with it. The question is how things come to matter through the living being’s own activity. This is central to the enactivist tradition.
+This view of embodiment challenges accounts of cognition that treat the significance of information as settled before the person engages with it. The question is how things come to matter through the living being’s own activity. This is central to the enactivist tradition, which is often traced to *The Embodied Mind* (1991) by Francisco Varela, Evan Thompson, and Eleanor Rosch, with roots in the earlier work of Humberto Maturana with Varela (e.g., 1980).
 
-The enactivist tradition is often traced to *The Embodied Mind* (1991) by Francisco Varela, Evan Thompson, and Eleanor Rosch. What I take from it is an understanding of cognition as sense-making: how things have significance for a living being through its activity in the world. At its most basic, this concerns the conditions that support or threaten its continued existence. The being’s activity shapes how it encounters those conditions, and their significance for it shapes how it acts.
+What I take from the enactivist tradition is an understanding of cognition as sense-making: how things have significance for a living being through its activity in the world. At its most basic, this concerns the conditions that support or threaten its continued existence. The being’s activity shapes how it encounters those conditions, and their significance for it shapes how it acts.
 
 This account of sense-making was developed by Weber and Varela (2002), Di Paolo (2005), and Thompson in *Mind in Life* (2007), and De Jaegher and Di Paolo (2007) extended it to social interaction. I outline some of the broader foundations of this approach at [enacting.life](https://enacting.life).
 
@@ -237,6 +237,8 @@ Marshall, P. J. (2016). [Embodiment and human development](https://doi.org/10.11
 Marshall, P. J. (2024). [Towards a biologically coherent account of the brain and how it develops](https://doi.org/10.1159/000540024). *Human Development*, 68(5–6), 209–220.
 
 Marshall, P. J., Houser, T. M., & Weiss, S. M. (2021). [The shared origins of embodiment and development](https://doi.org/10.3389/fnsys.2021.726403). *Frontiers in Systems Neuroscience*, 15, Article 726403.
+
+Maturana, H. R., & Varela, F. J. (1980). [*Autopoiesis and cognition: The realization of the living*](https://doi.org/10.1007/978-94-009-8947-4). D. Reidel.
 
 Maturana, H. R., & Varela, F. J. (1987). *The tree of knowledge: The biological roots of human understanding*. Shambhala.
 
