@@ -186,9 +186,11 @@ I have also spent time developing some relevant open educational resources that 
 
 ## A Note on How I Used AI {#a-note-on-how-i-used-ai}
 
-In an AI acknowledgement that I sent to the journal, I said I used Claude and ChatGPT “in an iterative process of testing and refining the argument, including revision and compression of the text.” In my view, using AI made the article easier for the reader to follow, even if the text of the paper ended up overly smoothed in places. In places, the compression also lost distinctions that this page tries to restore. I also used these tools in revising this page.
+In an AI acknowledgement that I sent to the journal, I said I used Claude and ChatGPT “in an iterative process of testing and refining the argument, including revision and compression of the text.” I also used those tools in revising this page. 
 
-I remain conflicted about these tools, even as I find them useful. Questions include how the AI models were trained, and whose purposes their use advances, alongside what they help people do and what they preclude. I am taking up these questions in a separate essay.
+In my view, using AI made the article easier for the reader to follow, even if the text of the paper ended up overly smoothed in places. And in places, the compression also lost distinctions that this page tries to restore. 
+
+I remain conflicted about these tools, even as I find them useful. Questions include how the AI models were trained and whose purposes their use advances, alongside what they help people do and what they preclude. I am taking up these questions in a separate essay.
 
 ## References {#references}
 
