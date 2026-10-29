@@ -156,7 +156,7 @@ So psychology could explain more clearly how things can go worse for people and 
 
 I recently read *Lost Worlds* (2026), in which Patrick Wyman retells the deep human past as a story of trial and error, including the cities, societies and ways of life that collapsed or were abandoned along the way. He resists treating history as a ladder of progress with modern times as its preordained destination. Instead, he asks how people built the human world we have now, through experiments that sometimes failed and sometimes lasted. His account shows how much depended on the arrangements people made and maintained, and what happened when those arrangements gave way.
 
-Neither Wyman’s approach nor the one I describe settles what should happen next. But both challenge the idea that a way of life is fixed in advance, by nature or by destiny. That is what I hope the article can offer as a map: a way to understand how we got here and what the possibilities ahead depend on. Whether psychology comes to offer that kind of understanding is the question the forecast asks. What we would do with it is another question, but helping lives go better should be the purpose.
+Neither Wyman’s approach nor the one I describe settles what should happen next. But both challenge the idea that a way of life is fixed in advance, by nature or by destiny. That is what I hope the article can offer as a map: a way to understand how we got here and what the possibilities ahead depend on. Whether psychology comes to offer that kind of understanding is the question the forecast asks. What we would do with it is another question. Psychology cannot be a neutral observer here, and helping lives go better should be the purpose. But what counts as better for a person has a history of its own, made with others, and a psychology that explains how things come to matter to people will need to say how its own commitments answer to theirs. That is a question for further work.
 
 ## Why I Came to This Argument {#why-i-came-to-this-argument}
 
@@ -206,8 +206,6 @@ Clark, A. (2016). *Surfing uncertainty: Prediction, action, and the embodied min
 
 Di Paolo, E. A. (2005). [Autopoiesis, adaptivity, teleology, agency](https://doi.org/10.1007/s11097-005-9002-y). *Phenomenology and the Cognitive Sciences*, 4(4), 429–452.
 
-Di Paolo, E. A., Cuffari, E. C., & De Jaegher, H. (2018). [*Linguistic bodies: The continuity between life and language*](https://doi.org/10.7551/mitpress/11244.001.0001). MIT Press.
-
 Di Paolo, E. A., Thompson, E., & Beer, R. D. (2022). Laying down a forking path: Tensions between enaction and the free energy principle. *Philosophy and the Mind Sciences*, 3.
 
 Gomez-Marin, A., & Ghazanfar, A. A. (2019). [The life of behavior](https://doi.org/10.1016/j.neuron.2019.09.017). *Neuron*, 104(1), 25–36.
@@ -240,8 +238,6 @@ Marshall, P. J., Houser, T. M., & Weiss, S. M. (2021). [The shared origins of em
 
 Maturana, H. R., & Varela, F. J. (1980). [*Autopoiesis and cognition: The realization of the living*](https://doi.org/10.1007/978-94-009-8947-4). D. Reidel.
 
-Maturana, H. R., & Varela, F. J. (1987). *The tree of knowledge: The biological roots of human understanding*. Shambhala.
-
 Mayr, E. (1961). Cause and effect in biology. *Science*, 134(3489), 1501–1506.
 
 Michel, G. F. (2013). [The role of developmental psychobiology in the unification of psychology](https://doi.org/10.1037/a0032936). *Review of General Psychology*, 17(2), 210–215.
@@ -255,8 +251,6 @@ Nijhout, H. F. (1990). [Metaphors and the role of genes in development](https://
 Overton, W. F. (2008). [Embodiment from a relational perspective](https://doi.org/10.4324/9780203809778-5). In W. F. Overton, U. Mueller, & J. L. Newman (Eds.), Developmental perspectives on embodiment and consciousness (pp. 1–18). Lawrence Erlbaum Associates.
 
 Overton, W. F., & Lerner, R. M. (2014). [Fundamental concepts and methods in developmental science: A relational perspective](https://doi.org/10.1080/15427609.2014.881086). *Research in Human Development*, 11(1), 63–73.
-
-Overton, W. F., & Palermo, D. S. (Eds.). (1994). *The nature and ontogenesis of meaning*. Lawrence Erlbaum Associates.
 
 Oyama, S. (2000). [*The ontogeny of information: Developmental systems and evolution (2nd ed.)*](https://doi.org/10.1215/9780822380665). Duke University Press. First edition was 1985.
 
