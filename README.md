@@ -36,6 +36,12 @@ the published site through `resources` in `_quarto.yml`.
 Visitors who need a PDF can use the browser's Print → Save as PDF; the print
 styles hide navigation.
 
+## If a change doesn't appear online
+
+Check the Actions tab. If "pages build and deployment" failed (usually a
+GitHub-side timeout), open "Quarto Publish" and click "Run workflow" on `main`.
+That always pushes a fresh copy and starts a new deployment.
+
 ## Preview locally
 
 ```bash

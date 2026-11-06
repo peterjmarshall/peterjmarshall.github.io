@@ -33,3 +33,6 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
           publish_dir: ./_site
+          # Push even when the rendered site is unchanged, so re-running this
+          # workflow always triggers a fresh GitHub Pages deployment.
+          allow_empty_commit: true
