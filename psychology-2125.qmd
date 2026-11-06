@@ -17,7 +17,7 @@ Marshall, P. J. (in press). Psychology in 2125: A developmental science of livin
 
 The special issue that the article is part of will be published sometime in early 2027. When published, the article will be available at <https://doi.org/10.1177/17456916261477319>.
 
-A preprint is available at <https://doi.org/10.31234/osf.io/d7y3n_v2>.
+A preprint is available at <https://doi.org/10.31234/osf.io/d7y3n_v3>.
 
 I welcome questions, comments, and discussion about the article or this commentary. You can reach me at [peter.marshall\@temple.edu](mailto:peter.marshall@temple.edu){.email}.
 
@@ -63,11 +63,11 @@ What I take from the enactivist tradition is an understanding of cognition as se
 
 This account of sense-making was also developed by Weber and Varela (2002) and Thompson in *Mind in Life* (2007), and De Jaegher and Di Paolo (2007) extended it to social interaction. I outline some of the broader foundations of this approach at [enacting.life](https://enacting.life).
 
-Overton’s (2008) account of embodiment has helped me connect these ideas to the study of persons. He described embodiment as a “bridge construct” joining three standpoints on the same living being: the body as form, as actively engaged with the world, and as lived experience. I have become particularly interested in form, although it has taken me some time to work this out. 
+Overton’s (2008) account of embodiment has helped me connect these ideas to the study of persons. He described embodiment as a “bridge construct” joining three standpoints on the same living being: the body as form, as actively engaged with the world, and as lived experience. I have become particularly interested in form, although it has taken me some time to work this out.
 
 Following scholars of Aristotle, I take form to mean the organization of a living thing, rather than simply its shape. That organization involves capacities for a particular way of life, an idea I explore in [The Riddle of Form and Matter](https://aboutdevelopment.org/part2/2-2-form-and-matter.html) in *About Development*. In the human case, this concerns the organization of a human life: the life cycle of *Homo sapiens* and the capacities that develop through our bodily and neural organization and our engagement with others.
 
-We can think of these capacities as powers: what we can do by virtue of being human. But having a capacity is different from exercising it. Knowing that a person can see does not tell us what they are looking at, why it has caught their attention, or how they experience it. To understand that, we need to consider the person’s activity and how things matter to them. 
+We can think of these capacities as powers: what we can do by virtue of being human. But having a capacity is different from exercising it. Knowing that a person can see does not tell us what they are looking at, why it has caught their attention, or how they experience it. To understand that, we need to consider the person’s activity and how things matter to them.
 
 The enactivist account of sense-making gives us a starting point for understanding how things can matter. It does not by itself explain what a particular person cares about or how those concerns developed. As our capacities develop, our ways of encountering the world change too. Learning to read changes what we can do, but also what we can encounter in a page of print.
 
@@ -185,9 +185,9 @@ I have also spent time developing some relevant open educational resources that 
 
 ## A Note on How I Used AI {#a-note-on-how-i-used-ai}
 
-In an AI acknowledgement that I sent to the journal, I said I used Claude and ChatGPT “in an iterative process of testing and refining the argument, including revision and compression of the text.” I also used those tools in revising this page. 
+In an AI acknowledgement that I sent to the journal, I said I used Claude and ChatGPT “in an iterative process of testing and refining the argument, including revision and compression of the text.” I also used those tools in revising this page.
 
-In my view, using AI made the article easier for the reader to follow, even if the text of the paper ended up overly smoothed in places. And in places, the compression also lost distinctions that this page tries to restore. 
+In my view, using AI made the article easier for the reader to follow, even if the text of the paper ended up overly smoothed in places. And in places, the compression also lost distinctions that this page tries to restore.
 
 I remain conflicted about these tools, even as I find them useful. Questions include how the AI models were trained and whose purposes their use advances, alongside what they help people do and what they preclude. I am taking up these questions in a separate essay.
 
