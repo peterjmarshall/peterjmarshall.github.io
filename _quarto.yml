@@ -4,9 +4,9 @@ project:
   render:
     - index.qmd
     - psychology-2125.qmd
+    - cv.qmd
   resources:
     - CNAME
-    - Peter-Marshall-CV.pdf
 lang: en
 from: markdown-smart
 format:

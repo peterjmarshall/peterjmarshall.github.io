@@ -45,7 +45,7 @@ Looking back, much of my theoretical work has been a way of returning to where I
 From 2016 to 2026 I served as Chair of the Department of Psychology and Neuroscience at Temple. I have also served as President of the Society for the Study of Human Development.
 
 ::: {.small-links}
-[Email](mailto:peter.marshall@temple.edu) [Temple University profile](https://liberalarts.temple.edu/directory/peter-j-marshall) [Google Scholar](https://scholar.google.com/citations?hl=en&user=0ns22DIAAAAJ) [ORCID](https://orcid.org/0000-0003-1461-1331) [Curriculum Vitae](https://peterjmarshall.com/Peter-Marshall-CV.pdf)
+[Email](mailto:peter.marshall@temple.edu) [Temple University profile](https://liberalarts.temple.edu/directory/peter-j-marshall) [Google Scholar](https://scholar.google.com/citations?hl=en&user=0ns22DIAAAAJ) [ORCID](https://orcid.org/0000-0003-1461-1331) [Curriculum Vitae](/cv.html)
 :::
 :::
 :::

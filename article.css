@@ -65,17 +65,32 @@ a:focus-visible, summary:focus-visible { outline: 3px solid var(--focus); outlin
 .home-page .project-item h3 { font-size: 1.1rem; margin: 0 0 .5rem; }
 .home-page .project-item p { margin: 0; }
 
+/* CV page */
+.cv-page h1 { margin-bottom: .4rem; }
+.cv-page .cv-header { font-size: 1rem; line-height: 1.5; margin-bottom: 1.5rem; }
+.cv-page .cv-header p { margin: 0 0 .8rem; }
+.cv-page .cv-header p:first-child { font-size: 1.15rem; margin-bottom: 1rem; }
+.cv-page h2 { margin-top: 2.6rem; }
+.cv-page h3 { font-size: 1.1rem; margin: 1.8rem 0 .8rem; }
+.cv-page .cv-list p, .cv-page .cv-refs p, .cv-page .cv-grants p { font-size: 1rem; line-height: 1.5; margin: 0 0 .9rem; }
+.cv-page .cv-list p { position: relative; padding-left: 7.5rem; }
+.cv-page .cv-date { position: absolute; left: 0; font-variant-numeric: tabular-nums; }
+.cv-page .cv-refs p { padding-left: 1.5rem; text-indent: -1.5rem; }
+
 /* Phones */
 @media (max-width: 600px) {
   body { font-size: 18px; padding: 1.2rem 1.2rem 3rem; }
   h1 { font-size: 1.65rem; }
   h2 { font-size: 1.25rem; }
+  .cv-page .cv-list p { padding-left: 0; }
+  .cv-page .cv-date { position: static; display: block; font-weight: 600; }
 }
 
 /* Print */
 @media print {
   body { max-width: none; padding: 0; background: #ffffff; font-size: 11pt; }
   .site-nav, .contents, .skip-link { display: none; }
-  h2 { break-after: avoid; }
+  h2, h3 { break-after: avoid; }
+  .cv-page .cv-list p, .cv-page .cv-refs p, .cv-page .cv-grants p { font-size: 10pt; break-inside: avoid; }
   a { color: inherit; }
 }
