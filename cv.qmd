@@ -91,7 +91,7 @@ Natural Sciences (Part II Zoology)
 
 ::: {.cv-refs}
 
-Marshall, P. J. (in press). Psychology in 2125: A developmental science of living sense-making. *Perspectives on Psychological Science*. Preprint available at <https://doi.org/10.31234/osf.io/d7y3n_v2>
+Marshall, P. J. (in press). Psychology in 2125: A developmental science of living sense-making. *Perspectives on Psychological Science*. <https://doi.org/10.1177/17456916261477319>. Preprint available at <https://doi.org/10.31234/osf.io/d7y3n_v3>
 
 Zweben, D., Zaneski, L., Chiu, M., Green, H., Brooks-Justice, J., Dachs, A., Vince, M. A., Olino, T. M., Marshall, P., Steinberg, L., & Chein, J. M. (2026). Clarifying the association between digital media engagement and risk taking. *Technology in Society, 88*, 103491. <https://doi.org/10.1016/j.techsoc.2026.103491>
 
