@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.10.20">
+<meta name="generator" content="quarto-1.11.9">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -106,6 +106,13 @@ margin: 0 0.8em 0.2em -1em;  vertical-align: middle;
       tab.dispatchEvent(event);
     };
 
+    // In revealjs, arrow keys belong to slide navigation: tabs stay in the Tab
+    // order and activate on focus. Elsewhere tabs use a roving tabindex with
+    // arrow key navigation.
+    var isReveal = function () {
+      return window.document.body.classList.contains("reveal-viewport");
+    };
+
     var focusHandler = function (event) {
       toggle(event.target);
     };
@@ -113,11 +120,148 @@ margin: 0 0.8em 0.2em -1em;  vertical-align: middle;
     var getKeyboardFocusableElements = function (element) {
       return [
         ...element.querySelectorAll(
-          'a[href], button, input, textarea, select, details,[tabindex]:not([tabindex="-1"])'
+          'a[href], button, input, textarea, select, summary,[tabindex]:not([tabindex="-1"])'
         ),
       ].filter(
-        (el) => !el.hasAttribute("disabled") && !el.getAttribute("aria-hidden")
+        // Shown elements only, as the browser skips the others: hidden content,
+        // like unselected panels (also of a nested tabset), is not rendered,
+        // and revealjs fragments not yet shown have `visibility: hidden`
+        (el) =>
+          el.getAttribute("tabindex") !== "-1" &&
+          !el.matches(":disabled") &&
+          !el.getAttribute("aria-hidden") &&
+          el.getClientRects().length > 0 &&
+          window.getComputedStyle(el).visibility === "visible"
       );
+    };
+
+    // Tabs set up by tabby, as opposed to other tab widgets in a panel
+    var tabbyTabs = new WeakSet();
+
+    // The tab of a tab or of a tab panel
+    var getTab = function (tabOrPanel) {
+      return tabOrPanel.getAttribute("role") === "tab"
+        ? tabOrPanel
+        : document.getElementById(tabOrPanel.getAttribute("aria-labelledby"));
+    };
+
+    // Selects a tab and focuses the last focusable element of its panel, or
+    // the tab itself if there is none. The panel content is hidden until the
+    // tab is selected. When the panel ends with a nested tabset, its end is
+    // the end of that tabset's last panel, as Tab would reach it.
+    var focusEndOf = function (tab) {
+      toggle(tab);
+      var content = document.querySelector(tab.hash);
+      var last = getKeyboardFocusableElements(content).pop();
+      if (!last) return tab.focus();
+
+      // Outermost tabby tab or tab panel between the last element and this
+      // panel; other tab widgets are ordinary panel content
+      var nestedTab;
+      for (var node = last; node && node !== content; node = node.parentElement) {
+        var role = node.getAttribute("role");
+        var nodeTab =
+          role === "tab" ? node : role === "tabpanel" ? getTab(node) : null;
+        if (nodeTab && tabbyTabs.has(nodeTab)) nestedTab = nodeTab;
+      }
+      var nested = nestedTab && getTabsMap(nestedTab);
+      if (nested) return focusEndOf(nested.tabs[nested.tabs.length - 1]);
+      last.focus();
+    };
+
+    // In revealjs, Tab goes from a tab to its panel content and from the end
+    // of that content to the next tab; Shift+Tab goes the other way. Tabs come
+    // before all panels in the DOM, so the browser alone would go tab to tab.
+    var tabOrderHandler = function (event) {
+      // Leave Tab to controls that handle it themselves, like code editors
+      if (event.key !== "Tab" || event.defaultPrevented) return;
+      var current = event.currentTarget;
+      var onTab = current.getAttribute("role") === "tab";
+      var tab = getTab(current);
+      var map = tab && getTabsMap(tab);
+      if (!map) return;
+
+      var target;
+      if (onTab && !event.shiftKey) {
+        target = getKeyboardFocusableElements(
+          document.querySelector(tab.hash)
+        )[0];
+      } else if (onTab) {
+        var previous = map.tabs[map.index - 1];
+        if (!previous) return;
+        event.preventDefault();
+        focusEndOf(previous);
+        return;
+      } else {
+        var focusables = getKeyboardFocusableElements(current);
+        if (event.shiftKey && event.target === focusables[0]) {
+          target = tab;
+        } else if (
+          !event.shiftKey &&
+          event.target === focusables[focusables.length - 1]
+        ) {
+          target = map.tabs[map.index + 1];
+        }
+      }
+      if (!target) return;
+
+      event.preventDefault();
+      target.focus();
+    };
+
+    // Whether Shift+Tab is being pressed. Focus moves while the key is down, so
+    // this tells focus changes made by Shift+Tab apart from clicks.
+    var shiftTabDown = false;
+    var trackShiftTab = function () {
+      if (trackShiftTab.done) return;
+      trackShiftTab.done = true;
+      document.addEventListener(
+        "keydown",
+        function (event) {
+          shiftTabDown = event.key === "Tab" && event.shiftKey;
+        },
+        true
+      );
+      // A click, or leaving the window (the keyup then goes elsewhere), ends it
+      // too
+      var clear = function () {
+        shiftTabDown = false;
+      };
+      document.addEventListener("keyup", clear, true);
+      document.addEventListener("pointerdown", clear, true);
+      window.addEventListener("blur", clear);
+    };
+
+    // In revealjs, Shift+Tab from after a tabset reaches the content of the
+    // selected panel first, which skips the tabs after it. Start from the end
+    // of the last panel instead, so Shift+Tab is the reverse of Tab. Only for
+    // Shift+Tab: a click in a panel must keep that panel.
+    var backwardEntryHandler = function (event) {
+      var from = event.relatedTarget;
+      var tab = getTab(event.currentTarget);
+      var map = tab && getTabsMap(tab);
+      if (!from || !map || !shiftTabDown) return;
+
+      var tabList = map.tabs[0].closest('[role="tablist"]');
+      var fromInside = Array.prototype.some.call(map.tabs, function (tab) {
+        var content = document.querySelector(tab.hash);
+        return tab === from || (content && content.contains(from));
+      });
+      var fromAfter =
+        from.compareDocumentPosition(tabList) &
+        Node.DOCUMENT_POSITION_PRECEDING;
+      var last = map.tabs[map.tabs.length - 1];
+      var lastContent = document.querySelector(last.hash);
+      if (
+        fromInside ||
+        !fromAfter ||
+        !lastContent ||
+        lastContent.contains(event.target)
+      ) {
+        return;
+      }
+
+      focusEndOf(last);
     };
 
     /**
@@ -134,6 +278,10 @@ margin: 0 0.8em 0.2em -1em;  vertical-align: middle;
 
       // remove event listener
       tab.removeEventListener("focus", focusHandler, true);
+      tab.removeEventListener("keydown", tabOrderHandler);
+      content.removeEventListener("keydown", tabOrderHandler);
+      tab.removeEventListener("focusin", backwardEntryHandler);
+      content.removeEventListener("focusin", backwardEntryHandler);
 
       // Remove roles
       tab.removeAttribute("role");
@@ -160,6 +308,7 @@ margin: 0 0.8em 0.2em -1em;  vertical-align: middle;
 
       // Add roles
       tab.setAttribute("role", "tab");
+      tabbyTabs.add(tab);
       tab.setAttribute("aria-controls", content.id);
       tab.closest("li").setAttribute("role", "presentation");
       content.setAttribute("role", "tabpanel");
@@ -170,11 +319,19 @@ margin: 0 0.8em 0.2em -1em;  vertical-align: middle;
         tab.setAttribute("aria-selected", "true");
       } else {
         tab.setAttribute("aria-selected", "false");
+        if (!isReveal()) tab.setAttribute("tabindex", "-1");
         content.setAttribute("hidden", "hidden");
       }
 
-      // add focus event listender
-      tab.addEventListener("focus", focusHandler);
+      // add focus and Tab order event listeners
+      if (isReveal()) {
+        tab.addEventListener("focus", focusHandler);
+        tab.addEventListener("keydown", tabOrderHandler);
+        content.addEventListener("keydown", tabOrderHandler);
+        tab.addEventListener("focusin", backwardEntryHandler);
+        content.addEventListener("focusin", backwardEntryHandler);
+        trackShiftTab();
+      }
     };
 
     /**
@@ -191,6 +348,7 @@ margin: 0 0.8em 0.2em -1em;  vertical-align: middle;
 
       // Hide the tab
       tab.setAttribute("aria-selected", "false");
+      if (!isReveal()) tab.setAttribute("tabindex", "-1");
 
       // Hide the content
       if (!content) return { previousTab: tab };
@@ -210,6 +368,7 @@ margin: 0 0.8em 0.2em -1em;  vertical-align: middle;
      */
     var show = function (tab, content) {
       tab.setAttribute("aria-selected", "true");
+      if (!isReveal()) tab.setAttribute("tabindex", "0");
       content.removeAttribute("hidden");
       tab.focus();
     };
@@ -348,27 +507,13 @@ margin: 0 0.8em 0.2em -1em;  vertical-align: middle;
         // Add role to wrapper
         tabWrapper.setAttribute("role", "tablist");
 
-        // Add roles to tabs. provide dynanmic tab indexes if we are within reveal
-        var contentTabindexes =
-          window.document.body.classList.contains("reveal-viewport");
-        var nextTabindex = 1;
+        // Add roles to tabs
         Array.prototype.forEach.call(tabs, function (tab) {
-          if (contentTabindexes) {
-            tab.setAttribute("tabindex", "" + nextTabindex++);
-          } else {
-            tab.setAttribute("tabindex", "0");
-          }
+          tab.setAttribute("tabindex", "0");
 
           // Get the tab content
           var content = document.querySelector(tab.hash);
           if (!content) return;
-
-          // set tab indexes for content
-          if (contentTabindexes) {
-            getKeyboardFocusableElements(content).forEach(function (el) {
-              el.setAttribute("tabindex", "" + nextTabindex++);
-            });
-          }
 
           // Setup the tab
           setupTab(tab, content, settings);
@@ -416,7 +561,26 @@ margin: 0 0.8em 0.2em -1em;  vertical-align: middle;
         if (!tab.matches(selector + ' [role="tab"]')) return;
 
         // Only run for specific keys
-        if (["Home", "End"].indexOf(event.key) < 0) return;
+        var keys = isReveal()
+          ? ["Home", "End"]
+          : [
+              "ArrowUp",
+              "ArrowDown",
+              "ArrowLeft",
+              "ArrowRight",
+              "Up",
+              "Down",
+              "Left",
+              "Right",
+              "Home",
+              "End",
+            ];
+        if (keys.indexOf(event.key) < 0) return;
+
+        // Keep the key from also scrolling the page or, in revealjs, from
+        // changing slide
+        event.preventDefault();
+        event.stopPropagation();
 
         // Switch tabs
         switchTabs(tab, event.key);
@@ -564,7 +728,7 @@ a { color: inherit; }
 <p>This document provides a précis and author commentary on:</p>
 <p>Marshall, P. J. (in press). Psychology in 2125: A developmental science of living sense-making. <em>Perspectives on Psychological Science</em>.</p>
 <p>The special issue that the article is part of will be published sometime in early 2027. When published, the article will be available at <a href="https://doi.org/10.1177/17456916261477319" class="uri">https://doi.org/10.1177/17456916261477319</a>.</p>
-<p>A preprint is available at <a href="https://doi.org/10.31234/osf.io/d7y3n_v2" class="uri">https://doi.org/10.31234/osf.io/d7y3n_v2</a>.</p>
+<p>A preprint is available at <a href="https://doi.org/10.31234/osf.io/d7y3n_v3" class="uri">https://doi.org/10.31234/osf.io/d7y3n_v3</a>.</p>
 <p>I welcome questions, comments, and discussion about the article or this commentary. You can reach me at <a href="mailto:peter.marshall@temple.edu" class="email">peter.marshall@temple.edu</a>.</p>
 <h2 id="how-the-article-and-this-page-came-about" class="anchored">How the Article and This Page Came About</h2>
 <p>In summer 2025, the APS journal <em>Perspectives on Psychological Science</em> put out a <a href="https://www.psychologicalscience.org/publications/perspectives/psychology-2125">call for papers</a> for a special issue on what psychological science might look like a century from now. The call asked for “bold, methodologically grounded visions” of the discipline in 2125. The issue was meant to serve as “a time capsule, a provocation, and a map.”</p>
@@ -777,7 +941,8 @@ a { color: inherit; }
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
       // Inspect non-navigation links and adorn them if external
-     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      window.quartoDecorateExternalLinks = function (root) {
+     var links = (root || window.document).querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
       for (var i=0; i<links.length; i++) {
         const link = links[i];
         if (!isInternal(link.href)) {
@@ -786,8 +951,69 @@ a { color: inherit; }
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+          if (!link.classList.contains('no-external-icon')) {
+          }
         }
       }
+      };
+      window.quartoDecorateExternalLinks(window.document);
+    // Esc closes the popup (WCAG 1.4.13) and focus leaving both trigger and
+    // popup closes it (WCAG 2.4.11); tippy handles neither for interactive popups.
+    const hideOnEscAndFocusOut = {
+      name: 'hideOnEscAndFocusOut',
+      defaultValue: true,
+      fn(instance) {
+        const dismiss = () => {
+          // A show scheduled by the trigger delay would otherwise reopen it
+          instance.clearDelayTimeouts();
+          instance.hide();
+        };
+        const onKeyDown = (event) => {
+          if (event.key !== 'Escape') {
+            return;
+          }
+          // Keep Esc from also reaching page handlers (e.g. reveal.js overview),
+          // except an open reveal.js slide menu, which Esc should close too.
+          // The menu handles keys only when its keyboard option is on.
+          const menuHandlesEsc = window.Reveal?.getPlugin?.('menu')?.isOpen() &&
+            window.Reveal.getConfig().menu?.keyboard !== false;
+          if (!menuHandlesEsc) {
+            event.stopPropagation();
+          }
+          if (instance.popper.contains(window.document.activeElement)) {
+            // Disabled while refocusing so the focus trigger does not reopen it
+            instance.disable();
+            instance.reference.focus();
+            instance.enable();
+          }
+          dismiss();
+        };
+        const onFocusOut = (event) => {
+          const target = event.relatedTarget;
+          if (target && !instance.reference.contains(target) &&
+              !instance.popper.contains(target)) {
+            dismiss();
+          }
+        };
+        // On the trigger too: a click trigger (code-annotations: select) has no
+        // blur handling. Attached for the instance's lifetime so leaving the
+        // trigger also cancels a show still pending on the trigger delay.
+        instance.reference.addEventListener('focusout', onFocusOut);
+        return {
+          onShow() {
+            window.document.addEventListener('keydown', onKeyDown, true);
+            instance.popper.addEventListener('focusout', onFocusOut);
+          },
+          onHide() {
+            window.document.removeEventListener('keydown', onKeyDown, true);
+            instance.popper.removeEventListener('focusout', onFocusOut);
+          },
+          onDestroy() {
+            instance.reference.removeEventListener('focusout', onFocusOut);
+          },
+        };
+      },
+    };
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
       const config = {
         allowHTML: true,
@@ -801,6 +1027,7 @@ a { color: inherit; }
         interactiveBorder: 10,
         theme: 'light-border',
         placement: 'bottom-start',
+        plugins: [hideOnEscAndFocusOut],
       };
       if (contentFn) {
         config.content = contentFn;
@@ -963,44 +1190,54 @@ a { color: inherit; }
           const lineIds = lines.map((line) => {
             return targetCell + "-" + line;
           })
-          let top = null;
-          let height = null;
-          let parent = null;
+          // Each band is positioned against its own containing block, which is
+          // not the offsetParent of the lines, so place it from client rects.
+          const placeBand = (band, firstEl, lastEl, codeBlock) => {
+            const container = band.offsetParent;
+            if (container === null) {
+              return;
+            }
+            const containerRect = container.getBoundingClientRect();
+            // Reveal.js scales slides with a transform, so convert client
+            // pixels back to the CSS pixels of the container.
+            const scale = containerRect.height / container.offsetHeight || 1;
+            const firstRect = firstEl.getBoundingClientRect();
+            const lastRect = lastEl.getBoundingClientRect();
+            const top = (firstRect.top - containerRect.top) / scale - container.clientTop + container.scrollTop;
+            const height = (lastRect.bottom - firstRect.top) / scale;
+            band.style.top = top - 2 + "px";
+            band.style.height = height + 4 + "px";
+            if (codeBlock) {
+              // Without the copy button wrapper, the containing block is wider
+              // than the code block, so span the code block explicitly.
+              const blockRect = codeBlock.getBoundingClientRect();
+              band.style.left = (blockRect.left - containerRect.left) / scale - container.clientLeft + container.scrollLeft + "px";
+              band.style.width = blockRect.width / scale + "px";
+            }
+          };
           if (lineIds.length > 0) {
-              //compute the position of the single el (top and bottom and make a div)
-              const el = window.document.getElementById(lineIds[0]);
-              top = el.offsetTop;
-              height = el.offsetHeight;
-              parent = el.parentElement.parentElement;
-            if (lineIds.length > 1) {
-              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
-              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
-              height = bottom - top;
+            const el = window.document.getElementById(lineIds[0]);
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const parent = el.parentElement.parentElement;
+            // cook up a div (if necessary) and position it
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
             }
-            if (top !== null && height !== null && parent !== null) {
-              // cook up a div (if necessary) and position it 
-              let div = window.document.getElementById("code-annotation-line-highlight");
-              if (div === null) {
-                div = window.document.createElement("div");
-                div.setAttribute("id", "code-annotation-line-highlight");
-                div.style.position = 'absolute';
-                parent.appendChild(div);
-              }
-              div.style.top = top - 2 + "px";
-              div.style.height = height + 4 + "px";
-              div.style.left = 0;
-              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
-              if (gutterDiv === null) {
-                gutterDiv = window.document.createElement("div");
-                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
-                gutterDiv.style.position = 'absolute';
-                const codeCell = window.document.getElementById(targetCell);
-                const gutter = codeCell.querySelector('.code-annotation-gutter');
-                gutter.appendChild(gutterDiv);
-              }
-              gutterDiv.style.top = top - 2 + "px";
-              gutterDiv.style.height = height + 4 + "px";
+            placeBand(div, el, lastEl, parent.closest("div.sourceCode") || parent);
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
             }
+            placeBand(gutterDiv, el, lastEl);
             selectedAnnoteEl = annoteEl;
           }
         };
