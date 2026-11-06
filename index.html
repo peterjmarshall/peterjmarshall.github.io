@@ -689,16 +689,30 @@ a:focus-visible, summary:focus-visible { outline: 3px solid var(--focus); outlin
 .home-page .project-item h3 { font-size: 1.1rem; margin: 0 0 .5rem; }
 .home-page .project-item p { margin: 0; }
 
+.cv-page h1 { margin-bottom: .4rem; }
+.cv-page .cv-header { font-size: 1rem; line-height: 1.5; margin-bottom: 1.5rem; }
+.cv-page .cv-header p { margin: 0 0 .8rem; }
+.cv-page .cv-header p:first-child { font-size: 1.15rem; margin-bottom: 1rem; }
+.cv-page h2 { margin-top: 2.6rem; }
+.cv-page h3 { font-size: 1.1rem; margin: 1.8rem 0 .8rem; }
+.cv-page .cv-list p, .cv-page .cv-refs p, .cv-page .cv-grants p { font-size: 1rem; line-height: 1.5; margin: 0 0 .9rem; }
+.cv-page .cv-list p { position: relative; padding-left: 7.5rem; }
+.cv-page .cv-date { position: absolute; left: 0; font-variant-numeric: tabular-nums; }
+.cv-page .cv-refs p { padding-left: 1.5rem; text-indent: -1.5rem; }
+
 @media (max-width: 600px) {
 body { font-size: 18px; padding: 1.2rem 1.2rem 3rem; }
 h1 { font-size: 1.65rem; }
 h2 { font-size: 1.25rem; }
+.cv-page .cv-list p { padding-left: 0; }
+.cv-page .cv-date { position: static; display: block; font-weight: 600; }
 }
 
 @media print {
 body { max-width: none; padding: 0; background: #ffffff; font-size: 11pt; }
 .site-nav, .contents, .skip-link { display: none; }
-h2 { break-after: avoid; }
+h2, h3 { break-after: avoid; }
+.cv-page .cv-list p, .cv-page .cv-refs p, .cv-page .cv-grants p { font-size: 10pt; break-inside: avoid; }
 a { color: inherit; }
 }
 </style>
@@ -734,7 +748,7 @@ a { color: inherit; }
 <p>Looking back, much of my theoretical work has been a way of returning to where I started. My training in zoology took for granted that what biology explains is the living organism, with its own history and its own way of life. Over thirty years in psychology and neuroscience, I have become increasingly aware of how seldom those fields start there. The <em>Perspectives</em> article and the two open resources below are my attempt to bring it into view.</p>
 <p>From 2016 to 2026 I served as Chair of the Department of Psychology and Neuroscience at Temple. I have also served as President of the Society for the Study of Human Development.</p>
 <div class="small-links">
-<p><a href="mailto:peter.marshall@temple.edu">Email</a> <a href="https://liberalarts.temple.edu/directory/peter-j-marshall">Temple University profile</a> <a href="https://scholar.google.com/citations?hl=en&amp;user=0ns22DIAAAAJ">Google Scholar</a> <a href="https://orcid.org/0000-0003-1461-1331">ORCID</a> <a href="https://peterjmarshall.com/Peter-Marshall-CV.pdf">Curriculum Vitae</a></p>
+<p><a href="mailto:peter.marshall@temple.edu">Email</a> <a href="https://liberalarts.temple.edu/directory/peter-j-marshall">Temple University profile</a> <a href="https://scholar.google.com/citations?hl=en&amp;user=0ns22DIAAAAJ">Google Scholar</a> <a href="https://orcid.org/0000-0003-1461-1331">ORCID</a> <a href="./cv.html">Curriculum Vitae</a></p>
 </div>
 </div>
 </section>
