@@ -93,6 +93,8 @@ Natural Sciences (Part II Zoology)
 
 Marshall, P. J. (in press). Psychology in 2125: A developmental science of living sense-making. *Perspectives on Psychological Science*. <https://doi.org/10.1177/17456916261477319>. Preprint available at <https://doi.org/10.31234/osf.io/d7y3n_v3>
 
+Campbell, K., Horger, M. N., Pavlakos, G., Simonetti, V., Bulgheroni, M., Parma, V., & Marshall, P. J. (in press). Longitudinal infant prehension development: Novel insights from the moment of first contact. *Developmental Psychobiology*.
+
 Zweben, D., Zaneski, L., Chiu, M., Green, H., Brooks-Justice, J., Dachs, A., Vince, M. A., Olino, T. M., Marshall, P., Steinberg, L., & Chein, J. M. (2026). Clarifying the association between digital media engagement and risk taking. *Technology in Society, 88*, 103491. <https://doi.org/10.1016/j.techsoc.2026.103491>
 
 Campbell, K., Horger, M. N., Pavlakos, G., Parma, V. & Marshall, P. J. (2026). Dynamics of infant preshaping: Longitudinal analysis using automated hand pose tracking from home video. *Infant Behavior and Development*, *84*, 102232. <https://doi.org/10.1016/j.infbeh.2026.102232>
