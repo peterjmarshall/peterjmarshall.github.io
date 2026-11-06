@@ -323,6 +323,16 @@ Marshall, P. J., & Fox, N. A. (2000). Emotion regulation, depression, and hemisp
 
 :::
 
+### Open Educational Resources {#open-educational-resources}
+
+::: {.cv-refs}
+
+Marshall, P. J. (2026). *About development* (Version 1.0) [Open educational resource]. TUScholarShare. <https://doi.org/10.34944/44q3-ss77>. Online edition: <https://aboutdevelopment.org/>
+
+Marshall, P. J. (2026). *Enacting life* (Version 1.0) [Open educational resource]. TUScholarShare. <https://doi.org/10.34944/3sta-5a07>. Online edition: <https://enacting.life/>
+
+:::
+
 ## Paper Presentations and Invited Addresses {#paper-presentations-and-invited-addresses}
 
 ::: {.cv-refs}
