@@ -26,6 +26,10 @@ Temple University
 ::: {.role}
 Philadelphia, Pennsylvania, USA
 :::
+
+::: {.small-links}
+[Email](mailto:peter.marshall@temple.edu) [Temple University profile](https://liberalarts.temple.edu/directory/peter-j-marshall) [Google Scholar](https://scholar.google.com/citations?hl=en&user=0ns22DIAAAAJ) [ORCID](https://orcid.org/0000-0003-1461-1331) [Curriculum Vitae](/cv.html)
+:::
 :::::
 
 ::: {#about .page-section}
@@ -44,9 +48,6 @@ I have also developed two sets of freely available online readings. [*About Deve
 
 From 2016 to 2026 I served as Chair of the Department of Psychology and Neuroscience at Temple. I have also served as President of the Society for the Study of Human Development.
 
-::: {.small-links}
-[Email](mailto:peter.marshall@temple.edu) [Temple University profile](https://liberalarts.temple.edu/directory/peter-j-marshall) [Google Scholar](https://scholar.google.com/citations?hl=en&user=0ns22DIAAAAJ) [ORCID](https://orcid.org/0000-0003-1461-1331) [Curriculum Vitae](/cv.html)
-:::
 :::
 :::
 
