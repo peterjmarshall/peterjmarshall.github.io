@@ -34,42 +34,18 @@ Philadelphia, Pennsylvania, USA
 ::: {.about-text}
 In my empirical research, I study the connections between perception, action, and brain development and how these connections develop in infancy and childhood. Recent work has explored infants' developing abilities to reach and grasp objects, using computer vision to measure hand movements and relating developmental changes in behavior to brain activity. I also work with colleagues on children's interactions with social robots and with AI-generated content.
 
-In the realm of theory, I have interests in embodiment, development, and how psychology and neuroscience relate to each other. I have an article forthcoming in a special issue of *Perspectives on Psychological Science* that brings together some of my writing on embodiment to outline how psychology might become a "developmental science of living sense-making" over the next century. For links to the article itself and a deeper dive into the background and context, I wrote this [précis and author commentary](/psychology-2125.html).
+In the realm of theory, I have interests in embodiment, development, and how psychology and neuroscience relate to each other. I have an article forthcoming in *Perspectives on Psychological Science*, [Psychology in 2125: A Developmental Science of Living Sense-Making](https://doi.org/10.31234/osf.io/d7y3n_v3), which considers how psychology might become more focused on understanding people as living, developing beings. I have also written a longer [background and commentary](/psychology-2125.html) on the article.
 
 My undergraduate degree was in Natural Sciences at the University of Cambridge, where I specialized in zoology. I stayed on at Cambridge for a Ph.D. in developmental psychology that drew on the ethological tradition. Under Joan Stevenson-Hinde's supervision, my dissertation examined the continuity of behavioral inhibition from 4 to 7 years of age and its relations to psychophysiological measures.
 
 In 1997 I joined Nathan Fox's lab in the Department of Human Development at the University of Maryland, first as a postdoctoral researcher and later as a Research Assistant Professor. I worked on temperament, attachment, early experience, and brain development, and learned to record EEG in infants and young children. Toward the end of that time I became interested in the sensorimotor mu rhythm, which turned my attention to perception and action. I followed that line when I moved to Temple in 2004. With Andrew Meltzoff and other colleagues, I studied how carrying out an action changes the brain's response to watching someone else do something similar, and went on to study self–other correspondence and body maps in infancy. Over the same period, conversations at Temple, especially with Willis Overton, drew me toward theories of embodiment and relational developmental systems.
 
-Looking back, much of my theoretical work has been a way of returning to where I started. My training in zoology took for granted that what biology explains is the living organism, with its own history and its own way of life. Over thirty years in psychology and neuroscience, I have become increasingly aware of how seldom those fields start there. The *Perspectives* article and the two open resources below are my attempt to bring it into view.
+I have also developed two sets of freely available online readings. [*About Development*](https://aboutdevelopment.org/) grew out of an upper-level course I have taught at Temple and considers how development produces both the recognizable forms of living things and differences among individuals. [*Enacting Life*](https://enacting.life/) introduces ideas from embodiment and enactivism, with a focus on the organization and activity of living things and what these ideas might offer psychology and neuroscience.
 
 From 2016 to 2026 I served as Chair of the Department of Psychology and Neuroscience at Temple. I have also served as President of the Society for the Study of Human Development.
-
 ::: {.small-links}
 [Email](mailto:peter.marshall@temple.edu) [Temple University profile](https://liberalarts.temple.edu/directory/peter-j-marshall) [Google Scholar](https://scholar.google.com/citations?hl=en&user=0ns22DIAAAAJ) [ORCID](https://orcid.org/0000-0003-1461-1331) [Curriculum Vitae](/cv.html)
 :::
-:::
-:::
-
-::: {#resources .page-section}
-## Open Resources
-
-::: {.section-intro}
-I have put together two freely available online resources that grew out of my teaching and writing on development and embodiment.
-:::
-
-::: {.project-list}
-::: {.project-item}
-### [About Development](https://aboutdevelopment.org/)
-
-About Development is a set of readings on what development is and how it works. The central question is why development reliably occurs when there is no plan for the finished organism present at earlier stages. It introduces a broad approach to thinking about development that is meant to be of interest to anyone who wants to go beyond the description of "what happens and when" in development.
-:::
-
-::: {.project-item}
-### [Enacting Life](https://enacting.life/)
-
-Enacting Life is a companion set of readings introducing enactivism, a way of thinking about cognition that begins with the organization and activity of living things. The readings follow the biological strand of this approach, rooted in the work of the Chilean biologists Humberto Maturana and Francisco Varela, and consider how it might help ground psychology and neuroscience more coherently in biology. A key theme is what makes living things different from nonliving things, particularly machines. The resource ends with a coda on AI and its place in human sense-making.
-:::
-
 :::
 :::
 
