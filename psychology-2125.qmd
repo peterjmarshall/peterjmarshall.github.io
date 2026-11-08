@@ -21,15 +21,28 @@ A preprint is available at <https://doi.org/10.31234/osf.io/d7y3n_v3>.
 
 I welcome questions, comments, and discussion about the article or this commentary. You can reach me at [peter.marshall\@temple.edu](mailto:peter.marshall@temple.edu){.email}.
 
+<details class="contents">
+<summary>On this page</summary>
+<ul>
+<li><a href="#what-is-the-argument">What is the argument?</a></li>
+<li><a href="#embodiment-and-sense-making">Embodiment and sense-making</a></li>
+<li><a href="#computation-and-information">Computation and information</a></li>
+<li><a href="#biology-and-development">Biology and development</a></li>
+<li><a href="#studying-development">Studying development</a></li>
+<li><a href="#what-would-have-to-happen">What would have to happen?</a></li>
+<li><a href="#what-is-at-stake">What is at stake</a></li>
+<li><a href="#why-i-came-to-this-argument">Why I came to this argument</a></li>
+<li><a href="#forecast-or-epitaph">Forecast or epitaph?</a></li>
+</ul>
+</details>
+
 ## How the Article and This Page Came About {#how-the-article-and-this-page-came-about}
 
 In summer 2025, the APS journal *Perspectives on Psychological Science* put out a [call for papers](https://www.psychologicalscience.org/publications/perspectives/psychology-2125) for a special issue on what psychological science might look like a century from now. The call asked for “bold, methodologically grounded visions” of the discipline in 2125. The issue was meant to serve as “a time capsule, a provocation, and a map.”
 
 The task was clearly a challenging one: just look at what was going on in 1925 compared with now. But I sent in a proposal and a few weeks later was invited to write a full paper. It took a while for me to focus the message, but after helpful feedback from reviewers over a couple of rounds of revision, the manuscript was accepted as *Psychology in 2125: A Developmental Science of Living Sense-Making*.
 
-The special issue had a 5,000-word limit, which didn't allow space to work through much of the background or the finer points of the argument. I started writing this page to provide more context and further articulate why I think the forecast is relevant. This page is now longer than the article itself, but I hope that the fuller discussion is helpful for understanding the points that I was trying to make.
-
-After a brief outline of the overall argument, I work through it in more detail and then turn to its stakes and implications. I also describe how this article relates to my prior writings, and I close with a statement of how I used AI in the work.
+The special issue had a 5,000-word limit, which didn't allow space to work through much of the background or the finer points of the argument. I also used Claude and ChatGPT extensively in revising and compressing the manuscript. I think they helped, but some of the text came out more assured than I intended, and I lost distinctions I wanted to make. This page is partly an attempt to work through those points more carefully. I also wanted to explain how I came to the argument and why I think the forecast is relevant.
 
 ## What Is the Argument? {#what-is-the-argument}
 
@@ -42,8 +55,6 @@ Another pressure comes from methods for studying change within individuals. A pa
 Comparing people on a common measure assumes that an item means the same thing to everyone who answers it, so that its significance is settled before any particular person responds. For instance, questionnaire items about anxiety or depression are often interpreted as if they have the same meaning for everyone who answers them. But people's responses are shaped by their circumstances, so that the same answer can mean different things to different people. Within-person, longitudinal methods make it possible to investigate how responses vary with a person's circumstances, and how those variations relate to changes in their life over time. This is a different kind of question than asking how many people have a particular problem or how an intervention shifts outcomes across a population.
 
 After describing those two pressures, I bring in the challenge from AI. AI systems can now perform many tasks used to assess psychological capacities. But success on those tasks does not establish that anything matters to the system performing them. Present language models do not  have a life to sustain or a history of living engagement through which concerns of their own develop.
-
-The paper argues that these pressures point to a different kind of psychology, one that is better able to explain how things come to matter to people. I suggest that this is a psychology that takes seriously the fact that people are living beings, and that their ways of living are sustained or change through their own activity in the world. The paper does not provide a blueprint for how to do this, but it points to directions for research and theory that could help psychology become a developmental science of living sense-making.
 
 ## Embodiment and Sense-Making {#embodiment-and-sense-making}
 
@@ -97,8 +108,6 @@ Rejecting a genetic blueprint still leaves us with the task of explaining how ge
 
 The reliability of development, in terms of the general robustness of the life cycle, is often explained in another way that reflects a lack of biological understanding. When I ask why development is so reliable, my students often say: it evolved to be that way. That answer is not wrong in itself, but it addresses a different question. Biologists have long distinguished asking why a trait exists, in terms of its evolutionary history, from asking how it comes about in each individual (Mayr, 1961; Tinbergen, 1963). Natural selection sorts among the variants that development produces and can favor developmental systems that reliably produce particular outcomes, but it does not explain how each new organism develops. That said, the two kinds of questions are not independent: how development works shapes the variation that selection acts on, and some biologists have argued that this makes a clear separation between them misleading (Laland et al., 2011). However, the developmental systems literature exploring these connections (e.g., Witherington, Lickliter, and Moore, 2023) remains little known in mainstream psychology.
 
-In the 2024 *Human Development* paper, I argued that psychology needs a better understanding of developmental biology, evolution, and the biology of whole organisms. That could involve interdisciplinary courses at the college level as well as a reboot around certain aspects of high school biology curricula. There are resources that can be useful, for instance the short book *The Organism* by Jan Baedke (2025).
-
 ## Studying Development {#studying-development}
 
 The view of development I draw on has a long history that includes Werner and Piaget, who emphasized how new forms of organization emerge through development. From this organicist perspective, the living being’s capacities and ways of engaging are themselves things we need to explain. I also draw on the related strand of process-relational developmental science, particularly the work of Willis Overton and Richard Lerner (2014), as well as David Witherington’s (2011) writing on developmental process. In this view, the person’s activity and their relations with the world develop together. How a person acts depends on those relations, and their activity in turn sustains and changes them.
@@ -108,8 +117,6 @@ How do we apply these insights to the way we analyze data? In the article I ment
 Many students come to psychology wanting to understand how a person becomes who they are. It is not clear that we always deliver on that interest, unless we change “person” for “people in general”. In the article, I also draw on the work of Ram and Gerstorf (2009), who explain how variation within a person can be informative rather than simply treated as noise. Fluctuations over minutes or days can help us study how a person adjusts to changing circumstances, and how those adjustments relate to changes over longer periods.
 
 My argument is that explaining how those patterns come about and are sustained should become central to how the discipline explains the person. We don’t always ask this question. The significance section of a grant, for instance, may ask how many people a problem affects and what the societal cost is. Those are important questions, but a population-based approach can mean designing studies that say little about how individuals come to have the problem at hand.
-
-The kinds of methods employed by Ram and Gerstorf give us more to investigate than whether a measure has increased or decreased between time points: we can ask how the person’s activity is organized over time. I suggest in the article that this shift in focus could also change how psychology approaches many of its familiar constructs, with less emphasis on relatively stable properties that people possess and more on how characteristic patterns of activity persist and change.
 
 ## What Would Have to Happen? {#what-would-have-to-happen}
 
@@ -139,25 +146,9 @@ A theme that I pick up in the second half of the article concerns AI. Its main u
 
 Whatever we conclude about AI systems themselves, using them is becoming part of people's lives, and their responses can matter to the people who use them. How do those exchanges change the way people understand their circumstances, what comes to matter to them, and what they go on to do? That question is outside the scope of the article, but it is one psychology can study developmentally, by following how these exchanges become part of people's lives over time. I explore it further in the [Coda to *Enacting Life*](https://enacting.life/coda.html).
 
-## Forecast or Epitaph? {#forecast-or-epitaph}
-
-I oscillate between reading the article as a forecast that will be realized and as an epitaph for views that gestured toward a different future for psychology but ultimately went nowhere. Sympathetic colleagues have expressed similar doubts to me. They hope the field moves in the way I describe, but they see forces pushing in the other direction. Some colleagues have been arguing for this kind of view for decades, to little avail.
-
-If the forecast does not come to pass, the article may still work as a time capsule. Perhaps a future historian of science will count it, along with other writings in the same vein, among the alternatives that were visible but never became established. That may be too pessimistic, and I retain some hope. When I mentioned this mixture of feelings to a former student, he suggested seeing the article as “a call to action with an epitaph fail-safe.” But Ward (2026) raises the possibility that an informational view of mind becomes so taken for granted that, in his words, we “collectively forget that anything ever seemed to be missing from this vision.” This implies that the buried time capsule would never be unearthed, because no one would think to look. Whether that happens depends partly on what each generation is taught.
-
-I don’t mention this in the article, but implicit in my argument is another possibility that makes the epitaph image unsettling in a different way. Some might read the paper as gesturing toward an enactivist utopia. But psychology could move in the direction I describe without the world becoming a better place. In the article, I suggest that climate disruption, mass migration, demographic aging, and digital technologies are changing the conditions in which people live. The psychology I forecast would be better equipped to study what happens to people’s lives as those conditions change, including how they keep familiar ways of living going and what happens when they can no longer do so. But a better way of explaining lives is not a guarantee of better lives.
-
-So psychology could explain more clearly how things can go worse for people and still find itself documenting how lives come apart. Understanding the conditions that sustain people does not ensure that those conditions will be protected, or that alternatives will be available when they disappear. The epitaph would then be for ways of living that were lost, rather than for a psychology that never came about.
-
-I recently read *Lost Worlds* (2026), in which Patrick Wyman retells the deep human past as a story of trial and error, including the cities, societies and ways of life that collapsed or were abandoned along the way. He resists treating history as a ladder of progress with modern times as its preordained destination. Instead, he asks how people built the human world we have now, through experiments that sometimes failed and sometimes lasted. His account shows how much depended on the arrangements people made and maintained, and what happened when those arrangements gave way.
-
-Neither Wyman’s approach nor the one I describe settles what should happen next. But both challenge the idea that a way of life is fixed in advance, by nature or by destiny. That is what I hope the article can offer as a map: a way to understand how we got here and what the possibilities ahead depend on. Whether psychology comes to offer that kind of understanding is the question the forecast asks. What we would do with it is another question. Psychology cannot be a neutral observer here, and helping lives go better should be the purpose. But what counts as better for a person has a history of its own, made with others, and a psychology that explains how things come to matter to people will need to say how its own commitments answer to theirs. That is a question for further work.
-
 ## Why I Came to This Argument {#why-i-came-to-this-argument}
 
-My undergraduate degree was in Natural Sciences at the University of Cambridge, where I specialized in Zoology. I stayed on at Cambridge to complete a Ph.D. with Joan Stevenson-Hinde at the Sub-Department of Animal Behaviour, where I worked on a longitudinal study of wariness of the unfamiliar in young children, including how temperamental tendencies relate to children’s attachment to their caregivers.
-
-That line of research led me to postdoctoral work with Nathan Fox at the University of Maryland, where I followed the temperament line further. Both my graduate and postdoctoral work involved the collection of physiological measures alongside detailed behavioral assessments. My work in Maryland included using EEG to study brain activity in infants and young children.
+My undergraduate training was in zoology at Cambridge, followed by a Ph.D. with Joan Stevenson-Hinde on wariness of the unfamiliar in young children. I then worked with Nathan Fox at Maryland on temperament and early brain development, using EEG with infants and young children.
 
 Towards the end of my time in Maryland, my attention was drawn to a particular rhythm in the EEG signal, the sensorimotor mu rhythm, which led me to become interested in the connections between perception and action. I followed this new line of research when I joined Temple in 2004. With students and collaborators, and later with Andrew Meltzoff, I studied how carrying out an action changes the brain’s response to watching someone else act, and how body maps develop in the infant brain.
 
@@ -178,6 +169,20 @@ The 2023 JPS meeting was in Madrid, with the theme "Bringing theory to the foref
 Another influence has been my involvement with the Society for the Study of Human Development (SSHD), which helped me appreciate the value of methods for studying change within individuals. Preparing the presidential address for the society's 2025 meeting also gave me a chance to work through some of the ideas I was developing in the *Perspectives* paper.
 
 I have also spent time developing some relevant open educational resources that I have posted online for anyone to access and reuse. [About Development](https://aboutdevelopment.org) grew from an upper-level course that I've taught at Temple, and it works through the background of many of the ideas in the current *Perspectives* article. [Enacting Life](https://enacting.life) explores a particular strand of enactivism, asking how the organization and activity of living beings give rise to sense-making, and what this perspective might contribute to scientific explanations in psychology and neuroscience. In many ways, the current paper brings these developmental and embodied concerns together in one place, albeit in a very compressed form.
+
+## Forecast or Epitaph? {#forecast-or-epitaph}
+
+I oscillate between reading the article as a forecast that will be realized and as an epitaph for views that gestured toward a different future for psychology but ultimately went nowhere. Sympathetic colleagues have expressed similar doubts to me. They hope the field moves in the way I describe, but they see forces pushing in the other direction. Some colleagues have been arguing for this kind of view for decades, to little avail.
+
+If the forecast does not come to pass, the article may still work as a time capsule. Perhaps a future historian of science will count it, along with other writings in the same vein, among the alternatives that were visible but never became established. That may be too pessimistic, and I retain some hope. When I mentioned this mixture of feelings to a former student, he suggested seeing the article as “a call to action with an epitaph fail-safe.” But Ward (2026) raises the possibility that an informational view of mind becomes so taken for granted that, in his words, we “collectively forget that anything ever seemed to be missing from this vision.” This implies that the buried time capsule would never be unearthed, because no one would think to look. Whether that happens depends partly on what each generation is taught.
+
+I don’t mention this in the article, but implicit in my argument is another possibility that makes the epitaph image unsettling in a different way. Some might read the paper as gesturing toward an enactivist utopia. But psychology could move in the direction I describe without the world becoming a better place. In the article, I suggest that climate disruption, mass migration, demographic aging, and digital technologies are changing the conditions in which people live. The psychology I forecast would be better equipped to study what happens to people’s lives as those conditions change, including how they keep familiar ways of living going and what happens when they can no longer do so. But a better way of explaining lives is not a guarantee of better lives.
+
+So psychology could explain more clearly how things can go worse for people and still find itself documenting how lives come apart. Understanding the conditions that sustain people does not ensure that those conditions will be protected, or that alternatives will be available when they disappear. The epitaph would then be for ways of living that were lost, rather than for a psychology that never came about.
+
+I recently read *Lost Worlds* (2026), in which Patrick Wyman retells the deep human past as a story of trial and error, including the cities, societies and ways of life that collapsed or were abandoned along the way. He resists treating history as a ladder of progress with modern times as its preordained destination. Instead, he asks how people built the human world we have now, through experiments that sometimes failed and sometimes lasted. His account shows how much depended on the arrangements people made and maintained, and what happened when those arrangements gave way.
+
+Neither Wyman’s approach nor the one I describe settles what should happen next. But both challenge the idea that a way of life is fixed in advance, by nature or by destiny. That is what I hope the article can offer as a map: a way to understand how we got here and what the possibilities ahead depend on. Whether psychology comes to offer that kind of understanding is the question the forecast asks. What we would do with it is another question. Psychology cannot be a neutral observer here, and helping lives go better should be the purpose. But what counts as better for a person has a history of its own, made with others, and a psychology that explains how things come to matter to people will need to say how its own commitments answer to theirs. That is a question for further work.
 
 ## A Note on How I Used AI {#a-note-on-how-i-used-ai}
 
