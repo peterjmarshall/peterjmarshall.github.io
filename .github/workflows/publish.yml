@@ -27,6 +27,21 @@ jobs:
       - name: Render
         uses: quarto-dev/quarto-actions/render@v2
 
+      # Use the rendered HTML and its print styles to make a PDF of the CV.
+      # Regenerate it on every publish so the PDF stays in sync with cv.qmd.
+      - name: Generate CV PDF
+        run: |
+          chrome="$(command -v google-chrome || command -v chromium || command -v chromium-browser || true)"
+          if [ -z "$chrome" ]; then
+            echo "::error::Chrome or Chromium is required to generate the CV PDF"
+            exit 1
+          fi
+          "$chrome" --headless --no-sandbox --disable-gpu --disable-dev-shm-usage \
+            --no-pdf-header-footer \
+            --print-to-pdf="$GITHUB_WORKSPACE/_site/cv.pdf" \
+            "file://$GITHUB_WORKSPACE/_site/cv.html"
+          python -c 'from pathlib import Path; p=Path("_site/cv.pdf"); assert p.is_file() and p.stat().st_size > 10000 and p.read_bytes().startswith(b"%PDF-"); print(f"Generated {p}: {p.stat().st_size} bytes")'
+
       - name: Publish to GitHub Pages branch
         uses: peaceiris/actions-gh-pages@v4
         with:
