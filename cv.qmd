@@ -91,7 +91,7 @@ Natural Sciences (Part II Zoology)
 
 ### Peer-Reviewed Articles {#peer-reviewed-articles}
 
-::: {.cv-refs}
+::: {.cv-refs .cv-publications}
 
 Marshall, P. J. (in press). Psychology in 2125: A developmental science of living sense-making. *Perspectives on Psychological Science*. <https://doi.org/10.1177/17456916261477319>. Preprint available at <https://doi.org/10.31234/osf.io/d7y3n_v3>
 
@@ -291,7 +291,7 @@ Marshall, P. J., & Stevenson-Hinde, J. (1998). Behavioral inhibition, heart peri
 
 ### Edited Books {#edited-books}
 
-::: {.cv-refs}
+::: {.cv-refs .cv-publications}
 
 Marshall, P. J., & Brenneman, K. (Eds.). (2018). *Young children's developing understanding of the biological world*. Routledge. <https://doi.org/10.4324/9781315122601>
 
@@ -301,7 +301,7 @@ Marshall, P. J., & Fox, N. A. (Eds.). (2006). *The development of social engagem
 
 ### Book Chapters {#book-chapters}
 
-::: {.cv-refs}
+::: {.cv-refs .cv-publications}
 
 Marshall, P. J. (2018). Embodiment. In A. S. Dick & U. Müller (Eds.), *Advancing developmental science: Philosophy, theory, and method* (pp. 29–40). Routledge. <https://doi.org/10.4324/8791315174686>
 
@@ -327,7 +327,7 @@ Marshall, P. J., & Fox, N. A. (2000). Emotion regulation, depression, and hemisp
 
 ### Open Educational Resources {#open-educational-resources}
 
-::: {.cv-refs}
+::: {.cv-refs .cv-publications}
 
 Marshall, P. J. (2026). *About development* (Version 1.0) [Open educational resource]. TUScholarShare. <https://doi.org/10.34944/44q3-ss77>. Online edition: <https://aboutdevelopment.org/>
 
