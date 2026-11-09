@@ -53,7 +53,7 @@ I point out pressures that may lead psychology to change, beginning with the obs
 
 Another pressure comes from methods for studying change within individuals. A pattern found across a group does not necessarily describe what happens within any particular person. This is not a new observation, but methods that tap into how a person’s activity holds together and how it changes with their circumstances are becoming more widely accessible and used.
 
-Comparing people on a common measure assumes that an item means the same thing to everyone who answers it, so that its significance is settled before any particular person responds. For instance, questionnaire items about anxiety or depression are often interpreted as if they have the same meaning for everyone who answers them. But people's responses are shaped by their circumstances, so that the same answer can mean different things to different people. Within-person, longitudinal methods make it possible to investigate how responses vary with a person's circumstances, and how those variations relate to changes in their life over time. This is a different kind of question than asking how many people have a particular problem or how an intervention shifts outcomes across a population.
+Comparisons across people depend on having measures that are sufficiently comparable. But even when this is achieved, the same response may have a different significance in different people's lives. For instance, questionnaire items about anxiety or depression are often interpreted as if they have the same meaning for everyone who answers them. But people's responses are shaped by their circumstances, so that the same answer can mean different things to different people. Within-person, longitudinal methods make it possible to investigate how responses vary with a person's circumstances, and how those variations relate to changes in their life over time. This is a different kind of question than asking how many people have a particular problem or how an intervention shifts outcomes across a population.
 
 After describing those two pressures, I bring in the challenge from AI. AI systems can now perform many tasks used to assess psychological capacities. But success on those tasks does not establish that anything matters to the system performing them. Present language models do not  have a life to sustain or a history of living engagement through which concerns of their own develop. This difference is often lost in discussions of AI, but it is central to the forecast I make. A psychology that can explain how things come to matter to people will be better equipped to study how people’s lives are affected by the technologies they use and the circumstances they face.
 
@@ -204,6 +204,8 @@ Brette, R. (2026). [*The brain, in theory*](https://doi.org/10.1515/978069128139
 Cicchetti, D., & Rogosch, F. A. (1996). [Equifinality and multifinality in developmental psychopathology](https://doi.org/10.1017/S0954579400007318). *Development and Psychopathology*, 8(4), 597–600.
 
 Clark, A. (2016). *Surfing uncertainty: Prediction, action, and the embodied mind*. Oxford University Press.
+
+De Jaegher, H., & Di Paolo, E. A. (2007). Participatory sense-making: An enactive approach to social cognition. Phenomenology and the Cognitive Sciences, 6(4), 485–507. https://doi.org/10.1007/s11097-007-9076-9
 
 Di Paolo, E. A. (2005). [Autopoiesis, adaptivity, teleology, agency](https://doi.org/10.1007/s11097-005-9002-y). *Phenomenology and the Cognitive Sciences*, 4(4), 429–452.
 
