@@ -689,6 +689,8 @@ a:focus-visible, summary:focus-visible { outline: 3px solid var(--focus); outlin
 .home-page .project-item h3 { font-size: 1.1rem; margin: 0 0 .5rem; }
 .home-page .project-item p { margin: 0; }
 
+.cv-page { position: relative; }
+.cv-page .cv-download { position: absolute; top: 1.9rem; right: 0; margin: 0; font-size: .85rem; line-height: 1.3; }
 .cv-page h1 { margin-bottom: .4rem; }
 .cv-page .cv-header { font-size: 1rem; line-height: 1.5; margin-bottom: 1.5rem; }
 .cv-page .cv-header p { margin: 0 0 .8rem; }
@@ -704,6 +706,7 @@ a:focus-visible, summary:focus-visible { outline: 3px solid var(--focus); outlin
 body { font-size: 18px; padding: 1.2rem 1.2rem 3rem; }
 h1 { font-size: 1.65rem; }
 h2 { font-size: 1.25rem; }
+.cv-page .cv-download { position: static; text-align: right; margin-bottom: .5rem; }
 .cv-page .cv-list p { padding-left: 0; }
 .cv-page .cv-date { position: static; display: block; font-weight: 600; }
 }
@@ -730,8 +733,11 @@ a { color: inherit; }
 
 
 
-<section id="peter-j.-marshall" class="cv-page">
-<h1>Peter J. Marshall</h1>
+<div class="cv-page">
+<p class="cv-download">
+<a href="cv.pdf" download="Peter-Marshall-CV.pdf">Download PDF</a>
+</p>
+<h1 id="peter-j.-marshall">Peter J. Marshall</h1>
 <div class="cv-header">
 <p>Curriculum Vitae</p>
 <p>Professor<br>
@@ -743,9 +749,6 @@ Philadelphia, PA 19122</p>
 <p><a href="mailto:peter.marshall@temple.edu" class="email">peter.marshall@temple.edu</a><br>
 <a href="https://peterjmarshall.com">peterjmarshall.com</a></p>
 </div>
-<p class="cv-download">
-<a href="cv.pdf" download="Peter-Marshall-CV.pdf">Download PDF</a>
-</p>
 <details class="contents">
 <summary>
 Sections
@@ -1223,7 +1226,7 @@ $25,000 direct costs, $37,500 total costs</p>
 <p><span class="cv-date">2004–</span> Reviewer of grant proposals for various funding agencies, including Academy of Finland, Vienna Science and Technology Fund, NWO (Netherlands), EU and ANR (France), Science Foundation Ireland, BBSRC and ERSC (UK), Netherlands Organisation for Scientific Research.</p>
 <p><span class="cv-date">2004–</span> Ad-hoc book proposal and book chapter reviews for various publishers including Cambridge University Press, Oxford University Press, and Princeton University Press.</p>
 </div>
-</section>
+</div>
 
 </main>
 <script id="quarto-html-after-body" type="application/javascript">
