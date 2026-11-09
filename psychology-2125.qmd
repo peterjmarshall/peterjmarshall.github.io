@@ -25,7 +25,7 @@ I welcome questions, comments, and discussion about the article or this commenta
 <summary>On this page</summary>
 <ul>
 <li><a href="#what-is-the-argument">What is the argument?</a></li>
-<li><a href="#embodiment-and-sense-making">Embodiment and sense-making</a></li>
+<li><a href="#sense-making-and-embodiment">Sense-Making and Embodiment</a></li>
 <li><a href="#computation-and-information">Computation and information</a></li>
 <li><a href="#biology-and-development">Biology and development</a></li>
 <li><a href="#studying-development">Studying development</a></li>
@@ -33,6 +33,7 @@ I welcome questions, comments, and discussion about the article or this commenta
 <li><a href="#what-is-at-stake">What is at stake</a></li>
 <li><a href="#why-i-came-to-this-argument">Why I came to this argument</a></li>
 <li><a href="#forecast-or-epitaph">Forecast or epitaph?</a></li>
+<li><a href="#a-note-on-how-i-used-ai">A Note on How I Used AI</a></li>
 </ul>
 </details>
 
@@ -64,7 +65,7 @@ What I take from the enactivist tradition is an understanding of cognition as se
 
 This account of sense-making was also developed by Weber and Varela (2002) and Thompson in *Mind in Life* (2007), and De Jaegher and Di Paolo (2007) extended it to social interaction. I outline some of the broader foundations of this approach at [enacting.life](https://enacting.life).
 
-I use the term embodiment sparingly in the article, but it provides the backbone of the argument and the link between the pressures I describe and the kind of psychology I forecast. The term has been used in different ways in psychology, philosophy, and cognitive science. In the article, I use it to refer to the idea that the organization of a living being’s body and brain is constitutive of its cognition and experience. This is a broader view than the one often used in psychology, where embodiment is sometimes seen treated as a source of information for a separate cognitive system.
+This emphasis on living organization brings me to embodiment. I use the term sparingly in the article, but it provides the backbone of the argument and the link between the pressures I describe and the kind of psychology I forecast. The term has been used in different ways in psychology, philosophy, and cognitive science. In the article, I use it to refer to the idea that the organization of a living being’s body and brain is constitutive of its cognition and experience.
 
 Bodily organization both makes particular activities possible and shapes what those activities can be. In this sense, bodily constraints do more than limit cognition: they help make it what it is. Although my concern here is with human cognition and experience, I take this view of embodiment to apply across living things: each has an organization that makes particular ways of engaging with the world possible.
 
@@ -76,7 +77,7 @@ We can think of these capacities as powers: what we can do by virtue of being hu
 
 The enactivist account of sense-making gives us a starting point for understanding how things can matter. It does not by itself explain what a particular person cares about or how those concerns developed. As our capacities develop, our ways of encountering the world change too. Learning to read changes what we can do, but also what we can encounter in a page of print.
 
-We develop among other people, in practices and circumstances with histories of their own. Through this activity, our capacities change, and so can what matters to us. Understanding these relations takes more than showing that a child can now do something they could not do before. We also need to understand how their experience changes and how particular things come to matter to them. The argument of the *Perspectives* piece is that this history should be part of what psychology seeks to explain, Further, this should not be confined to the study of development in childhood, but should extend across the life course.
+We develop among other people, in practices and circumstances with histories of their own. Through this activity, our capacities change, and so can what matters to us. Understanding these relations takes more than showing that a child can now do something they could not do before. We also need to understand how their experience changes and how particular things come to matter to them. The argument of the Perspectives piece is that this history should be part of what psychology seeks to explain. This should not be confined to childhood, but should extend across the life course.
 
 ## Computation and Information {#computation-and-information}
 
