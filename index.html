@@ -708,11 +708,13 @@ h2 { font-size: 1.25rem; }
 .cv-page .cv-date { position: static; display: block; font-weight: 600; }
 }
 
+@page { size: letter; margin: 1in; }
 @media print {
 body { max-width: none; padding: 0; background: #ffffff; font-size: 11pt; }
 .site-nav, .contents, .skip-link, .cv-download { display: none; }
 h2, h3 { break-after: avoid; }
 .cv-page .cv-list p, .cv-page .cv-refs p, .cv-page .cv-grants p { font-size: 10pt; break-inside: avoid; }
+.cv-page .cv-publications p { margin-bottom: .7rem; }
 a { color: inherit; }
 }
 </style>
