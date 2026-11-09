@@ -11,6 +11,8 @@ format:
 
 ::: {.cv-page}
 
+<p class="cv-download"><a href="cv.pdf" download="Peter-Marshall-CV.pdf">Download PDF</a></p>
+
 # Peter J. Marshall
 
 ::: {.cv-header}
@@ -28,8 +30,6 @@ Philadelphia, PA 19122
 [peterjmarshall.com](https://peterjmarshall.com)
 
 :::
-
-<p class="cv-download"><a href="cv.pdf" download="Peter-Marshall-CV.pdf">Download PDF</a></p>
 
 <details class="contents">
 <summary>Sections</summary>
