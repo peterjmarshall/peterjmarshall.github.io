@@ -15,6 +15,7 @@ format:
     css: article.css
     toc: false
     embed-resources: true
+    include-in-header: analytics.html
 
 editor:
   markdown:
