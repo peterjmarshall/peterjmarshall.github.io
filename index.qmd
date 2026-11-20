@@ -10,44 +10,44 @@ format:
     anchor-sections: false
 ---
 
-:::: {.home-page}
-
-::::: {.hero}
+:::::::::: home-page
+::::::: hero
 # Peter J. Marshall
 
-::: {.role}
+::: role
 Professor of Psychology and Neuroscience
 :::
 
-::: {.role}
+::: role
 Temple University
 :::
 
-::: {.role}
+::: role
 Philadelphia, Pennsylvania, USA
 :::
 
-::: {.small-links}
+::: small-links
 [Email](mailto:peter.marshall@temple.edu) [Temple University profile](https://liberalarts.temple.edu/directory/peter-j-marshall) [Google Scholar](https://scholar.google.com/citations?hl=en&user=0ns22DIAAAAJ) [ORCID](https://orcid.org/0000-0003-1461-1331) [Curriculum Vitae](/cv.html)
 :::
-:::::
+:::::::
 
-::: {#about .page-section}
+:::: {#about .page-section}
 ## About
 
-::: {.about-text}
-I am a developmental psychologist and neuroscientist whose work combines empirical research on how the brain and behavior develop in infancy and childhood with theoretical work on development and embodiment. Much of my empirical work concerns how perception and action are connected in the developing brain, and it began with the sensorimotor mu rhythm, which I started to study toward the end of my postdoctoral training and brought with me to Temple in 2004. With Andrew Meltzoff at the University of Washington and other colleagues, I studied how carrying out an action changes the brain's response to watching someone else act, and went on to study body maps and self–other correspondence in infancy. This research has been funded by the National Institutes of Health, the National Science Foundation, and the James S. McDonnell Foundation.
+::: about-text
+I am a developmental psychologist and neuroscientist whose work combines empirical research on how the brain and behavior develop in infancy and childhood with theoretical work on development. My empirical research has focused on how perception and action are connected in early development, including how infants relate their own actions to those of other people and how the body comes to be represented in the developing brain. Much of this work has used EEG alongside behavioral methods, often in collaboration with Andrew Meltzoff and other colleagues, and it has been funded by the National Institutes of Health, the National Science Foundation, and the James S. McDonnell Foundation.
 
-In recent work with colleagues in computer science, my lab uses automated tracking of hand movements from home video to follow how infants' reaching and grasping change over many months ([Campbell et al., 2026](https://doi.org/10.1016/j.infbeh.2026.102232)), and relates developmental changes in behavior to brain activity. I am also working with colleagues on children's interactions with social robots and with AI-generated content.
+More recent studies use naturalistic video and computer vision to examine infant development. I have also worked with colleagues on studies of children's interactions with social robots and with AI-generated content.
 
-The theoretical work grew out of the empirical work, as studying how perception and action are connected in the developing brain led me, in part through the influence of Willis Overton, toward theories of embodiment and relational developmental systems. I have published theoretical articles on embodiment and development, and on how psychology and neuroscience relate to each other, beginning with a 2009 article in *Perspectives on Psychological Science* and including a 2024 article in *Human Development* on how the brain develops as part of a living organism. The latest is forthcoming in *Perspectives on Psychological Science*: [Psychology in 2125: A Developmental Science of Living Sense-Making](https://doi.org/10.31234/osf.io/d7y3n_v3) argues that psychology will need to explain how people's ways of engaging with the world come about and change over a life. I have written a longer [background and commentary](/psychology-2125.html) on the article.
+I received my undergraduate and doctoral degrees from the University of Cambridge, where my Ph.D. examined behavioral inhibition in young children. In 1997 I moved to the University of Maryland, where I worked on temperament, attachment, and the effects of early experience on brain development. I joined the faculty at Temple University in 2004.
 
-My undergraduate degree was in Natural Sciences at the University of Cambridge, where I specialized in zoology, and I stayed on at Cambridge for a Ph.D. in developmental psychology. In 1997 I joined Nathan Fox's lab at the University of Maryland, first as a postdoctoral researcher and then as a Research Assistant Professor, where I learned to record and analyze EEG in infants and young children.
+My theoretical work grew out of the empirical studies and through the influence of Willis Overton at Temple, drew me toward theories of embodiment and relational developmental systems. The term embodiment is used in different ways, but I use it to capture the idea that the way a living thing perceives and acts is not simply influenced by its body, but is a matter of how that body, including its brain, is organized and engaged with its surroundings.
+
+I have published theoretical articles on embodiment and development, and on how psychology and neuroscience relate to each other, beginning with a 2009 article in *Perspectives on Psychological Science* and including a 2024 article in *Human Development* on brain development that grew out of an invited address to the Jean Piaget Society. Another article is forthcoming in *Perspectives on Psychological Science*: [Psychology in 2125: A Developmental Science of Living Sense-Making](https://doi.org/10.31234/osf.io/d7y3n_v3) argues that psychology needs to better explain how people's ways of engaging with the world come about and change over a life. I have written a longer [background and commentary](/psychology-2125.html) on the article that explains what I was trying to accomplish.
 
 From 2016 to 2026 I was Chair of the Department of Psychology and Neuroscience at Temple. I am a Fellow of the Association for Psychological Science and a past President of the Society for the Study of Human Development, and I received Temple's Lindback Award for Distinguished Teaching.
 
-I have developed two sets of freely available online readings. [*About Development*](https://aboutdevelopment.org/) grew out of an upper-level course I teach at Temple and asks how development produces both the recognizable forms of living things and the differences among individuals. [*Enacting Life*](https://enacting.life/) introduces one strand of enactivism, focused on the organization and activity of living things and what it might offer psychology and neuroscience.
+I have developed two sets of freely available online readings. [*About Development*](https://aboutdevelopment.org/) grew out of an upper-level course I teach at Temple and asks how development produces both the recognizable forms of living things and the differences among individuals. [*Enacting Life*](https://enacting.life/) introduces one strand of enactivism, focused on the organization and activity of living things and what this line of thinking might offer psychology and neuroscience.
 :::
-:::
-
 ::::
+::::::::::
